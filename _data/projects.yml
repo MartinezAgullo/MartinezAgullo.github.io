@@ -42,9 +42,9 @@
   desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform some analysis.
   img: ../images/repos/NBA_Stats_img.png
 
-- name: 
+- name: github.io
   gh_user: MartinezAgullo
-  repo: 
-  desc: 
-  img: ../images/repos/
+  repo: MartinezAgullo.github.io
+  desc: This <a href="https://martinezagullo.github.io/">website</a> that you are seeing right now. It is based on the <a href="https://github.com/joshgerdes/jekyll-uno/">jekyll-uno</a>.
+  img: ../images/repos/githubio.png
 
