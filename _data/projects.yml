@@ -1,0 +1,21 @@
+# projects section data
+- name: Root_with_Python
+  gh_user: MartinezAgullo
+  repo: Root_with_Python
+  desc: Collection of scripts that combine python and <a href="https://root.cern/">ROOT</a> for data analysis. The folder <a href="https://github.com/MartinezAgullo/Root_with_Python/tree/main/TMVA">TMVA</a> contains a Machine-Learning tool based on the <a href="https://root.cern/manual/tmva/">TMVA</a> library.
+
+  img: ../images/repos/Root_with_Python_2.png
+
+- name: XGBoost_tHq
+  gh_user: MartinezAgullo
+  repo: XGBoost_tHq
+  desc: Collection of Phython scripts to train, optimise and inject a Boosted Decission Tree using the <a href="https://xgboost.readthedocs.io/en/stable/">XGBoost</a>.
+  img: ../images/repos/XGBoost_tHq.png
+
+- name: InDetAlignmentWebMonitor
+  gh_user: MartinezAgullo
+  repo: InDetAlignmentWebMonitor
+  desc: Package for web page for the online monitoring of the a href="https://atlas.cern/>ATLAS</a> Inner Detector alignment. <a href="https://atlasalignment.cern.ch/webapp">Web App</a>.
+  img: ../images/repos/WebDisplay.png
+
+  
