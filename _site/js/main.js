@@ -33,6 +33,10 @@ $(document).ready(function () {
     $('a.panel-button').click();
   }
 
+  //if (window.location.hash && window.location.hash == '#bio') {
+  //  $('a.panel-button').click();
+  //} This destroys the aniamaiton
+
   if (window.location.pathname !== '/' && window.location.pathname !== '/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
