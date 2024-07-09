@@ -15,7 +15,36 @@
 - name: InDetAlignmentWebMonitor
   gh_user: MartinezAgullo
   repo: InDetAlignmentWebMonitor
-  desc: Package for web page for the online monitoring of the a href="https://atlas.cern/>ATLAS</a> Inner Detector alignment. <a href="https://atlasalignment.cern.ch/webapp">Web App</a>.
+  desc: Package for <a href="https://atlasalignment.cern.ch/webapp">Web App</a> for the online monitoring of the <a href="https://atlas.cern/">ATLAS</a> Inner Detector alignment.
   img: ../images/repos/WebDisplay.png
 
-  
+- name: DeepLearning_intro
+  gh_user: MartinezAgullo
+  repo: DeepLearning_intro
+  desc: Completed exercises from the Udacity course <a href="https://www.udacity.com/course/deep-learning-pytorch--ud188">Intro to Deep Learning with PyTorch</a>.
+  img: ../images/repos/network_diagram.png
+
+- name: MonkeyJump
+  gh_user: MartinezAgullo
+  repo: MonkeyJump
+  desc: Game based on the <a href="https://www.pygame.org/news">pygame</a> framework and inspired by the Dinosaur Game built into the Google Chrome web browse.
+  img: ../images/repos/Monkey_1.png
+
+- name: NLP_WebApp
+  gh_user: MartinezAgullo
+  repo: NLP_WebApp
+  desc: <a href="https://developer.ibm.com/tutorials/use-the-watson-core-nlp-library-to-perform-sentiment-analysis/">Watson</a> NLP Sentiment Analysis web app with <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a>. 
+  img: ../images/repos/NLP_APP_Flask.png
+
+- name: NBA_Stats
+  gh_user: MartinezAgullo
+  repo: NBA_Stats
+  desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform some analysis.
+  img: ../images/repos/NBA_Stats_img.png
+
+- name: 
+  gh_user: MartinezAgullo
+  repo: 
+  desc: 
+  img: ../images/repos/
+
