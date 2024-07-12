@@ -3,44 +3,53 @@ layout: default
 robots: noindex
 ---
 
-<!--<div class="main-post-list">-->
-
-  <ul class="timeline">
-    
-    {% for project in site.data.projects %}
-
-      <li class="timeline-inverted">
-        <div class="timeline-image">
-          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+<div class="main-post-list">
+  <div id="projects-section" class="codes-content" style="display: none;">
+    <ul>
+      {% for project in site.data.projects %}
+        <li class="project-item">
+          <div class="project-image">
+            <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
           </div>
-          <div class="timeline-body">
-            {% if project.desc %}
-              {{ project.desc | markdownify }}
-            {% else %}
-            <div repotext="{{ project.repo }}">
-              <span class="desc"></div>
+          <div class="project-panel">
+            <div class="project-heading">
+              <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
             </div>
-            {% endif %}
-            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
-              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
-              <div style="height: 10px;"></div>
+            <div class="project-body">
+              {% if project.desc %}
+                {{ project.desc | markdownify }}
+              {% else %}
+              <div repotext="{{ project.repo }}">
+                <span class="desc"></span>
+              </div>
+              {% endif %}
+              <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+                <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
+                <div style="height: 10px;"></div>
+              </div>
+            </div>
           </div>
-        </div>
-      </li>
-    {% endfor %}
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
-      </div>
-    </li> -->
-  </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 
-<!--</div>-->
+  <div id="bio-section" class="bio-content" style="display: none;">
+    {% include bio.md %}
+  </div>
+</div>
 
+<nav class="navigation-wrapper">
+  <a href="#bio" class="bio-button panel-button">Bio</a>
+  <a href="#projects" class="codes-button panel-button">Projects</a>
+</nav>
+
+<button class="btn-mobile-menu">
+  <span class="btn-mobile-menu__icon"></span>
+  <span class="btn-mobile-close__icon hidden"></span>
+</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>

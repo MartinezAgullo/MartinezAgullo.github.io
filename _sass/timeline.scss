@@ -222,3 +222,28 @@
         padding: 0 20px 20px;
     }
 }
+
+/* Add these new styles */
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated.slideInLeft {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: slideInLeft;
+  }
+  
+  .animated.slideInRight {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: slideInRight;
+  }
+  
