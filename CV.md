@@ -42,7 +42,9 @@ permalink: /cv/
         }
     </style>
 </head>
-<body class="w3-light-grey">
+
+<!-- Begin CV body -->
+<body class="w3-light-grey"> 
 
 <!-- Page Container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
@@ -53,6 +55,7 @@ permalink: /cv/
     <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Experience')">Experience</button>
     <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Education')">Education</button>
     <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Skills')">Skills</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Outreach')">Outreach</button>
   </div>
 
   <!-- Profile Tab -->
@@ -67,28 +70,34 @@ permalink: /cv/
       </div>
       <br>
       <div class="w3-container">
-        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large icon-black"></i> PhD in Physics</p>
+        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.job_title }}</p>
         <p><i class="fa fa-home fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.location }}</p>
-        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large icon-black"></i> pablo.martinez.agullo@gmail.com </p>
-        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large icon-black"></i> +34 616747286</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large icon-black"></i> <a href="mailto:pablo.martinez.agullo@gmail.com">pablo.martinez.agullo@gmail.com</a></p>
+        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.phone }}</p>
       </div>
     <br>  
     </div>
-  </div>
+    <br>
+  </div> <!-- End Profile Tab -->
 
   <!-- Experience Tab -->
   <div id="Experience" class="w3-container w3-white w3-card tab">
     <h2>Experience</h2>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-      <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+      <h5 class="w3-opacity"><b> Physics researcher - Data analyst</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i> IFIC / CERN</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Sep 2019 - Apr 2024</h6>
+      <!-- <span class="w3-tag w3-teal w3-round">Current</span> -->
+      <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN). I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
+      <br>
+      This work was partially funded by the competitive and prestigious ACIF scholarship from the Generalitat Valenciana.</p>
       <hr>
     </div>
     <div class="w3-container">
       <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Mar 2012 - Dec 2014</h6>
-      <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i> University of Valencia</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6>
+      <p>I have served as a lecturer (PDI) in the Chemistry degree program, teaching subjects such as Electromagnetism and Laboratory Techniques (Physics II) during the academic years 2019/2020 and 2020/2021, combining both in-person and online instruction. Besides, I have provided private tutoring in various engineering disciplines for nearly a decade.</p>
       <hr>
     </div>
     <div class="w3-container">
@@ -96,7 +105,7 @@ permalink: /cv/
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Jun 2010 - Mar 2012</h6>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
     </div>
-  </div>
+  </div> <!-- End Experience Tab -->
 
   <!-- Education Tab -->
   <div id="Education" class="w3-container w3-white w3-card tab">
@@ -121,7 +130,7 @@ permalink: /cv/
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2011 - 2015</h6>
       <p>Obtained a Bachelor's Degree in Physics, engaging in various projects that involved complex problem solving and experimental physics.</p><br>
     </div>
-  </div>
+  </div> <!-- End Education Tab -->
 
 
   <!-- Skills Tab -->
@@ -142,10 +151,8 @@ permalink: /cv/
         <span>Shell</span>
       </div>
     </div>
-
     <div class="w3-container skill-section">
       <h3>Data Science</h3>
-
       <h4>Data Manipulation</h4>
       <div class="skill-box">
         <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon">
@@ -159,7 +166,6 @@ permalink: /cv/
         <img src="../images/Logos/NumPy.svg" alt="NumPy" class="skill-icon">
         <span>NumPy</span>
       </div>
-
       <h4>Machine Learning</h4>
       <div class="skill-box">
         <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon">
@@ -181,7 +187,6 @@ permalink: /cv/
         <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
         <span>Keras</span>
       </div>
-
       <h4>Data Visualization, Analysis, and Scraping</h4>
       <div class="skill-box">
         <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
@@ -204,7 +209,6 @@ permalink: /cv/
         <span>R</span>
       </div>
     </div> <!-- Closes Data Science -->
-
     <div class="w3-container skill-section">
       <h3>Others</h3>
       <div class="skill-box">
@@ -240,35 +244,67 @@ permalink: /cv/
         <span>Matlab</span>
       </div>
     </div> <!-- closes Others -->
-  
-  <h2>Languages</h2>
-   <!-- <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p> -->
-          <p>Spanish</p>
+    <h2>Languages</h2>
+    <!-- <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p> -->
+          <p>Spanish
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Enlglish</p>
+          </div></p>
+          <br>
+          <p>Enlglish
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
-          </div>
-          <p>Catalan</p>
+          </div></p>
+          <br>
+          <p>Catalan
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
-          </div>
-          <p>German</p>
+          </div></p>
+          <br>
+          <p>German
           <div class="w3-light-grey w3-round-xlarge">
             <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
+          </div></p>
           <br>
-  
-  </div>
+  </div><!-- End Skills Tab (general) -->  
+  <div id="Outreach" class="w3-container w3-white w3-card tab">
+    <h2>Outreach</h2>
+    <div class="w3-container">
+    <!-- <div class="w3-container w3-text-grey w3-card-4"> -->
+    <p>Concurrently, I engage in science communication during my free time, delivering talks at schools, participating in science fairs, and contributing to a science podcast.</p>
+    <br>
+    <p style="margin-bottom: 0;">Links to:</p>
+    <ul style="margin-top: 0;">
+        <li>Speaker/host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ attendees, 2022).</li>
+        <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>
+        <li>Interview by fisicamr about LHCRun3: <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/" target="_blank">Instagram post</a>.</li>
+        <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
+    </ul>
+    <br> 
+    <div style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/1jRGUzXbCfc?si=XfaxNAgYcCXWuscC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p>Fraction of the outreach event about the aniversary of the Higgs discovery</p>
+    </div>
+    <br>
+    <div style="text-align: center;">
+      <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cfo9nBwp6y2/" data-instgrm-version="14" style="max-width: 540px; width: 100%; margin: auto;">
+        <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/"></a>
+      </blockquote>
+      <script async src="//www.instagram.com/embed.js"></script>
+      <p>I'm interview by fisicamr about LHCRun3</p>
+    </div>
+    <!-- </div> -->
+    </div>
+    <br>
+  </div> <!-- End Outreach Tab -->
 
-  <!-- End Page Container -->
-</div>
+</div> <!-- End Page Container -->
 
+<!-- begin footer -->
 <footer class="w3-container w3-teal w3-center w3-margin-top">
 <p><a href="{{ site.baseurl }}/bio/CV_ENG_.pdf" title="link to CV" target="_blank" class="w3-button w3-black w3-margin-top"><i class="fa fa-download"></i> Download CV PDF</a></p>
 </footer>
+<!-- end footer -->
 
 <script>
 function openTab(evt, tabName) {
@@ -287,4 +323,6 @@ function openTab(evt, tabName) {
 </script>
 
 </body>
+<!-- End CV body -->
+
 </html>
