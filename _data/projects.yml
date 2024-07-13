@@ -3,7 +3,6 @@
   gh_user: MartinezAgullo
   repo: Root_with_Python
   desc: Collection of scripts that combine python and <a href="https://root.cern/">ROOT</a> for data analysis. The folder <a href="https://github.com/MartinezAgullo/Root_with_Python/tree/main/TMVA">TMVA</a> contains a Machine-Learning tool based on the <a href="https://root.cern/manual/tmva/">TMVA</a> library.
-
   img: ../images/repos/Root_with_Python_2.png
 
 - name: XGBoost_tHq

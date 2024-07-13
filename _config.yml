@@ -17,7 +17,15 @@ author:
   #facebook_username: ValenciaBanyada
   github_username:  MartinezAgullo
   linkedin_username:  pablo-martinez-agullo
-  meetup_name: Azure-Meetup-Rostock-MV
+  #meetup_name: Azure-Meetup-Rostock-MV
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
 destination: _site
