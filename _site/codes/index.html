@@ -28,28 +28,29 @@
 
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1720866894757754000">
+  <link rel="stylesheet" href="/css/main.css?1720869910821527000">
   <link rel="canonical" href="http://localhost:4000/codes/">
 </head>
 
 
   <body>
     <span class="mobile btn-mobile-menu">
-  <i class="fas fa-bars btn-mobile-menu__icon"></i>
-  <i class="far fa-times-circle btn-mobile-close__icon hidden"></i>
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url(/images/bk1.jpg)">
+<header class="panel-cover" style="background-image: url(/images/gaussiannoise.png)">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
         <a href="/" title="link to home of Pablo Martínez-Agulló">
           <img src="/images/pma.jpg" class="user-image" alt="My Profile Photo">
+          <!--img src="/images/profile.png" class="user-image" alt="RLGM"-->
           <h1 class="panel-cover__title panel-title">Pablo Martínez-Agulló</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description"> PhD in Physics | Deep Learning Scientist | Data Analysis <i class="fas fa-cloud"></i> </p>
+        <p class="panel-cover__description">PhD in Physics | Deep Learning Scientist | Data Analysis</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -57,8 +58,17 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-            
 
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/MartinezAgullo" title="MartinezAgullo on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <i class="fab fa-github fa-lg"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
             
 
             
@@ -66,30 +76,33 @@
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/pablo-martinez-agullo" title="pablo-martinez-agullo on LinkedIn" target="_blank">
                   <i class="icon icon-social-linkedin"></i>
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fab fa-linkedin fa-lg"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
             
 
             
-              <!-- GitHub -->
-              <li class="navigation__item">
-                <a href="https://www.github.com/MartinezAgullo" title="MartinezAgullo on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
-                  <i class="fa-brands fa-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
+
             
 
+            
+            <!-- Meetup -->
+            <li class="navigation__item">
+              <a href="https://www.meetup.com/Azure-Meetup-Rostock-MV" title="Meetup Azure-Meetup-Rostock-MV" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-meetup fa-lg"></i>
+                <span class="label">Meetup</span>
+              </a>
+            </li>
+            
 
             
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:pablo.martinez.agullo@gmail.com" title="Email pablo.martinez.agullo@gmail.com" target="_blank">
                   <i class="icon icon-mail"></i>
-                  <i class="fa-solid fa-envelope"></i>
+                  <i class="fas fa-envelope fa-lg"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
@@ -97,14 +110,18 @@
 
             </ul>
           </nav>
-          
-          <!--<nav class="cover-navigation cover-navigation--primary">-->
-          <nav class="cover-navigation navigation--social">
+
+          <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/#bio" title="bio" class="panel-button">Bio</a></li>
-              <!-- <li class="navigation__item"><a href="/publications" title="publications" class="blog-button">Publications</a></li> -->
-              <li class="navigation__item"><a href="/#CV" title="Curriculum Vitae" class="panel-button">CV</a></li>
-              <li class="navigation__item"><a href="/#projects" title="List of Projects" class="panel-button projects-button"><i class="fa-solid fa-file-co de"></i>&nbsp;Codes</a></li>
+              <li class="navigation__item"><a href="/bio" title="bio" class="blog-button">Bio</a></li>
+              <li class="navigation__item"><a href="/codes" title="codes" class="blog-button">Codes</a></li>
+              <li class="navigation__item"><a href="/publications" title="publications" class="blog-button">Publications</a></li>
+              <li class="navigation__item"><a href="/bio/CV_ENG_.pdf" title="link to CV" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp;CV pdf</a>
+              <li class="navigation__item"><a href="/cv" title="CV" class="blog-button">CV</a></li>
+
+              <!-- Uncomment to show the blog
+              <li class="navigation__item"><a href="/#blog" title="blog" class="blog-button">Blog</a></li>
+              -->
             </ul>
           </nav>
 
@@ -224,7 +241,7 @@ Some projects I made for different applications, learning programing and for fun
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1720866894757754000"></script>
+<script type="text/javascript" src="/js/main.js?1720869910821527000"></script>
 
     </div>
   </body>

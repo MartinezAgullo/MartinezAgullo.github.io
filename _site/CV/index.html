@@ -26,28 +26,29 @@
 
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1720866894757754000">
-  <link rel="canonical" href="http://localhost:4000/CV/">
+  <link rel="stylesheet" href="/css/main.css?1720869910821527000">
+  <link rel="canonical" href="http://localhost:4000/cv/">
 </head>
 
 
   <body>
     <span class="mobile btn-mobile-menu">
-  <i class="fas fa-bars btn-mobile-menu__icon"></i>
-  <i class="far fa-times-circle btn-mobile-close__icon hidden"></i>
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url(/images/bk1.jpg)">
+<header class="panel-cover" style="background-image: url(/images/gaussiannoise.png)">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
         <a href="/" title="link to home of Pablo Martínez-Agulló">
           <img src="/images/pma.jpg" class="user-image" alt="My Profile Photo">
+          <!--img src="/images/profile.png" class="user-image" alt="RLGM"-->
           <h1 class="panel-cover__title panel-title">Pablo Martínez-Agulló</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description"> PhD in Physics | Deep Learning Scientist | Data Analysis <i class="fas fa-cloud"></i> </p>
+        <p class="panel-cover__description">PhD in Physics | Deep Learning Scientist | Data Analysis</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -55,8 +56,17 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-            
 
+
+            
+              <!-- GitHub -->
+              <li class="navigation__item">
+                <a href="https://www.github.com/MartinezAgullo" title="MartinezAgullo on GitHub" target="_blank">
+                  <i class="icon icon-social-github"></i>
+                  <i class="fab fa-github fa-lg"></i>
+                  <span class="label">GitHub</span>
+                </a>
+              </li>
             
 
             
@@ -64,30 +74,33 @@
               <li class="navigation__item">
                 <a href="https://www.linkedin.com/in/pablo-martinez-agullo" title="pablo-martinez-agullo on LinkedIn" target="_blank">
                   <i class="icon icon-social-linkedin"></i>
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fab fa-linkedin fa-lg"></i>
                   <span class="label">LinkedIn</span>
                 </a>
               </li>
             
 
             
-              <!-- GitHub -->
-              <li class="navigation__item">
-                <a href="https://www.github.com/MartinezAgullo" title="MartinezAgullo on GitHub" target="_blank">
-                  <i class="icon icon-social-github"></i>
-                  <i class="fa-brands fa-github"></i>
-                  <span class="label">GitHub</span>
-                </a>
-              </li>
+
             
 
+            
+            <!-- Meetup -->
+            <li class="navigation__item">
+              <a href="https://www.meetup.com/Azure-Meetup-Rostock-MV" title="Meetup Azure-Meetup-Rostock-MV" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-meetup fa-lg"></i>
+                <span class="label">Meetup</span>
+              </a>
+            </li>
+            
 
             
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:pablo.martinez.agullo@gmail.com" title="Email pablo.martinez.agullo@gmail.com" target="_blank">
                   <i class="icon icon-mail"></i>
-                  <i class="fa-solid fa-envelope"></i>
+                  <i class="fas fa-envelope fa-lg"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
@@ -95,14 +108,18 @@
 
             </ul>
           </nav>
-          
-          <!--<nav class="cover-navigation cover-navigation--primary">-->
-          <nav class="cover-navigation navigation--social">
+
+          <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="/#bio" title="bio" class="panel-button">Bio</a></li>
-              <!-- <li class="navigation__item"><a href="/publications" title="publications" class="blog-button">Publications</a></li> -->
-              <li class="navigation__item"><a href="/#CV" title="Curriculum Vitae" class="panel-button">CV</a></li>
-              <li class="navigation__item"><a href="/#projects" title="List of Projects" class="panel-button projects-button"><i class="fa-solid fa-file-co de"></i>&nbsp;Codes</a></li>
+              <li class="navigation__item"><a href="/bio" title="bio" class="blog-button">Bio</a></li>
+              <li class="navigation__item"><a href="/codes" title="codes" class="blog-button">Codes</a></li>
+              <li class="navigation__item"><a href="/publications" title="publications" class="blog-button">Publications</a></li>
+              <li class="navigation__item"><a href="/bio/CV_ENG_.pdf" title="link to CV" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp;CV pdf</a>
+              <li class="navigation__item"><a href="/cv" title="CV" class="blog-button">CV</a></li>
+
+              <!-- Uncomment to show the blog
+              <li class="navigation__item"><a href="/#blog" title="blog" class="blog-button">Blog</a></li>
+              -->
             </ul>
           </nav>
 
@@ -130,99 +147,152 @@
   <section class="post">
     <!--<div class="main-post-list">-->
 
-<h1> Codes </h1>
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+<body class="w3-light-grey">
 
-<p>These are some of the codes and scripts I have developed during my work and research.</p>
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-<p><br /></p>
-
-<h2> Deep Learning in Cosmology </h2>
-
-<p>Projects applying deep learning techniques to cosmology.</p>
-
-<p><br /></p>
-
-<p><br />
-<br /></p>
-
-<ul class="timeline">
-
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
     
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="" alt="">
-      </div>
-    </li> -->
-  </ul>
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="../images/pma.jpg" style="width:100%" alt="Avatar" />
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2>Pablo</h2>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>pablo.martinez.agullo@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>616747286</p>
+          <hr />
 
-<p><br /></p>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p>Adobe Photoshop</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Photography</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Illustrator</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Media</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+          <br />
 
-<h2> Machine Learning </h2>
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br />
+        </div>
+      </div><br />
 
-<p>Machine learning projects, research works as well as simple repos to learn different ML aspects and provide fun applications.</p>
+    <!-- End Left Column -->
+    </div>
 
-<p><br /></p>
-
-<p><br />
-<br /></p>
-
-<ul class="timeline">
-
+    <!-- Right Column -->
+    <div class="w3-twothird">
     
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="" alt="">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr />
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <hr />
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br />
+        </div>
       </div>
-    </li> -->
-  </ul>
 
-<p><br /></p>
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr />
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr />
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br />
+        </div>
+      </div>
 
-<h2> Cosmology </h2>
-
-<p>Codes developed for my research in cosmology.</p>
-
-<p><br /></p>
-
-<p><br />
-<br /></p>
-
-<ul class="timeline">
-
+    <!-- End Right Column -->
+    </div>
     
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="" alt="">
-      </div>
-    </li> -->
-  </ul>
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
 
-<p><br /></p>
+<!-- 
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+  <p>Find me on social media.</p>
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer> 
+-->
 
-<h2> Miscelanea </h2>
-
-<p>Some projects I made for different applications, learning programing and for fun.</p>
-
-<p><br /></p>
-
-<p><br />
-<br /></p>
-
-<ul class="timeline">
-
-    
-    <!--
-    <li class="timeline-inverted">
-      <div class="timeline-image">
-        <img class="user-image" src="" alt="">
-      </div>
-    </li> -->
-  </ul>
-
-<!--</div>-->
+</body>
+</html>
 
   </section>
 </article>
@@ -234,7 +304,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1720866894757754000"></script>
+<script type="text/javascript" src="/js/main.js?1720869910821527000"></script>
 
     </div>
   </body>
