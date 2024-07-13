@@ -268,22 +268,23 @@ permalink: /cv/
           <br>
   </div><!-- End Skills Tab (general) -->  
   <div id="Outreach" class="w3-container w3-white w3-card tab">
-    <h2>Outreach</h2>
-    <div class="w3-container">
-    <!-- <div class="w3-container w3-text-grey w3-card-4"> -->
+  <h2>Outreach</h2>
+  <div class="w3-container">
     <p>Concurrently, I engage in science communication during my free time, delivering talks at schools, participating in science fairs, and contributing to a science podcast.</p>
     <br>
     <p style="margin-bottom: 0;">Links to:</p>
     <ul style="margin-top: 0;">
-        <li>Speaker/host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ attendees, 2022).</li>
-        <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>
-        <li>Interview by fisicamr about LHCRun3: <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/" target="_blank">Instagram post</a>.</li>
-        <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
+      <li>Speaker/host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ asistentes, 2022).</li>
+      <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>
+      <li>Interview by fisicamr about LHCRun3: <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/" target="_blank">Instagram post</a>.</li>
+      <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
     </ul>
-    <br> 
+    <br>
     <div style="text-align: center;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/1jRGUzXbCfc?si=XfaxNAgYcCXWuscC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p>Fraction of the outreach event about the aniversary of the Higgs discovery</p>
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1jRGUzXbCfc?si=XfaxNAgYcCXWuscC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <p>YouTube video caption: 10º aniversario del descubrimiento del bosón de Higgs</p>
     </div>
     <br>
     <div style="text-align: center;">
@@ -291,12 +292,11 @@ permalink: /cv/
         <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/"></a>
       </blockquote>
       <script async src="//www.instagram.com/embed.js"></script>
-      <p>I'm interview by fisicamr about LHCRun3</p>
+      <p>Instagram post caption: Interview by fisicamr about LHCRun3</p>
     </div>
-    <!-- </div> -->
-    </div>
-    <br>
-  </div> <!-- End Outreach Tab -->
+  </div>
+  <br>
+</div> <!-- End Outreach Tab -->
 
 </div> <!-- End Page Container -->
 
