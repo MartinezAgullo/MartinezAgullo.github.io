@@ -3,7 +3,7 @@
   <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
 </span>
 
-<header class="panel-cover" style="background-image: url({{ site.baseurl }}/images/gaussiannoise.png)">
+<header class="panel-cover" style="background-image: url({{ site.baseurl }}{{ site.bkimage }})">
   <div class="panel-main">
 
     <div class="panel-main__inner panel-inverted">
@@ -67,16 +67,18 @@
               </li>
             {% endif %}
 
-            {% if site.author.meetup_name %}
             <!-- Meetup -->
+            <!-- 
+            {% if site.author.meetup_name %}
             <li class="navigation__item">
               <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
-                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>
                 <i class="fab fa-meetup fa-lg"></i>
                 <span class="label">Meetup</span>
               </a>
             </li>
             {% endif %}
+            -->
 
             {% if site.author.email %}
               <!-- Email -->

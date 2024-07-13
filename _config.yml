@@ -1,6 +1,6 @@
 # Site settings
 title: Pablo Martínez-Agulló
-description: 'PhD in Physics | Deep Learning Scientist | Data Analysis'
+description: 'PhD in Physics | Deep Learning Scientist | Data Analysit'
 short_description: "Business Card Page"
 url: 'http://localhost:4000"'
 baseurl: ''
@@ -12,15 +12,15 @@ bkimage: '/images/bk1.jpg'
 author:
   name: 'Pablo Martínez Agulló'
   email: pablo.martinez.agullo@gmail.com
-  #mastodon: @mstdn.social
-  #twitter_username: Pabloaaah
-  #facebook_username: ValenciaBanyada
   github_username:  MartinezAgullo
   linkedin_username:  pablo-martinez-agullo
-  #meetup_name: Azure-Meetup-Rostock-MV
   location: Valencia (Spain)
   job_title: ''
   phone: ''
+  #mastodon: @mstdn.social
+  #twitter_username: Pabloaaah
+  #facebook_username: ValenciaBanyada
+  #meetup_name: Azure-Meetup-Rostock-MV
 
 defaults:
   -

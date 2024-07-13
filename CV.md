@@ -18,6 +18,28 @@ permalink: /cv/
         html, body, h1, h2, h3, h4, h5, h6 { font-family: "Roboto", sans-serif; }
         .tab { display: none; }
         .icon-black { color: black !important; }
+        .skill-box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            height: 70px;
+        }
+        .skill-icon {
+            max-height: 100%;
+            margin-right: 15px;
+        }
+        .skill-section {
+            margin-bottom: 20px;
+        }
+        .skill-section h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
     </style>
 </head>
 <body class="w3-light-grey">
@@ -30,6 +52,7 @@ permalink: /cv/
     <button class="w3-bar-item w3-button tablink w3-teal" onclick="openTab(event, 'Profile')">Profile</button>
     <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Experience')">Experience</button>
     <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Education')">Education</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openTab(event, 'Skills')">Skills</button>
   </div>
 
   <!-- Profile Tab -->
@@ -42,12 +65,14 @@ permalink: /cv/
           <h2>{{ site.author.name }}</h2>
         </div>
       </div>
+      <br>
       <div class="w3-container">
-        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.job_title }}</p>
+        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large icon-black"></i> PhD in Physics</p>
         <p><i class="fa fa-home fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.location }}</p>
-        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.email }}</p>
-        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large icon-black"></i>{{ site.author.phone }}</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large icon-black"></i> pablo.martinez.agullo@gmail.com </p>
+        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large icon-black"></i> +34 616747286</p>
       </div>
+    <br>  
     </div>
   </div>
 
@@ -77,39 +102,173 @@ permalink: /cv/
   <div id="Education" class="w3-container w3-white w3-card tab">
     <h2>Education</h2>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Forever</h6>
-      <p>Web Development! All I need to know in one place</p>
+      <h5 class="w3-opacity"><b>PhD in Physics</b></h5>
+      <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2019 - 2024</h6>
+      <p>Earned a Doctorate in Physics, specialising in Particle Physics and data analysis using advanced machine learning techniques. Conducted extensive research at CERN within the ATLAS experiment, contributing to major discoveries and tool development.</p>
       <hr>
     </div>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>London Business School</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2013 - 2015</h6>
-      <p>Master Degree</p>
+      <h5 class="w3-opacity"><b>MSc in Advanced Physics</b></h5>
+      <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2016 - 2017</h6>
+      <p>Completed a Master of Science in Advanced Physics, focusing on computational models and quantitative analysis, which laid the foundation for my PhD research.</p>
       <hr>
     </div>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>School of Coding</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2010 - 2013</h6>
-      <p>Bachelor Degree</p><br>
+      <h5 class="w3-opacity"><b>Bachelor's Degree in Physics</b></h5>
+      <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2011 - 2015</h6>
+      <p>Obtained a Bachelor's Degree in Physics, engaging in various projects that involved complex problem solving and experimental physics.</p><br>
     </div>
+  </div>
+
+
+  <!-- Skills Tab -->
+  <div id="Skills" class="w3-container w3-white w3-card tab">
+    <h2>Skills</h2>
+    <div class="w3-container skill-section">
+      <h3>Coding languages</h3>
+      <div class="skill-box">
+        <img src="../images/Logos/Python.png" alt="Python" class="skill-icon">
+        <span>Python</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Cpp.png" alt="C++" class="skill-icon">
+        <span>C++</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Bash.png" alt="Shell" class="skill-icon">
+        <span>Shell</span>
+      </div>
+    </div>
+
+    <div class="w3-container skill-section">
+      <h3>Data Science</h3>
+
+      <h4>Data Manipulation</h4>
+      <div class="skill-box">
+        <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon">
+        <span>ROOT</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Pandas.png" alt="Pandas" class="skill-icon">
+        <span>Pandas</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/NumPy.svg" alt="NumPy" class="skill-icon">
+        <span>NumPy</span>
+      </div>
+
+      <h4>Machine Learning</h4>
+      <div class="skill-box">
+        <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon">
+        <span>XGBoost</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/PyTorch.png" alt="PyTorch" class="skill-icon">
+        <span>PyTorch</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/TMVA.png" alt="TMVA" class="skill-icon">
+        <span>TMVA</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Scikit-Learn.png" alt="Scikit-Learn" class="skill-icon">
+        <span>Scikit-Learn</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
+        <span>Keras</span>
+      </div>
+
+      <h4>Data Visualization, Analysis, and Scraping</h4>
+      <div class="skill-box">
+        <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
+        <span>Matplotlib</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/SciPy.png" alt="SciPy" class="skill-icon">
+        <span>SciPy</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/BeautifulSoup.png" alt="BeautifulSoup" class="skill-icon">
+        <span>BeautifulSoup</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/SQL.png" alt="SQL" class="skill-icon">
+        <span>SQL</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/R.png" alt="R" class="skill-icon">
+        <span>R</span>
+      </div>
+    </div> <!-- Closes Data Science -->
+
+    <div class="w3-container skill-section">
+      <h3>Others</h3>
+      <div class="skill-box">
+        <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
+        <span>GitHub</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
+        <span>GitLab</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">
+        <span>LaTeX</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
+        <span>CherryPy</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
+        <span>Flask</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Web_CSS.png" alt="CSS" class="skill-icon">
+        <span>CSS</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-box">
+        <img src="../images/Logos/Matlab.png" alt="Matlab" class="skill-icon">
+        <span>Matlab</span>
+      </div>
+    </div> <!-- closes Others -->
+  
+  <h2>Languages</h2>
+   <!-- <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p> -->
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <p>Enlglish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
+          </div>
+          <p>Catalan</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:95%"></div>
+          </div>
+          <p>German</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+  
   </div>
 
   <!-- End Page Container -->
 </div>
 
-<!--
 <footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity icon-black"></i>
-  <i class="fa fa-instagram w3-hover-opacity icon-black"></i>
-  <i class="fa fa-snapchat w3-hover-opacity icon-black"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity icon-black"></i>
-  <i class="fa fa-twitter w3-hover-opacity icon-black"></i>
-  <i class="fa fa-linkedin w3-hover-opacity icon-black"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+<p><a href="{{ site.baseurl }}/bio/CV_ENG_.pdf" title="link to CV" target="_blank" class="w3-button w3-black w3-margin-top"><i class="fa fa-download"></i> Download CV PDF</a></p>
 </footer>
--->
 
 <script>
 function openTab(evt, tabName) {
