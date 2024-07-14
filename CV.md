@@ -84,8 +84,9 @@ permalink: /cv/
   <div id="Experience" class="w3-container w3-white w3-card tab">
     <h2>Experience</h2>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b> Physics researcher - Data analyst</b></h5>
-      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i> IFIC / CERN</h6>
+      <h5 class="w3-opacity"><b>Physics researcher - Data analyst</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Sep 2019 - Apr 2024</h6>
       <!-- <span class="w3-tag w3-teal w3-round">Current</span> -->
       <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN). I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
@@ -94,16 +95,48 @@ permalink: /cv/
       <hr>
     </div>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i> University of Valencia</h6>
+      <h5 class="w3-opacity"><b>Faculty lecturer</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6>
       <p>I have served as a lecturer (PDI) in the Chemistry degree program, teaching subjects such as Electromagnetism and Laboratory Techniques (Physics II) during the academic years 2019/2020 and 2020/2021, combining both in-person and online instruction. Besides, I have provided private tutoring in various engineering disciplines for nearly a decade.</p>
       <hr>
     </div>
     <div class="w3-container">
-      <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Jun 2010 - Mar 2012</h6>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+      <h5 class="w3-opacity"><b>Consultant</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Capgemini</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6>
+      <p>Consultant on the Insights & Data team. Development of a sentiment analysis tool based on web scraping and Natural Language Processing (NLP).</p><br>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Physics researcher - Data analyst and developer</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Dec 2017 - Jan 2019</h6>
+      <p>Predoctoral researcher at the ATLAS experiment at the European Laboratory for Particle Physics (CERN). During the initial stage of my doctoral research, I developed a software dedicated to data analysis and visualization. Additionally, I worked on the development and optimization of both the backend and frontend of the web application for monitoring the alignment of the ATLAS detector. This experience allowed me to enhance my skills in web programming and application development. The resulting tool has been widely adopted and used within the collaboration.</p><br>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Physics researcher - Data analyst (Internship)</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Apr 2017 - Sep 2017</h6>
+      <p>I received the prestigious Severo Ochoa collaboration scholarship at centres of excellence to conduct my research on top quark physics with the ATLAS group at the Instituto de Física Corpuscular. This project was part of my master's thesis work.</p><br>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Outreach reserarcher (Internship)</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>European Space Agency (ESA)</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Jun 2016 - Sep 2016</h6>
+      <p>I received the LEAPS scholarship to participate in science communication and outreach projects with the Universe Awareness (UNAWE) group at the European Space Agency (ESA) and Leiden University. There I developed a tool for natural language processing (NLP).</p><br>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Rol</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Institution</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6>
+      <p>Description</p><br>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Rol</b></h5>
+      <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Institution</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6>
+      <p>Description</p><br>
     </div>
   </div> <!-- End Experience Tab -->
 
@@ -115,20 +148,43 @@ permalink: /cv/
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2019 - 2024</h6>
       <p>Earned a Doctorate in Physics, specialising in Particle Physics and data analysis using advanced machine learning techniques. Conducted extensive research at CERN within the ATLAS experiment, contributing to major discoveries and tool development.</p>
+       <div class="pdf-container">
+      <iframe src="https://cds.cern.ch/record/2892621/files/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
+      </div>
+      <p class="pdf-footnote">PhD thesis. See record: <a href="https://cds.cern.ch/record/2892621" target="_blank">Here</a></p>
       <hr>
     </div>
     <div class="w3-container">
       <h5 class="w3-opacity"><b>MSc in Advanced Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2016 - 2017</h6>
-      <p>Completed a Master of Science in Advanced Physics, focusing on computational models and quantitative analysis, which laid the foundation for my PhD research.</p>
+      <p>Completed a Master of Science in Advanced Physics, with a two specialisations: Nuclear and Particle Physics, and Theoretical Physics.
+      The master foccused on becoming a researcher and an R&D expert. Strong emphasis on statistics, data analysis, computation, and quantitative analysis.
+      My master thesis foccused on the analysis on the data from ATLAS in order to study the top quark.</p>
+       <div class="pdf-container">
+      <iframe src="https://cds.cern.ch/record/2285874/files/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
+      </div>
+      <p class="pdf-footnote">Master thesis. See record: <a href="https://cds.cern.ch/record/2285874" target="_blank">Here</a></p>
+      <hr>
+    </div>
+    <div class="w3-container">
+      <h5 class="w3-opacity"><b>Bachelor's Degree in Physics</b></h5>
+      <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>RWTH Aachen University</h6>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2015 - 2016</h6>
+      <p>Erasmus stay at the RWTH Aachen University, the largest university of technology in Germany and one of the most renowned in Europe. Here I did my bachelor thesis analysing data from the CMS experiment of CERN. </p><br>
+      <div class="pdf-container">
+      <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
+      </div>
+      <p class="pdf-footnote">Bachelor thesis. See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <!-- 	Search for dark matter in proton-proton collision events with a muon and missing transverse energy in the CMS detector with s= 13 TeV -->
       <hr>
     </div>
     <div class="w3-container">
       <h5 class="w3-opacity"><b>Bachelor's Degree in Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2011 - 2015</h6>
-      <p>Obtained a Bachelor's Degree in Physics, engaging in various projects that involved complex problem solving and experimental physics.</p><br>
+      <p>Completed a Bachelor's Degree in Physics, obtaining 258 ECTs. During my studies I developed the ability of solving complex problems and thinking outside the box. I also gained strong mathematical skills as well as basics in computation.
+      At this time, the Faculty of Physics of the UV was listed as the best one in Spain according to the Shangai ranking.</p><br>
     </div>
   </div> <!-- End Education Tab -->
 
@@ -280,11 +336,12 @@ permalink: /cv/
       <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
     </ul>
     <br>
+    <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_125008443_6_1.html?c1=e0d223' loading='lazy'></iframe>
     <div style="text-align: center;">
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/1jRGUzXbCfc?si=XfaxNAgYcCXWuscC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
-      <p>YouTube video caption: 10º aniversario del descubrimiento del bosón de Higgs</p>
+      <p>Outreach event 10º aniversario del descubrimiento del bosón de Higgs</p>
     </div>
     <br>
     <div style="text-align: center;">
@@ -292,7 +349,7 @@ permalink: /cv/
         <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/"></a>
       </blockquote>
       <script async src="//www.instagram.com/embed.js"></script>
-      <p>Instagram post caption: Interview by fisicamr about LHCRun3</p>
+      <p>Interview by fisicamr about LHCRun3</p>
     </div>
   </div>
   <br>
