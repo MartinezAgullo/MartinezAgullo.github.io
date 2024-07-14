@@ -47,7 +47,7 @@ permalink: /cv/
 <body class="w3-light-grey"> 
 
 <!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<div class="w3-content w3-margin-top" style="max-width:1900px;margin: 20px auto;padding: 0 5px;">
 
   <!-- Tabs -->
   <div class="w3-bar w3-black">
@@ -62,11 +62,12 @@ permalink: /cv/
   <div id="Profile" class="w3-container w3-white w3-card tab" style="display: block;">
     <h2>Profile</h2>
     <div class="w3-container w3-text-grey w3-card-4">
-      <div class="w3-display-container">
-        <img src="../images/pma_informal.png" style="width:100%" alt="Avatar">
-        <div class="w3-display-bottomleft w3-container w3-text-black">
-          <h2>{{ site.author.name }}</h2>
-        </div>
+      <div class="w3-display-container image-hover-container">
+          <img src="../images/pma_formal.png" class="image-normal" alt="Avatar">
+          <img src="../images/pma_informal.png" class="image-hover" alt="Avatar">
+          <!-- <div class="w3-display-bottomleft w3-container w3-text-black">
+              <h2>{{ site.author.name }}</h2>
+          </div> -->
       </div>
       <br>
       <div class="w3-container">
