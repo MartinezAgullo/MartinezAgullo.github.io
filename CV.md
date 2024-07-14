@@ -126,7 +126,7 @@ permalink: /cv/
       <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
       <h6><i class="fa fa-map-marker fa-fw w3-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Apr 2017 - Sep 2017</h6>
-      <p>I received the prestigious Severo Ochoa collaboration scholarship at centres of excellence to conduct my research on top quark physics with the ATLAS group at the Instituto de Física Corpuscular. This project was part of my master's thesis work.</p><br>
+      <p>The Instituto de Física Corpuscular (IFIC) is a collaborative research center operated by the Spanish Research Council (CSIC) and the University of Valencia, focusing on fundamental studies in particle, astroparticle, and nuclear physics. During my internship, supported by the prestigious Severo Ochoa scholarship, I conducted research on top quark physics for my master's thesis with the ATLAS group. My role included developing and refining Python scripts to extract maximum information from the data, conducting statistical analyses, and enhancing data analysis methodologies. I was also responsible for maintaining and updating codebases on Git, ensuring robust version control.</p><br>
       <hr>
     </div>
     <div class="w3-container">
@@ -134,15 +134,15 @@ permalink: /cv/
       <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>European Space Agency (ESA)</h6>
       <h6><i class="fa fa-map-marker fa-fw w3-margin-right icon-black"></i>Leiden, Netherlands</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Jun 2016 - Sep 2016</h6>
-      <p>I received the LEAPS scholarship to participate in science communication and outreach projects with the Universe Awareness (UNAWE) group at the European Space Agency (ESA) and Leiden University. There I developed a tool for natural language processing (NLP).</p><br>
+      <p>I was awarded the LEAPS scholarship for engaging in science communication and outreach with the Universe Awareness (UNAWE) group at ESA and Leiden University. During this time, I developed a natural language processing (NLP) tool and conducted <a href="https://www.unawe.org/updates/unawe-update-2016-37/">research</a> on scientific product policies.</p><br>
       <hr>
     </div>
     <div class="w3-container">
       <h5 class="w3-opacity"><b>Physics researcher - Data analyst (Internship)</b></h5>
       <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>RWTH Aachen University</h6>
-      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2016 - Jun 2016</h6>
       <h6><i class="fa fa-map-marker fa-fw w3-margin-right icon-black"></i>Aachen, Germany</h6>
-      <p>Description</p><br>
+      <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Feb 2016 - Jun 2016</h6>
+      <p>At the Physics Institute III A of RWTH Aachen University, I engaged in analysing LHC data recorded by the CMS experiment. This role was part of an international collaboration requiring strong mathematical foundations and extensive coding skills. I utilised Bash Scripting, Python, and C++ to handle complex data analyses, further honing my technical expertise in a demanding research environment.</p><br>
       <hr>
     </div>
     <div class="w3-container">
@@ -150,7 +150,7 @@ permalink: /cv/
       <h6><i class="fa fa-briefcase fa-fw w3-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
       <h6><i class="fa fa-map-marker fa-fw w3-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>Nov 2014 - Jul 2021</h6>
-      <p>External internship for the Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT). Analysis of data from silicon detectors for instrument calibration. Worked with photomultiplier tubes (PMTs) and silicon photomultipliers (SiPMs).</p><br>
+      <p>My initial foray into research was an external internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analysed data from silicon detectors to calibrate scientific instruments. During this tenure, I not only worked with photomultiplier tubes (PMTs) and silicon photomultipliers (SiPMs) but also employed lasers and vacuum systems.</p><br>
     </div>
   </div> <!-- End Experience Tab -->
 
@@ -161,7 +161,7 @@ permalink: /cv/
       <h5 class="w3-opacity"><b>PhD in Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2019 - 2024</h6>
-      <p>Earned a Doctorate in Physics, specialising in Particle Physics and data analysis using advanced machine learning techniques. Conducted extensive research at CERN within the ATLAS experiment, contributing to major discoveries and tool development.</p>
+      <p>I earned a Doctorate in Physics, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My extensive research at CERN within the ATLAS experiment contributed to the scientific program and the development of analytical tools. My thesis explored the interaction between the Higgs boson and the top quark, an interaction with the potential to shed light on fundamental physics questions like matter-antimatter asymmetry. Additionally, I completed several courses in Machine Learning and Statistics to further enhance my analytical skills.</p>
        <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2892621/files/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -172,9 +172,7 @@ permalink: /cv/
       <h5 class="w3-opacity"><b>MSc in Advanced Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2016 - 2017</h6>
-      <p>Completed a Master of Science in Advanced Physics, with a two specialisations: Nuclear and Particle Physics, and Theoretical Physics.
-      The master foccused on becoming a researcher and an R&D expert. Strong emphasis on statistics, data analysis, computation, and quantitative analysis.
-      My master thesis foccused on the analysis on the data from ATLAS in order to study the top quark.</p>
+      <p>I completed a Master of Science in Advanced Physics, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing research and R&D expertise, with a strong emphasis on statistics, data analysis, data visualisation, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a prestigious Severo Ochoa scholarship.</p>
        <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2285874/files/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -185,7 +183,7 @@ permalink: /cv/
       <h5 class="w3-opacity"><b>Bachelor's Degree in Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>RWTH Aachen University</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2015 - 2016</h6>
-      <p>Erasmus stay at the RWTH Aachen University, the largest university of technology in Germany and one of the most renowned in Europe. Here I did my bachelor thesis analysing data from the CMS experiment of CERN. </p><br>
+      <p>During my Erasmus exchange at RWTH Aachen University, Germany's largest technical university and a prestigious European institution, I conducted my bachelor's thesis. It consisted on analyzing data from the CMS experiment at CERN in order to look for dark matter production.</p><br>
       <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -197,8 +195,7 @@ permalink: /cv/
       <h5 class="w3-opacity"><b>Bachelor's Degree in Physics</b></h5>
       <h6><i class="fa fa-university fa-fw w3-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right icon-black"></i>2011 - 2015</h6>
-      <p>Completed a Bachelor's Degree in Physics, obtaining 258 ECTs. During my studies I developed the ability of solving complex problems and thinking outside the box. I also gained strong mathematical skills as well as basics in computation.
-      At this time, the Faculty of Physics of the UV was listed as the best one in Spain according to the Shangai ranking.</p><br>
+      <p>I graduated with a Bachelor's Degree in Physics, earning 258 ECTs. Throughout my studies, I honed my ability to tackle complex problems and cultivated innovative thinking. My strong mathematical and computational skills were developed during this time, significantly contributing to my academic success. Notably, the Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
     </div>
   </div> <!-- End Education Tab -->
 
