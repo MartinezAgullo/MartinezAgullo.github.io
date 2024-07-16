@@ -1099,7 +1099,7 @@ pre {
 .content-wrapper {
 	z-index: 800;
 	width: 60%;
-	max-width: 800px;
+	max-width: 1000px; /* CONTROLS THE WIDTH OF THE PAGE*/
 	margin-left: 40%; }
 
 .content-wrapper__inner {
@@ -1655,7 +1655,7 @@ input[type="tel"] {
 				width: 25.8%; }
 
 	.content-wrapper {
-		width: 80%;
+		width: 85%;
 		max-width: none;
 		margin: 0 auto; }
 

@@ -13,6 +13,7 @@ Based on [Uno Timeline Theme](https://github.com/tzuehlke/jekyll-uno-timeline) b
     * Information organised in tabs
     * Responsive
     * Languge skills as bars
+  * Codes can be classified by type
   * The animation is messed up and now it only works properly the first time on each refresh
 
 
