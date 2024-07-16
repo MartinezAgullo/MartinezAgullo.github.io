@@ -20,6 +20,7 @@
     display: flex;
     overflow: hidden;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .cv-bar-item {
@@ -75,10 +76,20 @@
 
 .cv-container {
     width: 100%;
-    padding: 20px;
+    padding: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 25px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
     box-sizing: border-box;
-    /*overflow: hidden;*/
+}
+
+@media (max-width: 600px) {
+    .cv-bar-item {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .cv-container {
+        padding: 10px;
+    }
 }
