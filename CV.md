@@ -93,7 +93,9 @@ permalink: /cv/
       <!-- <span class="w3-tag w3-teal w3-round">Current</span> -->
       <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN). I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
       <br>
-      This work was partially funded by the competitive and prestigious ACIF scholarship from the Generalitat Valenciana.</p>
+      This work was partially funded by the competitive and prestigious ACIF scholarship from the Generalitat Valenciana.
+      <br>
+      Feel free to check my <a href="https://martinezagullo.github.io/publications/">Publication record</a> during these years.</p>
       <hr>
     </div>
     <div class="w3-container">
