@@ -1,0 +1,84 @@
+.cv-light-grey {
+    background-color: #f1f1f1; /* Light grey color for the background */
+    width: 100%;
+    height: 24px;
+    border-radius: 25px; /* Make the corners rounded */
+}
+
+.cv-round-xlarge {
+    border-radius: 25px; /* Make the corners rounded */
+}
+
+.cv-teal {
+    color: #fff !important; /* White text color */
+    background-color: #2e6295; /* Teal color for the proficiency bar */
+    height: 46px;
+    border-radius: 25px; /* Make the corners rounded */
+}
+
+.cv-bar {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.cv-bar-item {
+    flex: 1;
+    text-align: center;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 0; /* Ensure no border radius for tabs to avoid size inconsistency */
+    box-sizing: border-box;
+}
+
+.cv-bar-item.cv-teal {
+    background-color: #2e6295; /* Background color for active tab */
+}
+
+.tab {
+    display: none;
+}
+
+.cv-center {
+  text-align: center;
+}
+
+.cv-margin-top {
+  margin-top: 20px;
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+    background-color: #555;
+}
+  
+.fa-download {
+    margin-right: 8px;
+}
+
+.cv-container {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    background-color: #fff;
+    box-sizing: border-box;
+    /*overflow: hidden;*/
+}
