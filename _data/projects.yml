@@ -26,7 +26,7 @@
 - name: MonkeyJump
   gh_user: MartinezAgullo
   repo: MonkeyJump
-  desc: Game based on the <a href="https://www.pygame.org/news">pygame</a> framework and inspired by the Dinosaur Game built into the Google Chrome web browser.
+  desc: Game based on the <a href="https://www.pygame.org/news">pygame</a> framework and inspired by the Dinosaur Game built into the Google Chrome web browser. Later a reinforced learning alogorithm learns to play it in the project <a href="https://github.com/MartinezAgullo/Learn_MonkeyJump">Learn_MonkeyJump</a>.
   img: ../images/repos/Monkey_1.png
 
 - name: NLP_WebApp

@@ -444,3 +444,68 @@ function openTab(evt, tabName) {
 <!-- End CV body -->
 
 </html>
+
+<!-- 
+Aprendizaje automático
+Autonomía
+BeautifulSoup
+Biblioteca Pandas Python
+C (lenguaje de programación)
+C++
+Cálculos matemáticos
+Ciencia de datos
+Composición de LaTeX
+Comunicación
+Desarrollo de software en Python
+Documentación de datos
+Estadística
+Estadística aplicada
+Estadísticas R
+Facilidad de liderazgo
+Física
+Física estadística
+Física teórica
+Flask (marco de trabajo web)
+Formación de liderazgo
+GitHub
+GitLab
+GitLab CI/CD
+Git Svn
+Herramientas de datos
+Inteligencia artificial (IA)
+Inteligencia emocional
+Jupyter Notebook
+Keras
+LaTex
+Lenguaje de marcas de hipertexto (HTML)
+Lenguaje de programación C++
+Lenguaje MATLAB
+Liderazgo
+Liderazgo de personas
+LSTM
+Matematicas
+Matemáticas
+Matemáticas técnicas
+Matplotlib
+Modern Physics
+Neural Networks
+Organización de equipo
+Pandas (software)
+PL/SQL (lenguaje de programación)
+Programación de lenguaje natural (NLP)
+Python
+Python (lenguaje de programación)
+Python Matplotlib
+Python Numpy
+Python para análisis de datos
+PyTorch
+Redes neuronales
+Redes neuronales convolucionales (CNN)
+Redes neuronales profundas (RNP)
+R-Studio
+SciPy
+Trabajo en equipo
+Visión artificial
+Web Scraping
+XGBoost
+-->
