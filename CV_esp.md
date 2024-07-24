@@ -187,8 +187,8 @@ permalink: /cv_esp/
     <br>
     <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst (Internship)</b></h4></p>
-      <p><h6><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6></p>
-      <p><h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
+      <p><h6><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</h6>
+      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Nov 2014 - Jul 2015</h6></p>
       <p>My initial foray into research was an external internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analysed data from silicon detectors to calibrate scientific instruments. During this tenure, I not only worked with photomultiplier tubes (PMTs) and silicon photomultipliers (SiPMs) but also employed lasers and vacuum systems.</p><br>
     </div>
@@ -416,7 +416,7 @@ permalink: /cv_esp/
 <!-- begin footer -->
 <footer class="container cv-center cv-margin-top">
   <p>
-    <a href="{{ site.baseurl }}/bio/CV_ENG_.pdf" title="link to CV" target="_blank" class="cv-button cv-margin-top">
+    <a href="{{ site.baseurl }}/bio/CV_ESP_.pdf" title="link to CV" target="_blank" class="cv-button cv-margin-top">
       <i class="fa fa-download"></i> Download CV PDF
     </a>
   </p>
