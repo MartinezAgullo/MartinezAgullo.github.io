@@ -362,7 +362,7 @@ permalink: /cv/
             <div class="cv-round-xlarge cv-teal" style="height:24px;width:100%"></div>
           </div></p>
           <br>
-          <p>Enlglish
+          <p>English
           <div class="cv-light-grey cv-round-xlarge">
             <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
           </div></p>

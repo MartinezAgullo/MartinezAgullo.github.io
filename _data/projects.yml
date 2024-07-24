@@ -8,7 +8,7 @@
 - name: XGBoost_tHq
   gh_user: MartinezAgullo
   repo: XGBoost_tHq
-  desc: Collection of Python scripts to train, optimise and inject a Boosted Decision Tree using the <a href="https://xgboost.readthedocs.io/en/stable/">XGBoost</a>.
+  desc: Collection of Python scripts to train, optimise and inject a Boosted Decision Tree using the <a href="https://xgboost.readthedocs.io/en/stable/">XGBoost</a> library.
   img: ../images/repos/XGBoost_tHq.png
 
 - name: InDetAlignmentWebMonitor
