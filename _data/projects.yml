@@ -17,6 +17,12 @@
   desc: Package for <a href="https://atlasalignment.cern.ch/webapp">Web App</a> for the online monitoring of the <a href="https://atlas.cern/">ATLAS</a> Inner Detector alignment.
   img: ../images/repos/WebDisplay.png
 
+- name: PhD_Thesis
+  gh_user: MartinezAgullo
+  repo: PhD_Thesis
+  desc: LaTeX files for the <a href="https://cds.cern.ch/record/2892621">PhD Thesis</a> "Search for the Higgs boson produced in association with a top quark using 	&#964; leptons with ATLAS".
+  img: ../images/repos/thesis.png
+
 - name: DeepLearning_intro
   gh_user: MartinezAgullo
   repo: DeepLearning_intro
