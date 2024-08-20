@@ -2,7 +2,7 @@
 - name: Root_with_Python
   gh_user: MartinezAgullo
   repo: Root_with_Python
-  desc: Collection of scripts that combine python and <a href="https://root.cern/">ROOT</a> for data analysis. The folder <a href="https://github.com/MartinezAgullo/Root_with_Python/tree/main/TMVA">TMVA</a> contains a Machine-Learning tool based on the <a href="https://root.cern/manual/tmva/">TMVA</a> library.
+  desc: Collection of scripts that combine Python and <a href="https://root.cern/">ROOT</a> for data analysis. The folder <a href="https://github.com/MartinezAgullo/Root_with_Python/tree/main/TMVA">TMVA</a> contains a Machine-Learning tool based on the <a href="https://root.cern/manual/tmva/">TMVA</a> library.
   img: ../images/repos/Root_with_Python_2.png
 
 - name: XGBoost_tHq
@@ -20,7 +20,7 @@
 - name: PhD_Thesis
   gh_user: MartinezAgullo
   repo: PhD_Thesis
-  desc: LaTeX files for the <a href="https://cds.cern.ch/record/2892621">PhD Thesis</a> "Search for the Higgs boson produced in association with a top quark using 	&#964; leptons with ATLAS".
+  desc: LaTeX files for the <a href="https://cds.cern.ch/record/2892621">PhD thesis</a> "Search for the Higgs boson produced in association with a top quark using 	 &#964; leptons with ATLAS".
   img: ../images/repos/thesis.png
 
 - name: DeepLearning_intro
@@ -32,25 +32,31 @@
 - name: MonkeyJump
   gh_user: MartinezAgullo
   repo: MonkeyJump
-  desc: Game based on the <a href="https://www.pygame.org/news">pygame</a> framework and inspired by the Dinosaur Game built into the Google Chrome web browser. Later a reinforced learning alogorithm learns to play it in the project <a href="https://github.com/MartinezAgullo/Learn_MonkeyJump">Learn_MonkeyJump</a>.
+  desc: Game based on the <a href="https://www.pygame.org/news">pygame</a> framework and inspired by the Dinosaur Game built into the Google Chrome web browser. Later a reinforcement learning algorithm learns to play it in the project <a href="https://github.com/MartinezAgullo/Learn_MonkeyJump">Learn_MonkeyJump</a>.
   img: ../images/repos/Monkey_1.png
 
 - name: Blackjack_RL
   gh_user: MartinezAgullo
   repo: Blackjack_RL
-  desc: Implementation of a single agent reinforced learning algorithm based on Gymnasium's <a href="https://gymnasium.farama.org/environments/Toy Text/">pygame</a> envirorment. The Q-agent learns to play the popular game of BlackJack.
+  desc: Implementation of a single agent reinforced learning algorithm based on Gymnasium's <a href="https://gymnasium.farama.org/environments/Toy Text/">pygame</a> environment. The Q-agent learns to play the popular game of BlackJack.
   img: ../images/repos/BlackJack_RL.png
+
+- name: GenAI_ImgCaptioner
+  gh_user: MartinezAgullo
+  repo: GenAI_1_ImgCaptioner
+  desc: Tools to perform image captioning. Based on <a href="https://pytorch.org/vision/stable/index.html">PyTorch's torchvision</a> and  <a href="https://huggingface.co/docs/transformers/en/model_doc/blip">HuggingFace's BLIP</a>. The web interfaces are obtained using <a href=" https://www.gradio.app/">Gradio</a>.
+  img: ../images/repos/GenAI_ImgCaptioner1.png
 
 - name: NBA_Stats
   gh_user: MartinezAgullo
   repo: NBA_Stats
-  desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform some analysis.
+  desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform analysis.
   img: ../images/repos/NBA_Stats_img.png
 
 - name: github.io
   gh_user: MartinezAgullo
   repo: MartinezAgullo.github.io
-  desc: This <a href="https://martinezagullo.github.io/">website</a> that you are seeing right now. It is based on the <a href="https://github.com/joshgerdes/jekyll-uno/">jekyll-uno</a>.
+  desc: This <a href="https://martinezagullo.github.io/">website</a> that you are seeing right now. It is based on the <a href="https://github.com/joshgerdes/jekyll-uno/">Jekyll-Uno</a>.
   img: ../images/repos/githubio.png
 
 - name: NLP_WebApp

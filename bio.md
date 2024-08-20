@@ -6,7 +6,7 @@ permalink: /bio/
 ---
 
 Hello there! <br>
-I'm Pablo, a PhD in Physics from the University of Valencia and the Instituto de Física Corpuscular (IFIC). My research was conducted for the ATLAS experiment at the European Organization for Nuclear Research (CERN), where I focused on analyzing the vast volumes of data from from the Large Hadron Collider (LHC) to better understand the physics of the top quark and the Higgs boson. I have a strong emphasis on software development tailored for data analysis and have developed substantial expertise in creating machine learning solutions to enhance data interpretation and research outcomes.
+I’m Pablo, a Ph.D. in Physics from the University of Valencia and the Instituto de Física Corpuscular (IFIC). My research was conducted for the ATLAS experiment at the European Organization for Nuclear Research (CERN), where I focused on analysing vast volumes of data from the Large Hadron Collider (LHC) to better understand the physics of the top quark and the Higgs boson. I place a strong emphasis on software development tailored for data analysis. Over the years, I have developed substantial expertise in creating machine learning solutions that enhance data interpretation and research outcomes.
 
 
 <div class="video-container">

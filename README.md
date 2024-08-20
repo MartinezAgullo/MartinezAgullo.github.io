@@ -6,6 +6,10 @@ My personal webpage. See the result [here](https://martinezagullo.github.io/).
 A Jekyll theme based on [Uno](https://github.com/joshgerdes/jekyll-uno) and the [Uno Timeline](https://github.com/tzuehlke/jekyll-uno-timeline). 
 I added a web-based CV.
 
+Run with 
+
+bundle exec jekyll serve --watch
+
 
 ## Details/Features/Changes
 Based on [Uno Timeline Theme](https://github.com/tzuehlke/jekyll-uno-timeline) but:
@@ -22,4 +26,5 @@ Based on [Uno Timeline Theme](https://github.com/tzuehlke/jekyll-uno-timeline) b
 
 > :warning:
   This theme requires ruby and rubygems installed
+
 
