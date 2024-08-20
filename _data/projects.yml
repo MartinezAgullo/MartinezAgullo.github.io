@@ -44,8 +44,14 @@
 - name: GenAI_ImgCaptioner
   gh_user: MartinezAgullo
   repo: GenAI_1_ImgCaptioner
-  desc: Tools to perform image captioning. Based on <a href="https://pytorch.org/vision/stable/index.html">PyTorch's torchvision</a> and  <a href="https://huggingface.co/docs/transformers/en/model_doc/blip">HuggingFace's BLIP</a>. The web interfaces are obtained using <a href=" https://www.gradio.app/">Gradio</a>.
+  desc: Tools to perform automatic image captioning. Based on <a href="https://pytorch.org/vision/stable/index.html">PyTorch's torchvision</a> and  <a href="https://huggingface.co/docs/transformers/en/model_doc/blip">HuggingFace's BLIP</a>. The web interfaces are obtained using <a href=" https://www.gradio.app/">Gradio</a>.
   img: ../images/repos/GenAI_ImgCaptioner1.png
+
+- name: GenAI_ChatBot
+  gh_user: MartinezAgullo
+  repo: GenAI_2_WebChatbot
+  desc: ChatGPT-like Website.
+  img: ../images/repos/GenAI_2_WebChatbot.png
 
 - name: NBA_Stats
   gh_user: MartinezAgullo
