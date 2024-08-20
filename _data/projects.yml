@@ -51,7 +51,7 @@
   gh_user: MartinezAgullo
   repo: GenAI_2_WebChatbot
   desc: ChatGPT-like Website.
-  img: ../images/repos/GenAI_2_WebChatbot.png
+  img: ../images/repos/GenAI_2_WebChatbot_Interface.png
 
 - name: NBA_Stats
   gh_user: MartinezAgullo
