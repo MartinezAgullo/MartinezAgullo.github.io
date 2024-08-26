@@ -62,8 +62,15 @@
 - name: GenAI_MeetingCompanion
   gh_user: MartinezAgullo
   repo: GenAI_4_MeetingAssistant
-  desc: Application to transcribe discussions and provides a concise summary of a meeting. OpenAI's <a href="https://openai.com/index/whisper/">Whisper</a> is used to transform speech into text and IBM <a href="https://developer.ibm.com/tutorials/use-the-watson-core-nlp-library-to-perform-sentiment-analysis/">Watson's AI</a> to summarize and find key points. The web interfaces are obtained using <a href=" https://www.gradio.app/">Gradio</a>.
+  desc: Application to transcribe discussions and provides a concise summary of a meeting. OpenAI's <a href="https://openai.com/index/whisper/">Whisper</a> is used to for STT and IBM <a href="https://developer.ibm.com/tutorials/use-the-watson-core-nlp-library-to-perform-sentiment-analysis/">Watson's AI</a> to summarize and find key points. Interfaced with <a href=" https://www.gradio.app/">Gradio</a>.
   img: ../images/repos/AudioTranscriptionApp_dalle.webp #AudioTranscriptionApp
+
+- name: GenAI_SummariseData
+  gh_user: MartinezAgullo
+  repo: GenAI_5_SummariseData
+  desc: Chatbot that reads a pdf document and answers questions about it.
+  img: ../images/repos/GenAI_5_PersonalDataAsistant.png
+
 
 
 - name: NBA_Stats
