@@ -7,8 +7,7 @@ A Jekyll theme based on [Uno](https://github.com/joshgerdes/jekyll-uno) and the 
 I added a web-based CV.
 
 Run with 
-
-bundle exec jekyll serve --watch
+'bundle exec jekyll serve --watch'
 
 
 ## Details/Features/Changes
