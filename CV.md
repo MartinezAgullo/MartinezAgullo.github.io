@@ -302,6 +302,18 @@ permalink: /cv/
           <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
           <span>Keras</span>
         </div>
+        <div class="skill-square">
+          <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
+          <span>LLaMA</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/LangChain.png" alt="LangChain" class="skill-icon">
+          <span>LangChain</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Bert.webp" alt="Bert" class="skill-icon">
+          <span>Bert</span>
+        </div>
       </div>
       <h4>Data Visualisation, Analysis, and Scraping</h4>
       <div class="skills-grid">
@@ -349,6 +361,10 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
           <span>Flask</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon">
+          <span>Gradio</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Web_HTML.png" alt="HTML" class="skill-icon">

@@ -38,7 +38,7 @@
 - name: Blackjack_RL
   gh_user: MartinezAgullo
   repo: Blackjack_RL
-  desc: Implementation of a single agent reinforced learning algorithm based on Gymnasium's <a href="https://gymnasium.farama.org/environments/Toy Text/">pygame</a> environment. The Q-agent learns to play the popular game of BlackJack.
+  desc: Implementation of a single agent reinforced learning algorithm based on <a href="https://gymnasium.farama.org/index.html/">Gymnasium</a>'s <a href="https://gymnasium.farama.org/environments/toy_text/">pygame</a> environment. The Q-agent learns to play the popular game of BlackJack.
   img: ../images/repos/BlackJack_RL.png
 
 - name: GenAI_ImgCaptioner
@@ -50,8 +50,9 @@
 - name: GenAI_ChatBot
   gh_user: MartinezAgullo
   repo: GenAI_2_WebChatbot
-  desc: Chatbot with Open Source LLMs using Python and Hugging Face. <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a> is used for hosting the backend service.
+  desc: Chatbot with Open Source LLMs using Python and <a href="https://huggingface.co/models">Hugging Face</a>. <a href="https://huggingface.co/facebook/blenderbot-400M-distill">blenderbot</a>. <a href="https://flask.palletsprojects.com/en/3.0.x/">Flask</a> is used for hosting the backend service.
   img: ../images/repos/GenAI_2_WebChatbot_Interface.png
+
 
 - name: GenAI_VoiceAssistant
   gh_user: MartinezAgullo
@@ -68,7 +69,7 @@
 - name: GenAI_SummariseData
   gh_user: MartinezAgullo
   repo: GenAI_5_SummariseData
-  desc: Chatbot that reads a pdf document and answers questions about it.
+  desc: Chatbot to read a pdf document and answer questions about it using <a href="https://llama.meta.com/llama2/">Llama2 LLM</a>. The <a href="https://www.langchain.com/">LangChain</a> framework is used to integrate the RAG.
   img: ../images/repos/GenAI_5_PersonalDataAsistant.png
 
 
