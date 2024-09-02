@@ -413,9 +413,10 @@ permalink: /cv/
   <div id="Outreach" class="container cv-white cv-card tab">
   <h2>Outreach</h2>
   <div class="cv-container">
-    <p>Concurrently, I engage in science communication during my free time, delivering talks at schools, participating in science fairs, and contributing to a science podcast.</p>
+    <!--<p>Concurrently, I engage in science communication during my free time, delivering talks at schools, participating in science fairs, and contributing to a science podcast.</p>-->
+    <p>As a passionate advocate for science and education, I believe in the importance of making complex ideas accessible to everyone. Throughout my career, I have actively engaged in various outreach activities aimed at bridging the gap between the scientific community and the public. From public lectures and podcasts to organizing science fairs and workshops, my goal has always been to inspire curiosity, foster understanding, and encourage the next generation of thinkers and innovators. Here, you’ll find a collection of my outreach efforts, showcasing my commitment to sharing knowledge and promoting scientific literacy in a meaningful and impactful way.</p>
     <br>
-    <p style="margin-bottom: 0;">Links to:</p>
+    <p style="margin-bottom: 0;"> Below, you’ll find a collection of links to some of my outreach efforts.  These resources reflect my commitment to sharing knowledge and promoting scientific literacy, offering a glimpse into the diverse ways I engage with audiences beyond the academic world.</p>
     <ul style="margin-top: 0;">
       <li>Speaker and host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ asistentes, 2022).</li>
       <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>

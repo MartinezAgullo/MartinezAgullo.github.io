@@ -23,6 +23,12 @@
   desc: LaTeX files for the <a href="https://cds.cern.ch/record/2892621">PhD thesis</a> "Search for the Higgs boson produced in association with a top quark using 	 &#964; leptons with ATLAS".
   img: ../images/repos/thesis.png
 
+- name: MSc_Thesis
+  gh_user: MartinezAgullo
+  repo: MSc_Thesis
+  desc: LaTeX files for the <a href="https://cds.cern.ch/record/2285874">master thesis</a> "Optimisation of selection criteria of <i>t</i>-channel single-top-quark events at &radic;s= 13 TeV for studies of anomalous couplings in the <i>Wtb</i> vertex".
+  img: ../images/repos/msc_thesis.png
+
 - name: DeepLearning_intro
   gh_user: MartinezAgullo
   repo: DeepLearning_intro
@@ -71,7 +77,6 @@
   repo: GenAI_5_SummariseData
   desc: Chatbot to read a pdf document and answer questions about it using <a href="https://llama.meta.com/llama2/">Llama2 LLM</a>. The <a href="https://www.langchain.com/">LangChain</a> framework is used to integrate the RAG.
   img: ../images/repos/GenAI_5_PersonalDataAsistant.png
-
 
 
 - name: NBA_Stats
