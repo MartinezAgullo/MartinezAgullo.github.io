@@ -418,7 +418,7 @@ permalink: /cv/
     <br>
     <p style="margin-bottom: 0;"> Below, you’ll find a collection of links to some of my outreach efforts.  These resources reflect my commitment to sharing knowledge and promoting scientific literacy, offering a glimpse into the diverse ways I engage with audiences beyond the academic world.</p>
     <ul style="margin-top: 0;">
-      <li>Speaker and host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ asistentes, 2022).</li>
+      <li>Speaker and host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ assistants, 2022).</li>
       <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>
       <li>Interview by fisicamr about LHCRun3: <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/" target="_blank">Instagram post</a>.</li>
       <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
