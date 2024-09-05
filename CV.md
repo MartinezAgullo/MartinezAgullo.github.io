@@ -268,16 +268,16 @@ permalink: /cv/
       <h4>Data Manipulation</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon">
-          <span>ROOT</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/Pandas.png" alt="Pandas" class="skill-icon">
           <span>Pandas</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/NumPy.svg" alt="NumPy" class="skill-icon">
           <span>NumPy</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon">
+          <span>ROOT</span>
         </div>
       </div>
       <h4>Machine Learning</h4>
@@ -342,21 +342,17 @@ permalink: /cv/
     <div class="cv-container skill-section">
       <h3>Others</h3>
       <div class="skills-grid">
+      <div class="skill-square">
+          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
+          <span>GitLab</span>
+        </div>
         <div class="skill-square">
           <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
           <span>GitHub</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
-          <span>GitLab</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">
           <span>LaTeX</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
-          <span>CherryPy</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
@@ -377,6 +373,10 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
           <span>JavaScript</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
+          <span>CherryPy</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Matlab.png" alt="Matlab" class="skill-icon">
