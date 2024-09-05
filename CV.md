@@ -342,13 +342,13 @@ permalink: /cv/
     <div class="cv-container skill-section">
       <h3>Others</h3>
       <div class="skills-grid">
-      <div class="skill-square">
-          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
-          <span>GitLab</span>
-        </div>
         <div class="skill-square">
           <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
           <span>GitHub</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
+          <span>GitLab</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">

@@ -25,6 +25,7 @@
 
 .cv-bar-item {
     flex: 1;
+    flex-basis: 0;
     text-align: center;
     padding: 14px 16px;
     transition: background-color 0.3s ease;
@@ -34,8 +35,11 @@
     border: none;
     font-size: 16px;
     line-height: 24px;
-    border-radius: 0; /* Ensure no border radius for tabs to avoid size inconsistency */
+    border-radius: 0; 
     box-sizing: border-box;
+    min-width: 100px; /* Ensure buttons don't get too small */
+    max-width: 40%;
+}
 }
 
 .cv-bar-item.cv-teal {
@@ -85,8 +89,10 @@
 
 @media (max-width: 600px) {
     .cv-bar-item {
-        padding: 10px;
+        flex-basis: 40%;
+        max-width: 40%;
         font-size: 14px;
+        padding: 10px;
     }
 
     .cv-container {
