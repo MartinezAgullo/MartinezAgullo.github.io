@@ -122,7 +122,7 @@ permalink: /cv/
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - Apr 2024</h6></p>
       <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
-      <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN).  My preferred languages are Python and C++ but I have also used Shell, R and SQL. I have used libraries such as PyTorch, Keras, XGBoost, Pandas, NumPy, Matplotlib, Scikit-Learn, SciPy, etc. I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
+      <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN).  My preferred languages are Python and C++ but I have also used Shell, R and SQL. I have used libraries such as PyTorch, TensorFlow, Keras, XGBoost, Pandas, NumPy, Matplotlib, Scikit-Learn, SciPy, etc. I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
       <br>
       This work was partially funded by the competitive and prestigious ACIF scholarship from the Generalitat Valenciana.
       <br>
@@ -135,7 +135,7 @@ permalink: /cv/
       <p><h6><a href="https://www.uv.es/uvweb/chemistry/en/faculty-chemistry-1285849471169.html" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>University of Valencia</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6></p>
-      <p>I have served as a lecturer (PDI) in the Chemistry degree programme, teaching subjects such as Electromagnetism and Laboratory Techniques (Physics II) during the academic years 2019/2020 and 2020/2021, combining both in-person and online instruction. Moreover, I have provided private tutoring in various engineering disciplines for nearly a decade.</p>
+      <p>I have served as a lecturer (PDI) in the Chemistry degree program, teaching subjects such as Electromagnetism and Laboratory Techniques (Physics II) during the academic years 2019/2020 and 2020/2021, utilizing both in-person and online instruction. In my teaching, I ensured that students developed not only a solid foundation in physics but also in the fundamentals of statistics, which are essential for data analysis in scientific and engineering contexts. Additionally, I have provided private tutoring across various engineering disciplines for nearly a decade.</p>
       <!-- <hr> -->
     </div>
     <br>
@@ -283,12 +283,16 @@ permalink: /cv/
       <h4>Machine Learning</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon">
-          <span>XGBoost</span>
+          <img src="../images/Logos/TensorFlow.png" alt="TensorFlow" class="skill-icon">
+          <span>TensorFlow</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/PyTorch.png" alt="PyTorch" class="skill-icon">
           <span>PyTorch</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon">
+          <span>XGBoost</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/TMVA.png" alt="TMVA" class="skill-icon">
@@ -357,6 +361,10 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
           <span>Flask</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Django.jpg" alt="Django" class="skill-icon">
+          <span>Django</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon">
