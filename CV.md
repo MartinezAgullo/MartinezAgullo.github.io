@@ -116,6 +116,19 @@ permalink: /cv/
   <div id="Experience" class="container cv-white cv-card tab">
     <h2>Experience</h2>
     <div class="cv-container">
+    <div class="cv-container">
+      <p><h4 class="cv-opacity"><b>Artificial Intelligence Engineer</b></h4></p>
+      <p><h6><a href="https://www.mercadona.es" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
+      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
+      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Apr 2024 - Present</h6></p>
+      <p>
+      I design and deploy AI-driven solutions at Mercadona's IT department, mainly using Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and a multimodal app that extracts structured data from product label images (Gemini, Kafka, SQL). I follow hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduler using Pyomo.
+      </p>
+      <p>
+      All of this is done in close collaboration with internal clients to identify business needs and deliver scalable, production-ready applications. Beyond development, I act as an AI transformation enabler: I engage with stakeholders to translate strategic needs into AI solutions, lead technical discovery, and help define AI roadmaps aligned with business objectives.
+      </p>
+    </div>
+    <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst</b></h4></p>
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
       <h6><a href="https://home.cern/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</a></h6>
@@ -243,9 +256,10 @@ permalink: /cv/
       <p>I graduated with a <a href="https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-physics-1285846094474/Titulacio.html?id=1285847387274" target="_blank">Degree in Physics</a>, earning 258 ECTs. Throughout my studies, I honed my ability to tackle complex problems and cultivated innovative thinking. My strong mathematical and computational skills were developed during this time, significantly contributing to my academic success. Notably, the Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
     </div>
   </div> <!-- End Education Tab --> 
-  <!-- Skills Tab -->
   <div id="Skills" class="container cv-white cv-card tab">
     <h2>Skills</h2>
+
+    <!-- Programming Languages -->
     <div class="cv-container skill-section">
       <h3>Programming Languages</h3>
       <div class="skills-grid">
@@ -263,8 +277,10 @@ permalink: /cv/
         </div>
       </div>
     </div>
+
+    <!-- Data Science & Machine Learning -->
     <div class="cv-container skill-section">
-      <h3>Data Science</h3>
+      <h3>Data Science & Machine Learning</h3>
       <h4>Data Manipulation</h4>
       <div class="skills-grid">
         <div class="skill-square">
@@ -280,7 +296,8 @@ permalink: /cv/
           <span>ROOT</span>
         </div>
       </div>
-      <h4>Machine Learning</h4>
+
+      <h4>Machine Learning & Generative AI</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/TensorFlow.png" alt="TensorFlow" class="skill-icon">
@@ -295,16 +312,16 @@ permalink: /cv/
           <span>XGBoost</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/TMVA.png" alt="TMVA" class="skill-icon">
-          <span>TMVA</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/Scikit-Learn.png" alt="Scikit-Learn" class="skill-icon">
           <span>Scikit-Learn</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
           <span>Keras</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
+          <span>BERT</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
@@ -314,12 +331,9 @@ permalink: /cv/
           <img src="../images/Logos/LangChain.png" alt="LangChain" class="skill-icon">
           <span>LangChain</span>
         </div>
-        <div class="skill-square">
-          <img src="../images/Logos/Bert.webp" alt="Bert" class="skill-icon">
-          <span>Bert</span>
-        </div>
       </div>
-      <h4>Data Visualisation, Analysis, and Scraping</h4>
+
+      <h4>Data Visualization, Analysis & Scraping</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
@@ -342,22 +356,81 @@ permalink: /cv/
           <span>R</span>
         </div>
       </div>
-    </div> <!-- Closes Data Science -->
+    </div>
+
+    <!-- AI Infrastructure & Orchestration -->
     <div class="cv-container skill-section">
-      <h3>Others</h3>
+      <h3>AI Infrastructure & Orchestration</h3>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
-          <span>GitHub</span>
+          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
+          <span>Gemini</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
-          <span>GitLab</span>
+          <img src="../images/Logos/VertexAI.png" alt="Vertex AI" class="skill-icon">
+          <span>Vertex AI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">
-          <span>LaTeX</span>
+          <img src="../images/Logos/DialogFlowCX.png" alt="DialogFlow CX" class="skill-icon">
+          <span>DialogFlow CX</span>
         </div>
+        <div class="skill-square">
+          <img src="../images/Logos/FAISS.png" alt="FAISS" class="skill-icon">
+          <span>FAISS</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/FastAPI.png" alt="FastAPI" class="skill-icon">
+          <span>FastAPI</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cloud & DevOps -->
+    <div class="cv-container skill-section">
+      <h3>Cloud & DevOps</h3>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/GCP.png" alt="GCP" class="skill-icon">
+          <span>GCP</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon">
+          <span>Docker</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Kubernetes.png" alt="Kubernetes" class="skill-icon">
+          <span>Kubernetes</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Spinnaker.png" alt="Spinnaker" class="skill-icon">
+          <span>Spinnaker</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/CloudBees.png" alt="CloudBees" class="skill-icon">
+          <span>CloudBees</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Engineering & Optimization -->
+    <div class="cv-container skill-section">
+      <h3>Data Engineering & Optimization</h3>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon">
+          <span>Kafka</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
+          <span>Pyomo</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Web & Application Development -->
+    <div class="cv-container skill-section">
+      <h3>Web & Application Development</h3>
+      <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
           <span>Flask</span>
@@ -382,6 +455,25 @@ permalink: /cv/
           <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
           <span>JavaScript</span>
         </div>
+      </div>
+    </div>
+
+    <!-- Tools & Others -->
+    <div class="cv-container skill-section">
+      <h3>Tools & Others</h3>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
+          <span>GitHub</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
+          <span>GitLab</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">
+          <span>LaTeX</span>
+        </div>
         <div class="skill-square">
           <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
           <span>CherryPy</span>
@@ -391,32 +483,30 @@ permalink: /cv/
           <span>Matlab</span>
         </div>
       </div>
-    </div> <!-- closes Others -->
+    </div>
+
+    <!-- Languages -->
     <h2>Languages</h2>
     <div class="cv-container skill-section">
-    <!-- <p class="cv-large cv-text-theme"><b><i class="fa fa-globe fa-fw cv-margin-right cv-text-teal"></i>Languages</b></p> -->
-          <p>Spanish
-          <div class="cv-light-grey cv-round-xlarge">
-            <div class="cv-round-xlarge cv-teal" style="height:24px;width:100%"></div>
-          </div></p>
-          <br>
-          <p>English
-          <div class="cv-light-grey cv-round-xlarge">
-            <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
-          </div></p>
-          <br>
-          <p>Catalan
-          <div class="cv-light-grey cv-round-xlarge">
-            <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
-          </div></p>
-          <br>
-          <p>German
-          <div class="cv-light-grey cv-round-xlarge">
-            <div class="cv-round-xlarge cv-teal" style="height:24px;width:25%"></div>
-          </div></p>
-          <br>
+      <p>Spanish
+      <div class="cv-light-grey cv-round-xlarge">
+        <div class="cv-round-xlarge cv-teal" style="height:24px;width:100%"></div>
+      </div></p><br>
+      <p>English
+      <div class="cv-light-grey cv-round-xlarge">
+        <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
+      </div></p><br>
+      <p>Catalan
+      <div class="cv-light-grey cv-round-xlarge">
+        <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
+      </div></p><br>
+      <p>German
+      <div class="cv-light-grey cv-round-xlarge">
+        <div class="cv-round-xlarge cv-teal" style="height:24px;width:25%"></div>
+      </div></p><br>
     </div>
-  </div><!-- End Skills Tab (general) -->  
+  </div><!-- End Skills Tab -->
+
 
   <div id="Outreach" class="container cv-white cv-card tab">
   <h2>Outreach</h2>
@@ -426,6 +516,7 @@ permalink: /cv/
     <br>
     <p style="margin-bottom: 0;"> Below, you’ll find a collection of links to some of my outreach efforts.  These resources reflect my commitment to sharing knowledge and promoting scientific literacy, offering a glimpse into the diverse ways I engage with audiences beyond the academic world.</p>
     <ul style="margin-top: 0;">
+      <li>Host of the outreach event <a href="https://indico.ific.uv.es/event/7737/" target="_blank">CERN: 70 años de colaboración internacional desvelando los misterios del Universo</a> (800+ assistants, 2025).</li>
       <li>Speaker and host of the public event <a href="https://www.eventbrite.es/e/entradas-10o-aniversario-del-descubrimiento-del-boson-de-higgs-360545710927?aff=oddtdtcreator" target="_blank">10º aniversario del descubrimiento del bosón de Higgs</a> (700+ assistants, 2022).</li>
       <li>Contributor to the physics podcast <a href="https://www.ivoox.com/audios-canal-oscilador-armonico_s0_f21440131_p2_1.html?o=all" target="_blank">Oscilador Armónico</a>.</li>
       <li>Interview by fisicamr about LHCRun3: <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/" target="_blank">Instagram post</a>.</li>
