@@ -512,6 +512,9 @@ permalink: /cv/
       <li>Outreach talks for high schools: <a href="https://github.com/MartinezAgullo/Public/blob/main/Charla_Divulgativa_Instituto.pdf" target="_blank">Outreach talk</a>.</li>
     </ul>
     <br>
+    <div style="text-align: center;">
+      <img src="../images/Poster_70_CERN_b.jpeg" alt="CERN 70 Years Poster" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 20px;">
+    </div>
     <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_125008443_6_1.html?c1=e0d223' loading='lazy'></iframe>
     <div style="text-align: center;">
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
