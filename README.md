@@ -26,4 +26,9 @@ Based on [Uno Timeline Theme](https://github.com/tzuehlke/jekyll-uno-timeline) b
 > :warning:
   This theme requires ruby and rubygems installed
 
+<!-- 
+run with:
+#uvicorn app.main:app --reload    
 
+bundle exec jekyll serve
+-->

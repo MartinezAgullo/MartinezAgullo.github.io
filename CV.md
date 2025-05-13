@@ -69,7 +69,7 @@ permalink: /cv/
         }
         .tab-content {
             padding: 6px 12px;
-           Programing Languages border-top: none;
+            border-top: none;
         }
     </style>
 </head>
@@ -82,16 +82,16 @@ permalink: /cv/
 
   <!-- Tabs -->
   <div class="cv-bar cv-black">
-    <button class="cv-bar-item cv-button tablink cv-teal" onclick="openTab(event, 'Profile')">Profile</button>
+    <button class="cv-bar-item cv-button tablink cv-teal" onclick="openTab(event, 'Contact')">Profile</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Experience')">Experience</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Education')">Education</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Skills')">Skills</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Outreach')">Outreach</button>
   </div>
 
-  <!-- Profile Tab -->
-  <div id="Profile" class="container cv-white cv-card tab" style="display: block;">
-    <h2>Profile</h2>
+  <!-- Contact Tab -->
+  <div id="Contact" class="container cv-white cv-card tab" style="display: block;">
+    <h2>Contact</h2>
     <div class="cv-container cv-text-grey cv-card-4">
       <div class="cv-display-container image-hover-container">
           <img src="../images/pma_formal.png" class="image-normal" alt="Avatar">
@@ -102,25 +102,24 @@ permalink: /cv/
       </div>
       <br>
       <div class="cv-container">
-        <p><i class="fa fa-briefcase fa-fw cv-margin-right cv-large icon-black"></i>{{ site.author.job_title }}</p>
-        <p><i class="fa fa-home fa-fw cv-margin-right cv-large icon-black"></i>{{ site.author.location }}</p>
-        <p><i class="fa fa-envelope fa-fw cv-margin-right cv-large icon-black"></i><a href="mailto:pablo.martinez.agullo@gmail.com">pablo.martinez.agullo@gmail.com</a></p>
-        <p><i class="fa fa-phone fa-fw cv-margin-right cv-large icon-black"></i>{{ site.author.phone }}</p>
+        <!-- <p><i class="fa fa-briefcase fa-fw cv-margin-right cv-large icon-black"></i>{{ site.author.job_title }}</p> -->
+        <p><i class="fa fa-home fa-fw cv-margin-right cv-large icon-black"></i> {{ site.author.location }}</p>
+        <p><i class="fa fa-envelope fa-fw cv-margin-right cv-large icon-black"></i> <a href="mailto:pablo.martinez.agullo@gmail.com">pablo.martinez.agullo@gmail.com</a></p>
+        <p><i class="fa fa-phone fa-fw cv-margin-right cv-large icon-black"></i> {{ site.author.phone }}</p>
       </div>
     <br>  
     </div>
     <br>
-  </div> <!-- End Profile Tab -->
+  </div> <!-- End Contact Tab -->
 
   <!-- Experience Tab -->
   <div id="Experience" class="container cv-white cv-card tab">
     <h2>Experience</h2>
     <div class="cv-container">
-    <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Artificial Intelligence Engineer</b></h4></p>
-      <p><h6><a href="https://www.mercadona.es" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
+      <p><h6><a href="https://info.mercadona.es/en/mercadonait" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Apr 2024 - Present</h6></p>
+      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Oct 2024 - Present</h6></p>
       <p>
       I design and deploy AI-driven solutions at Mercadona's IT department, mainly using Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and a multimodal app that extracts structured data from product label images (Gemini, Kafka, SQL). I follow hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduler using Pyomo.
       </p>
@@ -133,7 +132,7 @@ permalink: /cv/
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
       <h6><a href="https://home.cern/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - Apr 2024</h6></p>
+      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - May 2024</h6></p>
       <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
       <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN).  My preferred languages are Python and C++ but I have also used Shell, R and SQL. I have used libraries such as PyTorch, TensorFlow, Keras, XGBoost, Pandas, NumPy, Matplotlib, Scikit-Learn, SciPy, etc. I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
       <br>
@@ -258,7 +257,6 @@ permalink: /cv/
   </div> <!-- End Education Tab --> 
   <div id="Skills" class="container cv-white cv-card tab">
     <h2>Skills</h2>
-
     <!-- Programming Languages -->
     <div class="cv-container skill-section">
       <h3>Programming Languages</h3>
@@ -277,7 +275,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Data Science & Machine Learning -->
     <div class="cv-container skill-section">
       <h3>Data Science & Machine Learning</h3>
@@ -296,11 +293,10 @@ permalink: /cv/
           <span>ROOT</span>
         </div>
       </div>
-
       <h4>Machine Learning & Generative AI</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/TensorFlow.png" alt="TensorFlow" class="skill-icon">
+          <img src="../images/Logos/TensorFlow.svg" alt="TensorFlow" class="skill-icon">
           <span>TensorFlow</span>
         </div>
         <div class="skill-square">
@@ -332,7 +328,6 @@ permalink: /cv/
           <span>LangChain</span>
         </div>
       </div>
-
       <h4>Data Visualization, Analysis & Scraping</h4>
       <div class="skills-grid">
         <div class="skill-square">
@@ -357,7 +352,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- AI Infrastructure & Orchestration -->
     <div class="cv-container skill-section">
       <h3>AI Infrastructure & Orchestration</h3>
@@ -367,15 +361,15 @@ permalink: /cv/
           <span>Gemini</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/VertexAI.png" alt="Vertex AI" class="skill-icon">
+          <img src="../images/Logos/VertexAI.svg" alt="Vertex AI" class="skill-icon">
           <span>Vertex AI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/DialogFlowCX.png" alt="DialogFlow CX" class="skill-icon">
+          <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon">
           <span>DialogFlow CX</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/FAISS.png" alt="FAISS" class="skill-icon">
+          <img src="../images/Logos/Meta.jpg" alt="FAISS" class="skill-icon">
           <span>FAISS</span>
         </div>
         <div class="skill-square">
@@ -384,25 +378,24 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Cloud & DevOps -->
     <div class="cv-container skill-section">
       <h3>Cloud & DevOps</h3>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/GCP.png" alt="GCP" class="skill-icon">
+          <img src="../images/Logos/GCP.svg" alt="GCP" class="skill-icon">
           <span>GCP</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon">
+          <img src="../images/Logos/Docker.svg" alt="Docker" class="skill-icon">
           <span>Docker</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Kubernetes.png" alt="Kubernetes" class="skill-icon">
+          <img src="../images/Logos/Kubernetes.svg" alt="Kubernetes" class="skill-icon">
           <span>Kubernetes</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Spinnaker.png" alt="Spinnaker" class="skill-icon">
+          <img src="../images/Logos/Spinnaker.svg" alt="Spinnaker" class="skill-icon">
           <span>Spinnaker</span>
         </div>
         <div class="skill-square">
@@ -411,7 +404,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Data Engineering & Optimization -->
     <div class="cv-container skill-section">
       <h3>Data Engineering & Optimization</h3>
@@ -426,7 +418,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Web & Application Development -->
     <div class="cv-container skill-section">
       <h3>Web & Application Development</h3>
@@ -436,7 +427,7 @@ permalink: /cv/
           <span>Flask</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Django.jpg" alt="Django" class="skill-icon">
+          <img src="../images/Logos/Django.svg" alt="Django" class="skill-icon">
           <span>Django</span>
         </div>
         <div class="skill-square">
@@ -457,7 +448,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Tools & Others -->
     <div class="cv-container skill-section">
       <h3>Tools & Others</h3>
@@ -484,7 +474,6 @@ permalink: /cv/
         </div>
       </div>
     </div>
-
     <!-- Languages -->
     <h2>Languages</h2>
     <div class="cv-container skill-section">
