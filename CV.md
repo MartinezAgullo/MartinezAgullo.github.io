@@ -121,12 +121,13 @@ permalink: /cv/
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Oct 2024 - Present</h6></p>
       <p>
-      I design and deploy AI-driven solutions at Mercadona's IT department, mainly using Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and a multimodal app that extracts structured data from product label images (Gemini, Kafka, SQL). I follow hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduler using Pyomo.
+      I design and deploy AI-driven solutions at Mercadona's IT department, mainly using Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and a an application that extracts structured data from product label images (Gemini, Kafka, SQL). I follow hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduler using Pyomo.
       </p>
       <p>
       All of this is done in close collaboration with internal clients to identify business needs and deliver scalable, production-ready applications. Beyond development, I act as an AI transformation enabler: I engage with stakeholders to translate strategic needs into AI solutions, lead technical discovery, and help define AI roadmaps aligned with business objectives.
       </p>
     </div>
+    <br>
     <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst</b></h4></p>
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
@@ -513,8 +514,10 @@ permalink: /cv/
     </ul>
     <br>
     <div style="text-align: center;">
-      <img src="../images/Poster_70_CERN_b.jpeg" alt="CERN 70 Years Poster" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 20px;">
+      <img src="../images/Poster_70_CERN_b.jpeg" alt="CERN 70 Years Poster" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 5px;">
+      <p>Outreach event: 70 años del CERN</p>
     </div>
+    <br>
     <iframe frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:100%;' src='https://www.ivoox.com/player_ej_125008443_6_1.html?c1=e0d223' loading='lazy'></iframe>
     <div style="text-align: center;">
       <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
@@ -522,14 +525,14 @@ permalink: /cv/
       </div>
       <p>Outreach event 10º aniversario del descubrimiento del bosón de Higgs</p>
     </div>
-    <br>
+    <!-- <br>
     <div style="text-align: center;">
-      <blockquote class="instagram-media cv-center" data-instgrm-permalink="https://www.instagram.com/reel/Cfo9nBwp6y2/" data-instgrm-version="14" style="max-width: 540px; width: 100%; margin: auto;">
+      <blockquote class="instagram-media cv-center" data-instgrm-permalink="https://www.instagram.com/reel/Cfo9nBwp6y2/" data-instgrm-version="14" style="max-width: 540px; width: 100%; margin: auto; margin-bottom: 5px;">
         <a href="https://www.instagram.com/reel/Cfo9nBwp6y2/"></a>
       </blockquote>
       <script async src="//www.instagram.com/embed.js"></script>
       <p>Interview by fisicamr about LHCRun3</p>
-    </div>
+    </div> -->
   </div>
   <br>
 </div> <!-- End Outreach Tab -->
