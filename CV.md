@@ -294,7 +294,7 @@ permalink: /cv/
           <span>ROOT</span>
         </div>
       </div>
-      <h4>Machine Learning & Generative AI</h4>
+      <h4>Machine Learning</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/TensorFlow.svg" alt="TensorFlow" class="skill-icon">
@@ -316,6 +316,9 @@ permalink: /cv/
           <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
           <span>Keras</span>
         </div>
+      </div>
+      <h4>Generative AI & Foundation Models</h4>
+      <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
           <span>BERT</span>
@@ -370,25 +373,23 @@ permalink: /cv/
           <span>DialogFlow CX</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Meta.jpg" alt="FAISS" class="skill-icon">
+          <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
           <span>FAISS</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/FastAPI.png" alt="FastAPI" class="skill-icon">
-          <span>FastAPI</span>
         </div>
       </div>
     </div>
-    <!-- Cloud & DevOps -->
+    <!-- Software Engineering for AI -->
     <div class="cv-container skill-section">
-      <h3>Cloud & DevOps</h3>
+      <h3>Software Engineering for AI</h3>
+      <!-- <p class="cv-light-grey">Tools and frameworks I use to build, deploy, and scale AI-powered applications.</p> -->
+      <h4>Cloud & DevOps</h4>  <!-- Cloud & DevOps -->
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/GCP.svg" alt="GCP" class="skill-icon">
           <span>GCP</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Docker.svg" alt="Docker" class="skill-icon">
+          <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon">
           <span>Docker</span>
         </div>
         <div class="skill-square">
@@ -404,24 +405,14 @@ permalink: /cv/
           <span>CloudBees</span>
         </div>
       </div>
-    </div>
-    <!-- Data Engineering & Optimization -->
-    <div class="cv-container skill-section">
-      <h3>Data Engineering & Optimization</h3>
+      <h4>Data Engineering</h4> <!-- Data Engineering  -->
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon">
           <span>Kafka</span>
         </div>
-        <div class="skill-square">
-          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
-          <span>Pyomo</span>
-        </div>
       </div>
-    </div>
-    <!-- Web & Application Development -->
-    <div class="cv-container skill-section">
-      <h3>Web & Application Development</h3>
+      <h3>Web & Application Development</h3> <!-- Web & Application Development -->
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
@@ -432,7 +423,11 @@ permalink: /cv/
           <span>Django</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon">
+          <img src="../images/Logos/FastAPI.png" alt="FastAPI" class="skill-icon">
+          <span>FastAPI</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/gradio.png" alt="Gradio" class="skill-icon">
           <span>Gradio</span>
         </div>
         <div class="skill-square">
@@ -447,11 +442,15 @@ permalink: /cv/
           <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
           <span>JavaScript</span>
         </div>
+        <div class="skill-square">
+          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
+          <span>CherryPy</span>
+        </div>
       </div>
     </div>
     <!-- Tools & Others -->
     <div class="cv-container skill-section">
-      <h3>Tools & Others</h3>
+      <h3>Supporting Tools</h3>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
@@ -466,12 +465,16 @@ permalink: /cv/
           <span>LaTeX</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
-          <span>CherryPy</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/Matlab.png" alt="Matlab" class="skill-icon">
           <span>Matlab</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Poetry.svg" alt="Poetry" class="skill-icon">
+          <span>Poetry</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
+          <span>Pyomo</span>
         </div>
       </div>
     </div>

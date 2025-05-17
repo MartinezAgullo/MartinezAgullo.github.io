@@ -1,0 +1,27 @@
+# Ignore the generated site folder
+_site/
+.jekyll-cache/
+
+# OS-specific files
+.DS_Store
+
+# Logs and runtime files
+*.log
+
+# Node modules (if you ever use npm-based tools)
+node_modules/
+
+# Ruby
+Gemfile.lock
+
+# VS Code or IDE config folders
+.vscode/
+.idea/
+
+# Backup files
+*.swp
+*.bak
+*.tmp
+
+# Cache
+.cache/
