@@ -1,7 +1,7 @@
 # projects section data
-- name: agents-lg-emergency-assistant
+- name: agents-tactical-analysis
   gh_user: MartinezAgullo
-  repo: agents-lg-emergency-assistant
+  repo: agents-crewai-tactical-multimodal
   desc: A multi-agent system with the <a href="https://www.crewai.com/">CrewAI</a> designed to simulate a tactical military analysis pipeline. It is capable of processing diverse inputs—including text reports, images, and audio files. The tool is suscribed to a <a href="https://mqtt.org/">MQTT</a> publisher to receive incoming data in real-time, enabling dynamic analysis and response. Uses <a href="https://openobserve.ai/">OpenObserve</a> for elemetry monotiroing.
   img: ../images/repos/land_tactical_ai.png
 
@@ -27,7 +27,7 @@
   gh_user: MartinezAgullo
   repo: agent-creator-autogen
   desc: Multi-agent system that creates and coordinates new AI agents using <a href="https://www.microsoft.com/en-us/research/project/autogen/">Microsoft AutoGen</a>.
-  img: ../images/repos/skynet_mug
+  img: ../images/repos/skynet_mug.jpg
 
 - name: root-with-python
   gh_user: MartinezAgullo

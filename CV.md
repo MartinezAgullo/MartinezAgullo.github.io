@@ -120,24 +120,18 @@ permalink: /cv/
       <p><h6><a href="https://www.indracompany.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Indra</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2025 - Present</h6></p>
-      <p>
-      Member of the AI-research team in the innovation laboratory. My research focuses on developing AI agents for both the defense and commercial sectors.
-      Most projects are developed at Technology Readiness Level (TRL) below 5.
+      <p>Member of the AI-research team in the innovation laboratory. My research focuses on developing AI agents for both the defense and commercial sectors. Most projects are developed at Technology Readiness Level (TRL) below 5.
       </p>
     </div>
     <br>
-  <div id="Experience" class="container cv-white cv-card tab">
-    <h2>Experience</h2>
     <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Artificial intelligence engineer</b></h4></p>
       <p><h6><a href="https://info.mercadona.es/en/mercadonait" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2024 - Sept 2025</h6></p>
-      <p>
-      Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo.
+      <p>Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo.
       </p>
-      <p>
-      Collaborated with internal clients to define business requirements and deliver scalable AI solutions. Led technical discovery and helped align project roadmaps with organizational goals.
+      <p>Collaborated with internal clients to define business requirements and deliver scalable AI solutions. Led technical discovery and helped align project roadmaps with organizational goals.
       </p>
     </div>
     <br>
