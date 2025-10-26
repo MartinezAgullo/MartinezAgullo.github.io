@@ -226,7 +226,7 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>PhD in Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2019 - 2024</h6></p>
-      <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p></p><br>
+      <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p><br>
       <p>See record: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Here</a></p>
       <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/gwqbx-yhe04/preview/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
