@@ -116,15 +116,28 @@ permalink: /cv/
   <div id="Experience" class="container cv-white cv-card tab">
     <h2>Experience</h2>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Artificial Intelligence Engineer</b></h4></p>
+      <p><h4 class="cv-opacity"><b>Senior artificial intelligence engineer</b></h4></p>
+      <p><h6><a href="https://www.indracompany.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Indra</a></h6>
+      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
+      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2025 - Present</h6></p>
+      <p>
+      Member of the AI-research team in the innovation laboratory. My research focuses on developing AI agents for both the defense and commercial sectors.
+      Most projects are developed at Technology Readiness Level (TRL) below 5.
+      </p>
+    </div>
+    <br>
+  <div id="Experience" class="container cv-white cv-card tab">
+    <h2>Experience</h2>
+    <div class="cv-container">
+      <p><h4 class="cv-opacity"><b>Artificial intelligence engineer</b></h4></p>
       <p><h6><a href="https://info.mercadona.es/en/mercadonait" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Oct 2024 - Present</h6></p>
+      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2024 - Sept 2025</h6></p>
       <p>
-      I design and deploy AI-driven solutions at Mercadona's IT department, mainly using Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and a an application that extracts structured data from product label images (Gemini, Kafka, SQL). I follow hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduler using Pyomo.
+      Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo.
       </p>
       <p>
-      All of this is done in close collaboration with internal clients to identify business needs and deliver scalable, production-ready applications. Beyond development, I act as an AI transformation enabler: I engage with stakeholders to translate strategic needs into AI solutions, lead technical discovery, and help define AI roadmaps aligned with business objectives.
+      Collaborated with internal clients to define business requirements and deliver scalable AI solutions. Led technical discovery and helped align project roadmaps with organizational goals.
       </p>
     </div>
     <br>
@@ -135,11 +148,13 @@ permalink: /cv/
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - May 2024</h6></p>
       <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
-      <p>I was a predoctoral researcher at the ATLAS group of the Instituto de Física Corpuscular (IFIC), working between Valencia (Spain) and Geneva (Switzerland). My main responsibility involved analysing large volumes of data from the ATLAS detector at the Large Hadron Collider. For this, I used advanced statistical techniques and focused on developing, optimising, and integrating supervised machine learning models, specifically Boosted Decision Trees (BDT) and Neural Networks (NN).  My preferred languages are Python and C++ but I have also used Shell, R and SQL. I have used libraries such as PyTorch, TensorFlow, Keras, XGBoost, Pandas, NumPy, Matplotlib, Scikit-Learn, SciPy, etc. I also gained foundational knowledge in CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. I contributed to expanding some packages of the main ATLAS software (athena) and co-developed the post-processing software to exploit our NTuple data. I actively participated in presenting our findings at national and international conferences and was involved in data acquisition as part of the ATLAS Control Room team.
+      <p>Predoctoral Researcher at the ATLAS group (IFIC and CERN), analyzing large-volume data from the ATLAS detector at the Large Hadron Collider. Developed, optimized, and integrated supervised Machine Learning models (BDT, Neural Networks) utilizing advanced statistical techniques. Proficient in Python and C++, with experience in Shell, R, and SQL. Used major ML frameworks such as PyTorch, TensorFlow, and XGBoost. Foundational knowledge of CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. Contributed to expanding some packages of the main ATLAS software (Athena) and co-developed the post-processing software to exploit our NTuple data. Presented findings at national and international conferences and participated in data acquisition as part of the ATLAS Control Room team.
       <br>
-      This work was partially funded by the competitive and prestigious ACIF scholarship from the Generalitat Valenciana.
+      Part of the research carried out during this period can be found in the paper <a href="https://arxiv.org/abs/2508.14695">ATLAS Collaboration. "Search for the production of a Higgs boson in association with a single top quark in $ pp $ collisions at $\sqrt {s}= 13$ TeV with the ATLAS detector." arXiv preprint arXiv:2508.14695 (2025)</a>.
       <br>
-      Feel free to check my <a href="https://martinezagullo.github.io/publications/">Publication record</a> during these years.</p>
+      This work was partially funded by the competitive ACIF scholarship from the Generalitat Valenciana.
+      <br>
+      Refer to my <a href="https://martinezagullo.github.io/publications/">publication record</a> during these years.</p>
       <!-- <hr> -->
     </div>
     <br>
@@ -148,7 +163,7 @@ permalink: /cv/
       <p><h6><a href="https://www.uv.es/uvweb/chemistry/en/faculty-chemistry-1285849471169.html" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>University of Valencia</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6></p>
-      <p>I have served as a lecturer (PDI) in the Chemistry degree program, teaching subjects such as Electromagnetism and Laboratory Techniques (Physics II) during the academic years 2019/2020 and 2020/2021, utilizing both in-person and online instruction. In my teaching, I ensured that students developed not only a solid foundation in physics but also in the fundamentals of statistics, which are essential for data analysis in scientific and engineering contexts. Additionally, I have provided private tutoring across various engineering disciplines for nearly a decade.</p>
+      <p>Faculty Lecturer (PDI) in the Chemistry degree program, teaching Electromagnetism and Laboratory Techniques (Physics II) (Academic Years 2019/2020 and 2020/2021) via in-person and online instruction. Focused on building student foundations in physics and statistics. Also provided private tutoring across various engineering disciplines for nearly a decade.</p>
       <!-- <hr> -->
     </div>
     <br>
@@ -157,7 +172,7 @@ permalink: /cv/
       <p><h6><a href="https://www.capgemini.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Capgemini</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2019 - Sep 2019</h6></p>
-      <p>Consultant on the Insights & Data team. Development of a sentiment analysis tool based on web scraping and Natural Language Processing (NLP).</p><br>
+      <p>Consultant on the Insights & Data team. Developed a sentiment analysis tool based on web scraping and Natural Language Processing (NLP).</p><br>
       <!-- <hr> -->
     </div>
     <br>
@@ -167,8 +182,8 @@ permalink: /cv/
       <h6><a href="https://home.cern/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Dec 2017 - Jan 2019</h6></p>
-      <p>Predoctoral researcher at the ATLAS experiment at the European Laboratory for Particle Physics (CERN). During the initial stage of my doctoral research, I developed a software dedicated to data analysis and visualisation. Additionally, I worked on the development and optimisation of both the backend and frontend of the web application for monitoring the alignment of the ATLAS detector. This experience allowed me to enhance my skills in web programming and application development. The resulting tool has been widely adopted and used within the collaboration.
-      Part of the work that I developed during this tenure has been included in the paper <a href="https://link.springer.com/article/10.1007/JHEP11(2022)040">J. High Energ. Phys. 2022, 40 (2022)</a>.
+      <p>Predoctoral Researcher on the ATLAS experiment at CERN. Developed data analysis and visualization software during the initial phase of doctoral research. Engineered and optimized the full-stack web application to monitor the alignment of the ATLAS detector. The resulting tool was widely adopted by the collaboration.
+      Part of the work developed during this tenure has been included in the paper <a href="https://link.springer.com/article/10.1007/JHEP11(2022)040">J. High Energ. Phys. 2022, 40 (2022)</a>.
       </p><br>
       <!-- <hr> -->
     </div>
@@ -178,7 +193,7 @@ permalink: /cv/
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Apr 2017 - Sep 2017</h6></p>
-      <p>The Instituto de Física Corpuscular (IFIC) is a collaborative research center operated by the Spanish Research Council (CSIC) and the University of Valencia, focusing on fundamental studies in particle, astroparticle, and nuclear physics. During my internship, supported by the prestigious Severo Ochoa scholarship, I conducted research on top quark physics for my master's thesis with the ATLAS group. My role included developing and refining Python scripts to extract maximum information from the data, conducting statistical analyses, and enhancing data analysis methodologies. I was also responsible for maintaining and updating codebases on Git, ensuring robust version control.</p><br>
+      <p>During my internship, funded by the prestigious Severo Ochoa scholarship, I conducted research on top quark physics for my master's thesis with the ATLAS group. Developed and refined Python scripts for data extraction and statistical analyses. I was also responsible for maintaining and updating codebases on Git, ensuring robust version control practices.</p><br>
       <!-- <hr> -->
     </div>
     <br>
@@ -187,25 +202,26 @@ permalink: /cv/
       <p><h6><a href="https://www.esa.int/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Space Agency (ESA)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Leiden, Netherlands</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Jun 2016 - Sep 2016</h6></p>
-      <p>I was awarded the LEAPS scholarship for engaging in science communication and outreach with the Universe Awareness (UNAWE) group at ESA and Leiden University. During this time, I developed a natural language processing (NLP) tool and conducted <a href="https://www.unawe.org/updates/unawe-update-2016-37/">research</a> on scientific product policies.</p><br>
+      <p>Awarded the LEAPS scholarship to engage in science communication and outreach with the Universe Awareness (UNAWE) group at ESA and Leiden University. Developed a natural language processing (NLP) tool and conducted <a href="https://www.unawe.org/updates/unawe-update-2016-37/">research</a> on scientific product policies.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst (Internship)</b></h4></p>
+      <p><h4 class="cv-opacity"><b>Physics researcher - Data Analyst (Internship)</b></h4></p>
       <p><h6><a href="https://www.institut3a.physik.rwth-aachen.de/cms/~jgoo/institut3a/?lidx=1" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Aachen, Germany</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2016 - Jun 2016</h6></p>
-      <p>At the Physics Institute III A of RWTH Aachen University, I engaged in analysing LHC data recorded by the CMS experiment. This role was part of an international collaboration requiring strong mathematical foundations and extensive coding skills. I utilised Bash Scripting, Python, and C++ to handle complex data analyses, further honing my technical expertise in a demanding research environment.</p><br>
+      <p>Conducted research at the Physics Institute III A of RWTH Aachen University. Engaged in the analysis of the LHC data recorded by the CMS experiment.
+      Used Bash Scripting, Python, and C++ to handle complex data analyses.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst (Internship)</b></h4></p>
+      <p><h4 class="cv-opacity"><b>Physics researcher - Data Analyst (Internship)</b></h4></p>
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Nov 2014 - Jul 2015</h6></p>
-      <p>My initial foray into research was an external internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analysed data from silicon detectors to calibrate scientific instruments. During this tenure, I not only worked with photomultiplier tubes (PMTs) and silicon photomultipliers (SiPMs) but also employed lasers and vacuum systems.</p><br>
+      <p>External internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analyzed data from silicon detectors to calibrate scientific instruments. Worked with photomultiplier tubes (PMTs), silicon photomultipliers (SiPMs), lasers, and vacuum systems.</p><br>
     </div>
   </div> <!-- End Experience Tab -->
 
@@ -216,9 +232,9 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>PhD in Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2019 - 2024</h6></p>
-      <p>I earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specialising in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My extensive research at CERN within the ATLAS experiment contributed to the scientific program and the development of analytical tools. My thesis explored the interaction between the Higgs boson and the top quark, an interaction with the potential to shed light on fundamental physics questions like matter-antimatter asymmetry. Additionally, I completed several courses in Machine Learning and Statistics to further enhance my analytical skills.</p>
-       <div class="pdf-container">
-      <iframe src="https://cds.cern.ch/record/2892621/files/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
+      <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p>
+      <div class="pdf-container">
+       <iframe src="https://repository.cern/records/gwqbx-yhe04/preview/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
       <p class="pdf-footnote">PhD thesis. See record: <a href="https://cds.cern.ch/record/2892621" target="_blank">Here</a></p>
       <!-- <hr> -->
@@ -228,11 +244,11 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>MSc in Advanced Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2016 - 2017</h6></p>
-      <p>I completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specialising in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data analysis, data visualisation, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a prestigious Severo Ochoa scholarship.</p>
-       <div class="pdf-container">
-      <iframe src="https://cds.cern.ch/record/2285874/files/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
+      <p>Completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data visualization, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a Severo Ochoa scholarship.</p>
+      <div class="pdf-container">
+       <iframe src="https://repository.cern/records/bv467-d1f06/preview/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
-      <p class="pdf-footnote">Master thesis. See record: <a href="https://cds.cern.ch/record/2285874" target="_blank">Here</a></p>
+      <p class="pdf-footnote">Master's thesis — See record: <a href="https://cds.cern.ch/record/2285874" target="_blank">Here</a></p>
       <!-- <hr> -->
     </div>
     <br>
@@ -240,11 +256,11 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>Bachelor's Degree in Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2015 - 2016</h6></p>
-      <p>During my Erasmus exchange at RWTH Aachen University, Germany's largest technical university and a prestigious European institution, I took courses of the <a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bojy/physik-m-sc/?lidx=1" target="_blank">M.Sc. in Physics</a> and conducted my bachelor's thesis. It involved analysing data from the CMS experiment at CERN in order to look for dark matter production.</p><br>
+      <p>Completed a year of graduate-level physics <a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bojy/physik-m-sc/?lidx=1" target="_blank">courses</a> and bachelor's thesis research during an Erasmus exchange. Thesis involved the analysis of CMS experiment data at CERN in a search for dark matter signatures.</p><br>
       <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
-      <p class="pdf-footnote">Bachelor thesis. See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <p class="pdf-footnote">Bachelor thesis — See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
       <!-- 	Search for dark matter in proton-proton collision events with a muon and missing transverse energy in the CMS detector with s= 13 TeV -->
       <!-- <hr> -->
     </div>
@@ -253,7 +269,7 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>Bachelor's Degree in Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2011 - 2015</h6></p>
-      <p>I graduated with a <a href="https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-physics-1285846094474/Titulacio.html?id=1285847387274" target="_blank">Degree in Physics</a>, earning 258 ECTs. Throughout my studies, I honed my ability to tackle complex problems and cultivated innovative thinking. My strong mathematical and computational skills were developed during this time, significantly contributing to my academic success. Notably, the Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
+      <p>Graduated with a <a href="https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-physics-1285846094474/Titulacio.html?id=1285847387274" target="_blank">Degree in Physics</a>, completing 258 ECTS credits. Established a foundational mastery of theoretical physics concepts, advanced mathematics, and computational problem-solving The Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
     </div>
   </div> <!-- End Education Tab --> 
   <div id="Skills" class="container cv-white cv-card tab">
