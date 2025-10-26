@@ -226,11 +226,12 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>PhD in Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2019 - 2024</h6></p>
-      <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p>
-      <div class="pdf-container">
+      <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p></p><br>
+      <p>See record: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Here</a></p>
+      <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/gwqbx-yhe04/preview/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
-      <p class="pdf-footnote">PhD thesis. See record: <a href="https://cds.cern.ch/record/2892621" target="_blank">Here</a></p>
+      <p class="pdf-footnote">PhD thesis — See record: <a href="https://cds.cern.ch/record/2892621" target="_blank">Here</a></p> -->
       <!-- <hr> -->
     </div>
     <br>
@@ -238,12 +239,13 @@ permalink: /cv/
       <p><h4 class="cv-opacity"><b>MSc in Advanced Physics</b></h4></p>
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2016 - 2017</h6></p>
-      <p>Completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data visualization, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a Severo Ochoa scholarship.</p>
-      <div class="pdf-container">
+      <p>Completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data visualization, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a Severo Ochoa scholarship.</p><br>
+      <p>See record: <a href="https://repository.cern/records/bv467-d1f06" target="_blank">Here</a></p>
+      <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/bv467-d1f06/preview/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
       <p class="pdf-footnote">Master's thesis — See record: <a href="https://cds.cern.ch/record/2285874" target="_blank">Here</a></p>
-      <!-- <hr> -->
+      <hr> -->
     </div>
     <br>
     <div class="cv-container">
@@ -251,10 +253,11 @@ permalink: /cv/
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2015 - 2016</h6></p>
       <p>Completed a year of graduate-level physics <a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bojy/physik-m-sc/?lidx=1" target="_blank">courses</a> and bachelor's thesis research during an Erasmus exchange. Thesis involved the analysis of CMS experiment data at CERN in a search for dark matter signatures.</p><br>
-      <div class="pdf-container">
+      <p>See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <!-- <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
-      <p class="pdf-footnote">Bachelor thesis — See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <p class="pdf-footnote">Bachelor thesis — See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p> -->
       <!-- 	Search for dark matter in proton-proton collision events with a muon and missing transverse energy in the CMS detector with s= 13 TeV -->
       <!-- <hr> -->
     </div>
