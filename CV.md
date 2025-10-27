@@ -444,6 +444,10 @@ permalink: /cv/
           <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon">
           <span>Kafka</span>
         </div>
+         <div class="skill-square">
+          <img src="../images/Logos/MQTT.png" alt="MQTT" class="skill-icon">
+          <span>MQTT</span>
+        </div>
       </div>
       <h3>Web & Application Development</h3> <!-- Web & Application Development -->
       <div class="skills-grid">
@@ -460,7 +464,7 @@ permalink: /cv/
           <span>FastAPI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/gradio.png" alt="Gradio" class="skill-icon">
+          <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon">
           <span>Gradio</span>
         </div>
         <div class="skill-square">
@@ -506,8 +510,16 @@ permalink: /cv/
           <span>Poetry</span>
         </div>
         <div class="skill-square">
+          <img src="../images/Logos/UV.png" alt="UV" class="skill-icon">
+          <span>UV</span>
+        </div>
+        <div class="skill-square">
           <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
           <span>Pyomo</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Gurobi.png" alt="Gurobi" class="skill-icon">
+          <span>Gurobi</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Jupyter.svg" alt="Jupyter" class="skill-icon">
