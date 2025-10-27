@@ -69,7 +69,7 @@
   gh_user: MartinezAgullo
   repo: rl-exercises-gymnasium
   desc: A collection of Reinforcement Learning exercises based on a Udemy course, updated and adapted to use the modern <a href="https://gymnasium.farama.org/index.html/">Gymnasium</a> API.
-  img: https://github.com/MartinezAgullo/rl-exercises-gymnasium/blob/main/docs/rl21/dueling_dqn.png
+  img: https://raw.githubusercontent.com/MartinezAgullo/rl-exercises-gymnasium/refs/heads/main/docs/rl21/dueling_dqn.png
 
 - name: pygame-monkey-jump
   gh_user: MartinezAgullo
