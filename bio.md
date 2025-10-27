@@ -9,9 +9,9 @@ permalink: /bio/
 Hello there!<br>
 I’m Pablo, a PhD in Physics and Artificial Intelligence specialist, passionate about solving real-world problems through cutting-edge AI technologies. I earned my doctorate from the University of Valencia and the Instituto de Física Corpuscular (IFIC), where I conducted research within the ATLAS experiment at CERN, analyzing large-scale data from the LHC to study the top quark and Higgs boson.
 
-Currently, I work as an AI Engineer in the IT department at Mercadona, where I design and deploy AI-powered applications. I combine my scientific background with modern software engineering practices, delivering solutions that create business impact.
+Currently, I work as a Senior AI Engineer in the Innovation Department at Indra. My focus is on R&D in AI Agents, where I leverage my scientific expertise and modern software engineering practices to drive our products to the technological frontier. I am always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems.
 
-I’m always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems—whether in industry, academia, or beyond.
+<!-- I’m always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems—whether in industry, academia, or beyond. -->
 
 
 

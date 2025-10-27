@@ -227,7 +227,7 @@ permalink: /cv/
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2019 - 2024</h6></p>
       <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p><br>
-      <p>See record: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Here</a></p>
+      <p>PhD thesis: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Here</a></p>
       <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/gwqbx-yhe04/preview/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -240,7 +240,7 @@ permalink: /cv/
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2016 - 2017</h6></p>
       <p>Completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data visualization, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a Severo Ochoa scholarship.</p><br>
-      <p>See record: <a href="https://repository.cern/records/bv467-d1f06" target="_blank">Here</a></p>
+      <p>Master's thesis: <a href="https://repository.cern/records/bv467-d1f06" target="_blank">Here</a></p>
       <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/bv467-d1f06/preview/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -253,7 +253,7 @@ permalink: /cv/
       <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2015 - 2016</h6></p>
       <p>Completed a year of graduate-level physics <a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bojy/physik-m-sc/?lidx=1" target="_blank">courses</a> and bachelor's thesis research during an Erasmus exchange. Thesis involved the analysis of CMS experiment data at CERN in a search for dark matter signatures.</p><br>
-      <p>See record: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <p>Bachelor's thesis: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
       <!-- <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -286,6 +286,10 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Bash.png" alt="Shell" class="skill-icon">
           <span>Shell</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/R.png" alt="R" class="skill-icon">
+          <span>R</span>
         </div>
       </div>
     </div>
@@ -332,17 +336,29 @@ permalink: /cv/
       </div>
       <h4>Generative AI & Foundation Models</h4>
       <div class="skills-grid">
-        <div class="skill-square">
+        <!-- <div class="skill-square">
           <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
           <span>BERT</span>
-        </div>
-        <div class="skill-square">
+        </div> -->
+        <!-- <div class="skill-square">
           <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
           <span>LLaMA</span>
+        </div> -->
+        <div class="skill-square">
+          <img src="../images/Logos/LangGraph.png" alt="LangGraph" class="skill-icon">
+          <span>LangGraph</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/LangChain.png" alt="LangChain" class="skill-icon">
           <span>LangChain</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/CrewAI.png" alt="CrewAI" class="skill-icon">
+          <span>CrewAI</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/AutoGen.jpg" alt="AutoGen" class="skill-icon">
+          <span>AutoGen</span>
         </div>
       </div>
       <h4>Data Visualization, Analysis & Scraping</h4>
@@ -350,6 +366,13 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
           <span>Matplotlib</span>
+        </div>
+          <img src="../images/Logos/Seaborn.svg" alt="Seaborn" class="skill-icon">
+          <span>Seaborn</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Plotly.png" alt="Plotly" class="skill-icon">
+          <span>Plotly</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/SciPy.png" alt="SciPy" class="skill-icon">
@@ -362,10 +385,6 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/SQL.png" alt="SQL" class="skill-icon">
           <span>SQL</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/R.png" alt="R" class="skill-icon">
-          <span>R</span>
         </div>
       </div>
     </div>
@@ -455,9 +474,9 @@ permalink: /cv/
           <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
           <span>JavaScript</span>
         </div>
-        <div class="skill-square">
+        <!-- <div class="skill-square">
           <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
-          <span>CherryPy</span>
+          <span>CherryPy</span> -->
         </div>
       </div>
     </div>
@@ -488,6 +507,10 @@ permalink: /cv/
         <div class="skill-square">
           <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
           <span>Pyomo</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Jupyter.svg" alt="Jupyter" class="skill-icon">
+          <span>Jupyter</span>
         </div>
       </div>
     </div>
