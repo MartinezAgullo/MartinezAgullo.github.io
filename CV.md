@@ -478,7 +478,7 @@ permalink: /cv/
         <!-- <div class="skill-square">
           <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
           <span>CherryPy</span> -->
-        </div>
+        <!-- </div> -->
       </div>
     </div>
     <!-- Tools & Others -->
