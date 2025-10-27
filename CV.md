@@ -367,6 +367,7 @@ permalink: /cv/
           <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
           <span>Matplotlib</span>
         </div>
+         <div class="skill-square">
           <img src="../images/Logos/Seaborn.svg" alt="Seaborn" class="skill-icon">
           <span>Seaborn</span>
         </div>
