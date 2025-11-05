@@ -144,7 +144,7 @@ permalink: /cv/
       <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
       <p>Predoctoral Researcher at the ATLAS group (IFIC and CERN), analyzing large-volume data from the ATLAS detector at the Large Hadron Collider. Developed, optimized, and integrated supervised Machine Learning models (BDT, Neural Networks) utilizing advanced statistical techniques. Proficient in Python and C++, with experience in Shell, R, and SQL. Used major ML frameworks such as PyTorch, TensorFlow, and XGBoost. Foundational knowledge of CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. Contributed to expanding some packages of the main ATLAS software (Athena) and co-developed the post-processing software to exploit our NTuple data. Presented findings at national and international conferences and participated in data acquisition as part of the ATLAS Control Room team.
       <br>
-      Part of the research carried out during this period can be found in the paper <a href="https://arxiv.org/abs/2508.14695">ATLAS Collaboration. "Search for the production of a Higgs boson in association with a single top quark in $ pp $ collisions at $\sqrt {s}= 13$ TeV with the ATLAS detector." arXiv preprint arXiv:2508.14695 (2025)</a>.
+      Part of the research carried out during this period can be found in the paper <a href="https://link.springer.com/article/10.1007/JHEP10(2025)093">J. High Energ. Phys. 2025, 93 (2025)</a>.
       <br>
       This work was partially funded by the competitive ACIF scholarship from the Generalitat Valenciana.
       <br>
