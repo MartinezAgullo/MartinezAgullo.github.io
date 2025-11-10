@@ -20,13 +20,13 @@
 - name: tifda
   gh_user: MartinezAgullo
   repo: genai-tifda
-  desc: The TIFDA (Tactical Information Fusion and Dissemination Agent) project aims to create a GenAI agent-based tool that functions as a processing and distribution center for tactical information in a combat environment. Build with <a href="https://www.langchain.com/langgraph">LangGraph</a>.
+  desc: The Tactical Information Fusion and Dissemination Agent (TIFDA) is GenAI agent-based tool that functions as a processing and distribution center for tactical information in a combat environment. Build with <a href="https://www.langchain.com/langgraph">LangGraph</a>.
   img: ../images/repos/tifda_cover.jpg
 
 - name: agent-creator-autogen
   gh_user: MartinezAgullo
   repo: agent-creator-autogen
-  desc: Multi-agent system that creates and coordinates new AI agents using <a href="https://www.microsoft.com/en-us/research/project/autogen/">Microsoft AutoGen</a>.
+  desc: Multi-agent system that dynamically creates and coordinates new autonomous AI agents using <a href="https://www.microsoft.com/en-us/research/project/autogen/">Microsoft AutoGen</a>.
   img: ../images/repos/skynet_mug.jpg
 
 - name: root-with-python
@@ -39,7 +39,7 @@
   gh_user: MartinezAgullo
   repo: xgboost-thq
   desc: Collection of Python scripts to train, optimise and inject a Boosted Decision Tree using the <a href="https://xgboost.readthedocs.io/en/stable/">XGBoost</a> library.
-  img: ../images/repos/XGBoost_tHq.png
+  img: ../images/repos/GradientBoosting.png
 
 - name: inner-detector-alignment-web-monitor
   gh_user: MartinezAgullo
@@ -123,7 +123,7 @@
   gh_user: MartinezAgullo
   repo: nba-stats
   desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform analysis.
-  img: ../images/repos/NBA_Stats_img.png
+  img: ../images/repos/NBA_Stats_img.jpg
 
 - name: github.io
   gh_user: MartinezAgullo
