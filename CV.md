@@ -118,7 +118,7 @@ permalink: /cv/
     <div class="cv-container">
       <p><h4 class="cv-opacity"><b>Senior artificial intelligence engineer</b></h4></p>
       <p><h6><a href="https://www.indracompany.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Indra</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
+      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Madrid, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2025 - Present</h6></p>
       <p>Member of the AI-research team in the innovation laboratory. My research focuses on developing AI agents for both the defense and commercial sectors. Most projects are developed at Technology Readiness Level (TRL) below 5.
       </p>
@@ -594,7 +594,7 @@ permalink: /cv/
 <!-- begin footer -->
 <footer class="container cv-center cv-margin-top">
   <p>
-    <a href="{{ site.baseurl }}/bio/CV_ENG_.pdf" title="link to CV" target="_blank" class="cv-button cv-margin-top">
+    <a href="{{ site.baseurl }}/bio/CV_ENG.pdf" title="link to CV" target="_blank" class="cv-button cv-margin-top">
       <i class="fa fa-download"></i> Download CV PDF
     </a>
   </p>

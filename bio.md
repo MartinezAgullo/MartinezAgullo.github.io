@@ -27,10 +27,11 @@ Currently, I am looking forward to new challenges where I can apply my skills in
 </div>
 
 
-Outside my professional life, I enjoy sports, <a href="https://www.filmaffinity.com/es/userratings.php?user_id=434307">films</a>, and live music, along with engaging in scientific outreach.
+
+Outside my professional life, I enjoy sports, <a href="https://www.filmaffinity.com/es/userratings.php?user_id=434307">films</a>, and live music, along with engaging in <a href="https://martinezagullo.github.io/images/Poster_70_CERN_b.jpeg">scientific outreach</a>.
 
 
-For more details, download my [Curriculum Vitae](bio/CV_ENG_.pdf){:target="_blank"} or check the <a href="https://martinezagullo.github.io/cv/">online version</a>.
+For more details, download my [Curriculum Vitae](bio/CV_ENG.pdf){:target="_blank"} or check the <a href="https://martinezagullo.github.io/cv/">online version</a>.
 
 
 <!-- 
