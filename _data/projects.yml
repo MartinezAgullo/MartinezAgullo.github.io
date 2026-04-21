@@ -2,19 +2,19 @@
 - name: agents-tactical-analysis
   gh_user: MartinezAgullo
   repo: agents-crewai-tactical-multimodal
-  desc: A multi-agent system with the <a href="https://www.crewai.com/">CrewAI</a> designed to simulate a tactical military analysis pipeline. It is capable of processing diverse inputs—including text reports, images, and audio files. The tool is suscribed to a <a href="https://mqtt.org/">MQTT</a> publisher to receive incoming data in real-time, enabling dynamic analysis and response. Uses <a href="https://openobserve.ai/">OpenObserve</a> for elemetry monotiroing.
+  desc: A multi-agent system with the <a href="https://www.crewai.com/">CrewAI</a> designed to simulate a tactical military analysis pipeline. It is capable of processing diverse inputs—including text reports, images, and audio files. The tool is suscribed to a <a href="https://mqtt.org/">MQTT</a> publisher to receive incoming data in real-time, enabling dynamic analysis and response. Uses <a href="https://openobserve.ai/">OpenObserve</a> for telemetry monitoring.
   img: ../images/repos/land_tactical_ai.png
 
 - name: agents-lg-emergency-assistant
   gh_user: MartinezAgullo
   repo: agents-lg-emergency-assistant
-  desc: <a href="https://www.langchain.com/langgraph">LangGraph</a>-based agentic system for critical decisions in emergency scenarios. The agents collaborate to analyze threats and automatically generate and evacuation plan using an Evaluator-Optimizer pattern to ensure high-quality emergency response. Uses <a href="https://www.langchain.com/langsmith/observability">LangSmith</a> for elemetry monotiroing.
+  desc: <a href="https://www.langchain.com/langgraph">LangGraph</a>-based agentic system for critical decisions in emergency scenarios. The agents collaborate to analyze threats and automatically generate and evacuation plan using an Evaluator-Optimizer pattern to ensure high-quality emergency response. Uses <a href="https://www.langchain.com/langsmith/observability">LangSmith</a> for telemetry monitoring.
   img: ../images/repos/emergency-map.png
 
 - name: naval-agentic-ai
   gh_user: MartinezAgullo
   repo: naval-agentic-ai
-  desc: Three <a href="https://www.crewai.com/">CrewAI</a>-based AI-agents prototypes for electronic warfare in the naval domain. The first system can analyze electromagnetic signals from naval sensors, assesses threat levels, and recommends tactical responses to minimize detection risk. The second prototype focuses on detecting the impact of cyber-attacks and execuiting countermeasures with a HILT.
+  desc: Three <a href="https://www.crewai.com/">CrewAI</a>-based AI-agents prototypes for electronic warfare in the naval domain. The first system can analyze electromagnetic signals from naval sensors, assesses threat levels, and recommends tactical responses to minimize detection risk. The second prototype focuses on detecting the impact of cyber-attacks and executing countermeasures with a HILT.
   img: ../images/repos/naval_ai.png
 
 - name: tifda
@@ -110,7 +110,7 @@
 - name: genAI-meeting-companion
   gh_user: MartinezAgullo
   repo: genai-4-meeting-assistant
-  desc: Application to transcribe discussions and provides a concise summary of a meeting. OpenAI's <a href="https://openai.com/index/whisper/">Whisper</a> is used to for STT and IBM <a href="https://developer.ibm.com/tutorials/use-the-watson-core-nlp-library-to-perform-sentiment-analysis/">Watson's AI</a> to summarize and find key points. Interfaced with <a href=" https://www.gradio.app/">Gradio</a>.
+  desc: Application to transcribe discussions and provides a concise summary of a meeting. OpenAI's <a href="https://openai.com/index/whisper/">Whisper</a> is used for speech-to-text and IBM <a href="https://developer.ibm.com/tutorials/use-the-watson-core-nlp-library-to-perform-sentiment-analysis/">Watson's AI</a> to summarize and find key points. Interfaced with <a href=" https://www.gradio.app/">Gradio</a>.
   img: ../images/repos/AudioTranscriptionApp_dalle.webp #AudioTranscriptionApp
 
 - name: genAI-summarise-data

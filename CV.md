@@ -409,6 +409,10 @@ permalink: /cv/
           <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
           <span>FAISS</span>
         </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Ollama.svg" alt="Ollama" class="skill-icon">
+          <span>Ollama</span>
+        </div>
       </div>
     </div>
     <!-- Software Engineering for AI -->
