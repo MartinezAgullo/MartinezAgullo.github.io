@@ -123,7 +123,7 @@
   gh_user: MartinezAgullo
   repo: nba-stats
   desc: Web scraping tool to retrieve information from the <a href="https://www.espn.com/nba/salaries">ESPN webpage</a> and perform analysis.
-  img: ../images/repos/NBA_Stats_img.jpg
+  img: ../images/repos/NBA_Stats_img.png
 
 - name: github.io
   gh_user: MartinezAgullo
