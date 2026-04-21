@@ -6,9 +6,20 @@ permalink: /publications/
 ---
 
 ## Scientific Articles
-You can take a look at my complete list of articles in my [INSPIRE-HEP](https://inspirehep.net/authors/1788391), [Orcid](https://orcid.org/0000-0001-8925-9518) and [Google Scholar](https://scholar.google.com/citations?user=HzBJo-UAAAAJ&h) profiles.
+You can take a look at the complete list of papers in which I am listed as author in my [INSPIRE-HEP](https://inspirehep.net/authors/1788391), [Orcid](https://orcid.org/0000-0001-8925-9518) and [Google Scholar](https://scholar.google.com/citations?user=HzBJo-UAAAAJ&h) profiles.
 
-Below my two most relevant contributions:
+Below my most relevant contributions:
+*   The ATLAS collaboration.
+        **Search for the associated production of a Higgs boson and a single top quark in the H → ττ decay mode and combined measurement of tH production using pp collisions at 13 TeV with the ATLAS detector**.  
+        *ATLAS Conference Note ATLAS-CONF-2026-002 (2026).*  
+        [https://cds.cern.ch/record/2957351](https://cds.cern.ch/record/2957351)
+
+  
+*   The ATLAS collaboration.
+        **Search for the production of a Higgs boson in association with a single top quark in pp collisions at 13 TeV with the ATLAS detector**. 
+        *J. High Energ. Phys. 2025, 93 (2025)*. 
+        [https://doi.org/10.1007/JHEP10(2025)093](<https://doi.org/10.1007/JHEP10(2025)093>)
+
 
 *  The ATLAS collaboration.
         **Measurement of the polarisation of single top quarks and antiquarks produced in the t-channel at 13 TeV and bounds on the tWb dipole operator from the ATLAS experiment**.
@@ -16,10 +27,7 @@ Below my two most relevant contributions:
         [https://doi.org/10.1007/JHEP11(2022)040](<https://doi.org/10.1007/JHEP11(2022)040>)
 
 
-*   The ATLAS collaboration.
-        **Search for the production of a Higgs boson in association with a single top quark in pp collisions at 13 TeV with the ATLAS detector**. 
-        *J. High Energ. Phys. 2025, 93 (2025)*. 
-        [https://doi.org/10.1007/JHEP10(2025)093](<https://doi.org/10.1007/JHEP10(2025)093>)
+
 
 
 ## PhD Thesis

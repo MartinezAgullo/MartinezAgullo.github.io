@@ -345,11 +345,11 @@ permalink: /cv/
           <span>LLaMA</span>
         </div> -->
         <div class="skill-square">
-          <img src="../images/Logos/LangGraph.png" alt="LangGraph" class="skill-icon">
+          <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon">
           <span>LangGraph</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/LangChain.png" alt="LangChain" class="skill-icon">
+          <img src="../images/Logos/LangChain.svg" alt="LangChain" class="skill-icon">
           <span>LangChain</span>
         </div>
         <div class="skill-square">
