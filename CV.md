@@ -352,12 +352,20 @@ permalink: /cv/
       <h4>LLM Providers</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
-          <span>Gemini</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/Ollama.svg" alt="Ollama" class="skill-icon">
           <span>Ollama</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/repos/OpenAI.png" alt="OpenAI" class="skill-icon">
+          <span>OpenAI</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/repos/Claude.svg" alt="Anthropic" class="skill-icon">
+          <span>Anthropic</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
+          <span>Gemini</span>
         </div>
         <!-- <div class="skill-square">
           <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon">

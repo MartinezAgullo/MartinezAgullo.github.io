@@ -1,4 +1,10 @@
 # projects section data
+- name: cmop-map
+  gh_user: MartinezAgullo
+  repo: cmop_map
+  desc: A web application for managing and visualising de Common Medical Operating Picture (CMOP) on an interactive map using PostGIS. Used as external monitor to display the activity of diffirent multi-agent systems in real time. The backend is built with FastAPI and the frontend with React and Leaflet.
+  img: ../images/repos/cmop-map.png
+
 - name: agents-tactical-analysis
   gh_user: MartinezAgullo
   repo: agents-crewai-tactical-multimodal
