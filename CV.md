@@ -292,10 +292,107 @@ permalink: /cv/
           <span>R</span>
         </div>
       </div>
+      <h4>Operating Systems</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/OS_MacOS.svg" alt="macOS" class="skill-icon">
+          <span>macOS</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/OS_Linux.svg" alt="Linux" class="skill-icon">
+          <span>Linux</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/OS_Windows.svg" alt="Windows" class="skill-icon">
+          <span>Windows</span>
+        </div>
+      </div>
     </div>
-    <!-- Data Science & Machine Learning -->
+    <!-- Agentic AI & LLM Systems -->
     <div class="cv-container skill-section">
-      <h3>Data Science & Machine Learning</h3>
+      <h3>Agentic AI &amp; LLM Systems</h3>
+      <h4>Agent Frameworks &amp; Orchestration</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon">
+          <span>LangGraph</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/LangChain.svg" alt="LangChain" class="skill-icon">
+          <span>LangChain</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/CrewAI.png" alt="CrewAI" class="skill-icon">
+          <span>CrewAI</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/AutoGen.jpg" alt="AutoGen" class="skill-icon">
+          <span>AutoGen</span>
+        </div>
+        <!-- <div class="skill-square">
+          <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
+          <span>BERT</span>
+        </div> -->
+        <!-- <div class="skill-square">
+          <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
+          <span>LLaMA</span>
+        </div> -->
+      </div>
+      <h4>Agent Protocols</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/MCP.svg" alt="MCP" class="skill-icon">
+          <span>MCP</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/A2A.svg" alt="A2A" class="skill-icon">
+          <span>A2A</span>
+        </div>
+      </div>
+      <h4>LLM Providers</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
+          <span>Gemini</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Ollama.svg" alt="Ollama" class="skill-icon">
+          <span>Ollama</span>
+        </div>
+        <!-- <div class="skill-square">
+          <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon">
+          <span>DialogFlow CX</span>
+        </div> -->
+      </div>
+      <h4>RAG &amp; Knowledge Systems</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
+          <span>FAISS</span>
+        </div>
+      </div>
+      <h4>Observability &amp; Evaluation</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/LangChain.svg" alt="LangSmith" class="skill-icon">
+          <span>LangSmith</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/OTel.png" alt="OpenTelemetry" class="skill-icon">
+          <span>OpenTelemetry</span>
+        </div>
+      </div>
+      <h4>Data Validation</h4>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/Pydantic.png" alt="Pydantic" class="skill-icon">
+          <span>Pydantic</span>
+        </div>
+      </div>
+    </div>
+    <!-- Machine Learning -->
+    <div class="cv-container skill-section">
+      <h3>Machine Learning</h3>
       <h4>Data Manipulation</h4>
       <div class="skills-grid">
         <div class="skill-square">
@@ -311,7 +408,7 @@ permalink: /cv/
           <span>ROOT</span>
         </div>
       </div>
-      <h4>Machine Learning</h4>
+      <h4>Frameworks</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/TensorFlow.svg" alt="TensorFlow" class="skill-icon">
@@ -334,40 +431,13 @@ permalink: /cv/
           <span>Keras</span>
         </div>
       </div>
-      <h4>Generative AI & Foundation Models</h4>
-      <div class="skills-grid">
-        <!-- <div class="skill-square">
-          <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
-          <span>BERT</span>
-        </div> -->
-        <!-- <div class="skill-square">
-          <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
-          <span>LLaMA</span>
-        </div> -->
-        <div class="skill-square">
-          <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon">
-          <span>LangGraph</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/LangChain.svg" alt="LangChain" class="skill-icon">
-          <span>LangChain</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/CrewAI.png" alt="CrewAI" class="skill-icon">
-          <span>CrewAI</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/AutoGen.jpg" alt="AutoGen" class="skill-icon">
-          <span>AutoGen</span>
-        </div>
-      </div>
-      <h4>Data Visualization, Analysis & Scraping</h4>
+      <h4>Visualization &amp; Analysis</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
           <span>Matplotlib</span>
         </div>
-         <div class="skill-square">
+        <div class="skill-square">
           <img src="../images/Logos/Seaborn.svg" alt="Seaborn" class="skill-icon">
           <span>Seaborn</span>
         </div>
@@ -389,41 +459,18 @@ permalink: /cv/
         </div>
       </div>
     </div>
-    <!-- AI Infrastructure & Orchestration -->
-    <div class="cv-container skill-section">
-      <h3>AI Infrastructure & Orchestration</h3>
-      <div class="skills-grid">
-        <div class="skill-square">
-          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
-          <span>Gemini</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/VertexAI.svg" alt="Vertex AI" class="skill-icon">
-          <span>Vertex AI</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon">
-          <span>DialogFlow CX</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
-          <span>FAISS</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/Ollama.svg" alt="Ollama" class="skill-icon">
-          <span>Ollama</span>
-        </div>
-      </div>
-    </div>
     <!-- Software Engineering for AI -->
     <div class="cv-container skill-section">
       <h3>Software Engineering for AI</h3>
-      <!-- <p class="cv-light-grey">Tools and frameworks I use to build, deploy, and scale AI-powered applications.</p> -->
-      <h4>Cloud & DevOps</h4>  <!-- Cloud & DevOps -->
+      <h4>Cloud &amp; MLOps</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/GCP.svg" alt="GCP" class="skill-icon">
           <span>GCP</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/VertexAI.svg" alt="Vertex AI" class="skill-icon">
+          <span>Vertex AI</span>
         </div>
         <div class="skill-square">
           <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon">
@@ -442,18 +489,18 @@ permalink: /cv/
           <span>CloudBees</span>
         </div>
       </div>
-      <h4>Data Engineering</h4> <!-- Data Engineering  -->
+      <h4>Data Engineering</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon">
           <span>Kafka</span>
         </div>
-         <div class="skill-square">
+        <div class="skill-square">
           <img src="../images/Logos/MQTT.png" alt="MQTT" class="skill-icon">
           <span>MQTT</span>
         </div>
       </div>
-      <h3>Web & Application Development</h3> <!-- Web & Application Development -->
+      <h4>Web &amp; APIs</h4>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
@@ -485,8 +532,8 @@ permalink: /cv/
         </div>
         <!-- <div class="skill-square">
           <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
-          <span>CherryPy</span> -->
-        <!-- </div> -->
+          <span>CherryPy</span>
+        </div> -->
       </div>
     </div>
     <!-- Tools & Others -->
