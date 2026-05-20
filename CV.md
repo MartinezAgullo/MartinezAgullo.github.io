@@ -120,7 +120,7 @@ permalink: /cv/
       <p><h6><a href="https://www.indracompany.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Indra</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Madrid, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2025 - Present</h6></p>
-      <p>Member of the AI-research team in the innovation laboratory. My research focuses on developing AI agents for both the defense and commercial sectors. Most projects are developed at Technology Readiness Level (TRL) below 5.
+      <p>Member of the AI research team in the innovation laboratory, designing GenAI agent systems for defence and commercial applications. Focused on planning and decision-support agents, covering both single-agent and multi-agent architectures across prototype to near-production deployments. Builds custom MCP servers to expose domain tooling and orchestrates agent pipelines across internally developed agent networks. Most projects operate at TRL 2–5.
       </p>
     </div>
     <br>
@@ -131,8 +131,6 @@ permalink: /cv/
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2024 - Sept 2025</h6></p>
       <p>Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo.
       </p>
-      <p>Collaborated with internal clients to define business requirements and deliver scalable AI solutions. Led technical discovery and helped align project roadmaps with organizational goals.
-      </p>
     </div>
     <br>
     <div class="cv-container">
@@ -142,9 +140,10 @@ permalink: /cv/
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - May 2024</h6></p>
       <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
-      <p>Predoctoral Researcher at the ATLAS group (IFIC and CERN), analyzing large-volume data from the ATLAS detector at the Large Hadron Collider. Developed, optimized, and integrated supervised Machine Learning models (BDT, Neural Networks) utilizing advanced statistical techniques. Proficient in Python and C++, with experience in Shell, R, and SQL. Used major ML frameworks such as PyTorch, TensorFlow, and XGBoost. Foundational knowledge of CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. My role extended to collaborative software development using version control systems like GitLab, GitHub, and SVN. Contributed to expanding some packages of the main ATLAS software (Athena) and co-developed the post-processing software to exploit our NTuple data. Presented findings at national and international conferences and participated in data acquisition as part of the ATLAS Control Room team.
+      <!-- Foundational knowledge of CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. -->
+      <p>Predoctoral Researcher at the ATLAS group (IFIC and CERN), analyzing large-volume data from the ATLAS detector at the Large Hadron Collider. Developed, optimized, and integrated supervised Machine Learning models (BDT, Neural Networks) utilizing advanced statistical techniques. Contributed to expanding some packages of the main ATLAS software (Athena) and co-developed the post-processing software to exploit our NTuple data. Presented findings at national and international conferences and participated in data acquisition as part of the ATLAS Control Room team.
       <br>
-      Part of the research carried out during this period can be found in the paper <a href="https://link.springer.com/article/10.1007/JHEP10(2025)093">J. High Energ. Phys. 2025, 93 (2025)</a>.
+      Part of the research carried out during this period can be found in the papers <a href="https://link.springer.com/article/10.1007/JHEP10(2025)093">J. High Energ. Phys. 2025, 93 (2025)</a> and <a href="https://cds.cern.ch/record/2957351">ATLAS-CONF-2026-002 (2026)</a>.
       <br>
       This work was partially funded by the competitive ACIF scholarship from the Generalitat Valenciana.
       <br>
@@ -157,7 +156,7 @@ permalink: /cv/
       <p><h6><a href="https://www.uv.es/uvweb/chemistry/en/faculty-chemistry-1285849471169.html" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>University of Valencia</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6></p>
-      <p>Faculty Lecturer (PDI) in the Chemistry degree program, teaching Electromagnetism and Laboratory Techniques (Physics II) (Academic Years 2019/2020 and 2020/2021) via in-person and online instruction. Focused on building student foundations in physics and statistics. Also provided private tutoring across various engineering disciplines for nearly a decade.</p>
+      <p>Faculty Lecturer (PDI) in the Chemistry degree program, teaching Electromagnetism and Laboratory Techniques (Physics II) (2019–2021), via in-person and online instruction. Focused on building student foundations in physics and statistics.</p>
       <!-- <hr> -->
     </div>
     <br>
@@ -187,7 +186,7 @@ permalink: /cv/
       <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Apr 2017 - Sep 2017</h6></p>
-      <p>During my internship, funded by the prestigious Severo Ochoa scholarship, I conducted research on top quark physics for my master's thesis with the ATLAS group. Developed and refined Python scripts for data extraction and statistical analyses. I was also responsible for maintaining and updating codebases on Git, ensuring robust version control practices.</p><br>
+      <p>Internship funded by the Severo Ochoa scholarship, conducting research on top quark physics for my master's thesis with the ATLAS group. Developed Python scripts for data extraction and statistical analyses, using Git for version control.</p><br>
       <!-- <hr> -->
     </div>
     <br>
@@ -205,8 +204,7 @@ permalink: /cv/
       <p><h6><a href="https://www.institut3a.physik.rwth-aachen.de/cms/~jgoo/institut3a/?lidx=1" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</a></h6>
       <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Aachen, Germany</h6>
       <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2016 - Jun 2016</h6></p>
-      <p>Conducted research at the Physics Institute III A of RWTH Aachen University. Engaged in the analysis of the LHC data recorded by the CMS experiment.
-      Used Bash Scripting, Python, and C++ to handle complex data analyses.</p><br>
+      <p>Conducted research at the Physics Institute III A of RWTH Aachen University, analysing LHC data from the CMS experiment. Work focused on searching for muon signatures as potential dark matter candidates, grounded in quantum field theory. Analyses implemented in Python, C++, and Bash.</p><br>
       <!-- <hr> -->
     </div>
     <br>
