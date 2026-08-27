@@ -1,0 +1,173 @@
+/* Línea temporal de la carrera (_includes/career-timeline.html).
+   Un solo tono azul en cuatro intensidades: el color ordena los carriles por
+   cercanía al presente en vez de limitarse a distinguirlos. El eje de años va en
+   la misma familia monoespaciada que el código del sitio, para que se lea como
+   una escala de medida y no como decoración. */
+
+.tl {
+    --tl-labels: 104px;
+    --tl-rule: #dde2e6;
+    --tl-ink: #2b3138;
+    --tl-mute: #6b737b;
+
+    margin: 2.6em -7%;   /* recupera parte del margen de .content-wrapper__inner */
+    font-family: "Nunito", sans-serif;
+}
+
+.tl__scroll {
+    overflow-x: auto;
+    padding-bottom: 2px;
+}
+
+.tl__scroll:focus-visible {
+    outline: 2px solid #2e6295;
+    outline-offset: 3px;
+}
+
+.tl__inner {
+    position: relative;
+    min-width: 700px;
+    padding-bottom: 16px;
+}
+
+/* Eje de años */
+
+.tl__axis {
+    display: grid;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--tl-rule);
+}
+
+.tl__year {
+    font-family: Consolas, Menlo, Monaco, "Liberation Mono", monospace;
+    font-size: 10px;
+    letter-spacing: .04em;
+    color: #6f777f;
+    border-left: 1px solid var(--tl-rule);
+    padding-left: 4px;
+}
+
+/* Carriles */
+
+.tl__lane {
+    display: grid;
+    grid-template-rows: 30px 12px 30px;
+    align-items: center;
+}
+
+.tl__lane--industry  { --lane: #1c3d5f; }
+.tl__lane--research  { --lane: #2e6295; }
+.tl__lane--teaching  { --lane: #6f93b5; }
+.tl__lane--education { --lane: #9db4c9; }
+
+.tl__lane-name {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    margin: 0;
+    padding-right: 14px;
+    background: #fff;
+    font-family: "Marcellus SC", serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: right;
+    color: var(--lane);
+}
+
+.tl__bar {
+    height: 11px;
+    margin-right: 2px;   /* separa dos etapas consecutivas del mismo carril */
+    border-radius: 2px;
+    background: var(--lane);
+}
+
+/* El puesto actual no termina: se desvanece por la derecha en vez de cerrarse. */
+.tl__bar--ongoing {
+    background: linear-gradient(to right, var(--lane) 72%, transparent);
+    border-radius: 2px 0 0 2px;
+}
+
+/* Lo que empezó antes del eje tampoco se cierra: se desvanece por la izquierda. */
+.tl__bar--truncated {
+    background: linear-gradient(to left, var(--lane) 88%, transparent);
+    border-radius: 0 2px 2px 0;
+}
+
+/* Etiquetas: alternan encima y debajo de la barra para no pisarse entre ellas.
+   Terminan en la última columna para poder desbordar hacia la derecha. */
+
+.tl__label {
+    margin: 0;
+    white-space: nowrap;
+    line-height: 1.25;
+    pointer-events: none;
+}
+
+/* Al final del eje no queda sitio hacia la derecha: la etiqueta se alinea
+   con el final de su barra en vez de con el principio. */
+.tl__label--end { text-align: right; }
+
+.tl__label--above { align-self: end;   padding-bottom: 5px; }
+.tl__label--below { align-self: start; padding-top: 5px; }
+
+.tl__org {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--tl-ink);
+}
+
+.tl__team {
+    display: block;
+    font-size: 10px;
+    color: var(--tl-mute);
+}
+
+/* Las fechas exactas solo para lectores de pantalla: en la figura las da el eje. */
+.tl__dates {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* Marca del presente, cruzando los cuatro carriles */
+
+.tl__now {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1px dashed #a7b0b8;
+}
+
+.tl__now-tag {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-family: Consolas, Menlo, Monaco, "Liberation Mono", monospace;
+    font-size: 9px;
+    letter-spacing: .06em;
+    color: #6f777f;
+}
+
+.tl__caption {
+    margin: 1em 0 0;
+    font-size: .8em;
+    line-height: 1.6;
+    color: var(--tl-mute);
+}
+
+@media all and (max-width: 960px) {
+    .tl {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}

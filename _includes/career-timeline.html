@@ -1,0 +1,76 @@
+{%- comment -%}
+Línea temporal de la carrera. Los datos viven en _data/career.yml.
+Uso: {% include career-timeline.html %} o {% include career-timeline.html lang="es" %}
+
+Cada barra se coloca con grid-column. La pista tiene una columna por mes del eje,
+más una primera columna para el nombre del carril, así que la línea de rejilla de
+un mes m es m + 2. Las etiquetas se alternan arriba y abajo de la barra para que
+no choquen entre sí.
+{%- endcomment -%}
+
+{%- assign tl = site.data.career -%}
+{%- assign y0 = tl.axis.from -%}
+{%- assign y1 = tl.axis.to | minus: 1 -%}
+{%- assign months = tl.axis.to | minus: tl.axis.from | times: 12 -%}
+{%- assign cols = months | plus: 1 -%}
+{%- assign span = tl.axis.to | minus: tl.axis.from -%}
+{%- assign nowfrac = tl.axis.now | minus: tl.axis.from | divided_by: span -%}
+{%- assign es = false -%}
+{%- if include.lang == 'es' -%}{%- assign es = true -%}{%- endif -%}
+{%- assign late = months | times: 88 | divided_by: 100 | plus: 2 -%}
+{%- assign grid = 'var(--tl-labels) repeat(' | append: months | append: ', 1fr)' -%}
+
+<figure class="tl">
+  <div class="tl__scroll" tabindex="0" role="group" aria-labelledby="tl-caption">
+    <div class="tl__inner">
+
+      <div class="tl__axis" style="grid-template-columns: {{ grid }};">
+        {%- for y in (y0..y1) -%}
+        {%- assign c = y | minus: y0 | times: 12 | plus: 2 -%}
+        <span class="tl__year" style="grid-column: {{ c }} / span 12;">{{ y }}</span>
+        {%- endfor -%}
+      </div>
+
+      {%- for lane in tl.lanes -%}
+      <section class="tl__lane tl__lane--{{ lane.id }}" style="grid-template-columns: {{ grid }};">
+        <h3 class="tl__lane-name">{% if es %}{{ lane.label_es }}{% else %}{{ lane.label }}{% endif %}</h3>
+        {%- for it in lane.items -%}
+        {%- assign cs = it.from | minus: y0 | times: 12 | round | plus: 2 -%}
+        {%- assign ce = it.to   | minus: y0 | times: 12 | round | plus: 2 -%}
+        {%- assign below = forloop.index0 | modulo: 2 -%}
+        {%- if below == 0 -%}{%- assign lrow = 1 -%}{%- else -%}{%- assign lrow = 3 -%}{%- endif -%}
+        {%- if es and it.org_es -%}{%- assign org = it.org_es -%}{%- else -%}{%- assign org = it.org -%}{%- endif -%}
+        {%- if es and it.team_es -%}{%- assign team = it.team_es -%}{%- else -%}{%- assign team = it.team -%}{%- endif -%}
+        {%- if es -%}{%- assign dates = it.dates_es -%}{%- else -%}{%- assign dates = it.dates -%}{%- endif -%}
+        <p class="tl__label tl__label--{% if lrow == 1 %}above{% else %}below{% endif %}{% if cs > late %} tl__label--end{% endif %}"
+           style="grid-column: {% if cs > late %}2 / {{ ce }}{% else %}{{ cs }} / -1{% endif %}; grid-row: {{ lrow }};">
+          <span class="tl__org">{{ org }}</span>
+          <span class="tl__team">{{ team }}</span>
+          <span class="tl__dates">{{ dates }}</span>
+        </p>
+        <span class="tl__bar{% if it.ongoing %} tl__bar--ongoing{% endif %}{% if it.truncated %} tl__bar--truncated{% endif %}"
+              style="grid-column: {{ cs }} / {{ ce }}; grid-row: 2;"
+              aria-hidden="true"></span>
+        {%- endfor -%}
+      </section>
+      {%- endfor -%}
+
+      <span class="tl__now" aria-hidden="true"
+            style="left: calc(var(--tl-labels) + (100% - var(--tl-labels)) * {{ nowfrac }});">
+        <span class="tl__now-tag">{% if es %}hoy{% else %}now{% endif %}</span>
+      </span>
+
+    </div>
+  </div>
+  <figcaption class="tl__caption" id="tl-caption">
+    {%- if es -%}
+    Cuatro carriles paralelos, {{ y0 }}–{{ y1 }}. Los solapamientos son lo interesante:
+    la docencia convivió con el doctorado y el año en Capgemini interrumpió la
+    investigación en el IFIC/CERN.
+    {%- else -%}
+    Four parallel tracks, {{ y0 }}–{{ y1 }}. The overlaps are the point: teaching ran
+    alongside the doctorate, and the year at Capgemini interrupted the research at
+    IFIC/CERN.
+    {%- endif -%}
+  </figcaption>
+</figure>

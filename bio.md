@@ -11,6 +11,8 @@ I’m Pablo, a PhD in Physics and Artificial Intelligence specialist, passionate
 
 Currently, I work as a Senior AI Engineer in the Innovation Department at Indra. My focus is on R&D in AI Agents, where I leverage my scientific expertise and modern software engineering practices to drive our products to the technological frontier. I am always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems.
 
+{% include career-timeline.html %}
+
 <!-- I’m always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems—whether in industry, academia, or beyond. -->
 
 
