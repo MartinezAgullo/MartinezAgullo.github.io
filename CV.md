@@ -3,85 +3,17 @@ layout: post
 title: CV
 description: CV
 permalink: /cv/
+font_awesome: true
+body_class: cv-page
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        .tab { display: none; }
-        .tab.active { display: block; }
-        .icon-black { color: black !important; }
-        .skill-box {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-            height: 70px;
-        }
-        .skill-icon {
-            max-height: 100%;
-            margin-right: 15px;
-        }
-        .skill-section {
-            margin-bottom: 20px;
-        }
-        .skill-section h3 {
-            margin-bottom: 10px;
-            color: #333;
-        }
-        .container {
-            width: 100%;
-            margin: 20px auto;
-            padding: 0 5px;
-            box-sizing: border-box;
-        }
-        .tabs {
-            background-color: black;
-            overflow: hidden;
-        }
-        .tabs button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-            font-size: 17px;
-            color: white;
-        }
-        .tabs button:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .tabs button.active {
-            background-color: #009688;
-            color: white;
-        }
-        .tab-content {
-            padding: 6px 12px;
-            border-top: none;
-        }
-    </style>
-</head>
 
 <!-- Begin CV body -->
-<body class="cv-light-grey" style="width: 100%;"> 
-
 <!-- Page Container -->
 <div class="container cv-margin-top" style="width: 100%;">
 
   <!-- Tabs -->
-  <div class="cv-bar cv-black">
+  <div class="cv-bar">
     <button class="cv-bar-item cv-button tablink cv-teal" onclick="openTab(event, 'Contact')">Profile</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Experience')">Experience</button>
     <button class="cv-bar-item cv-button tablink" onclick="openTab(event, 'Education')">Education</button>
@@ -90,60 +22,63 @@ permalink: /cv/
   </div>
 
   <!-- Contact Tab -->
-  <div id="Contact" class="container cv-white cv-card tab" style="display: block;">
-    <h2>Contact</h2>
-    <div class="cv-container cv-text-grey cv-card-4">
-      <div class="cv-display-container image-hover-container">
-          <img src="../images/pma_formal.png" class="image-normal" alt="Avatar">
-          <img src="../images/pma_informal.png" class="image-hover" alt="Avatar">
-          <!-- <div class="cv-display-bottomleft container cv-text-black">
-              <h2>{{ site.author.name }}</h2>
-          </div> -->
+  <div id="Contact" class="container tab" style="display: block;">
+    <h2>Profile</h2>
+    <div class="cv-container profile">
+      <div class="image-hover-container contact__photo">
+          <img src="../images/pma_formal.png" class="image-normal" alt="Pablo Mart&iacute;nez Agull&oacute;">
+          <img src="../images/pma_informal.png" class="image-hover" alt="Pablo Mart&iacute;nez Agull&oacute;">
       </div>
-      <br>
-      <div class="cv-container">
-        <!-- <p><i class="fa fa-briefcase fa-fw cv-margin-right cv-large icon-black"></i>{{ site.author.job_title }}</p> -->
-        <p><i class="fa fa-home fa-fw cv-margin-right cv-large icon-black"></i> {{ site.author.location }}</p>
-        <p><i class="fa fa-envelope fa-fw cv-margin-right cv-large icon-black"></i> <a href="mailto:pablo.martinez.agullo@gmail.com">pablo.martinez.agullo@gmail.com</a></p>
-        <p><i class="fa fa-phone fa-fw cv-margin-right cv-large icon-black"></i> {{ site.author.phone }}</p>
-      </div>
-    <br>  
+      <p class="profile__text">I build agentic AI systems and take them from prototype to production. At Indra's innovation lab I design planning and decision-support agents for defence and commercial products, from single agents to multi-agent networks, often running open-weight models on edge hardware so the whole loop keeps working with no connectivity. Before that I shipped GenAI products at Mercadona on Google Cloud.</p>
+      <p class="profile__text">My background is a PhD in Physics on the ATLAS experiment at CERN, working on top-quark and Higgs analyses. That is where I learned to handle data at scale and to be careful about what a result actually proves, a habit that matters as much with language models as it did with collision data.</p>
+      <dl class="contact">
+        <dt class="contact__label">Location</dt>
+        <dd class="contact__value">{{ site.author.location }}</dd>
+        <dt class="contact__label">Email</dt>
+        <dd class="contact__value"><a href="mailto:pablo.martinez.agullo@gmail.com">pablo.martinez.agullo@gmail.com</a></dd>
+        <dt class="contact__label">Phone</dt>
+        <dd class="contact__value">{{ site.author.phone }}</dd>
+      </dl>
     </div>
-    <br>
   </div> <!-- End Contact Tab -->
 
   <!-- Experience Tab -->
-  <div id="Experience" class="container cv-white cv-card tab">
+  <div id="Experience" class="container tab">
     <h2>Experience</h2>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Senior artificial intelligence engineer</b></h4></p>
-      <p><h6><a href="https://www.indracompany.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Indra</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Madrid, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2025 - Present</h6></p>
-      <p>Member of the AI research team in the innovation laboratory, designing GenAI agent systems for defence and commercial applications. Focused on planning and decision-support agents, covering both single-agent and multi-agent architectures across prototype to near-production deployments. Builds custom MCP servers to expose domain tooling and orchestrates agent pipelines across internally developed agent networks. Most projects operate at TRL 2–5.
+      <header class="job__head">
+        <h3 class="job__role">Senior artificial intelligence engineer</h3>
+        <p class="job__org"><a href="https://www.indracompany.com/" target="_blank">Indra</a></p>
+        <p class="job__meta">Sept 2025 - Present</p>
+        <p class="job__meta">Madrid, Spain</p>
+      </header>
+      <p>Member of the AI research team in the innovation laboratory, designing GenAI agent systems for defence and commercial applications. Focused on planning and decision-support agents, covering both single-agent and multi-agent architectures across prototype to near-production deployments. Builds custom MCP servers to expose domain tooling and orchestrates agent pipelines across internally developed agent networks. Part of the work sits on the optimisation side: planning and resource-allocation problems are formulated as QUBO/Ising models and solved with quantum annealing (D-Wave), then exposed to the planning agents as callable tools. Several of these systems are deployed at the edge, running local open-weight LLMs on constrained hardware such as Raspberry Pi boards and NVIDIA DGX Spark units, so the full agent loop keeps working in disconnected or bandwidth-limited environments. Some of these agents act on physical systems: one flies a real drone from mission orders given in natural language, driven by a local LLM. Most projects operate at TRL 2–5. I was also part of the team that secured an externally funded research collaboration between Indra and the CSIC.
       </p>
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Artificial intelligence engineer</b></h4></p>
-      <p><h6><a href="https://info.mercadona.es/en/mercadonait" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Mercadona</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sept 2024 - Sept 2025</h6></p>
-      <p>Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo.
+      <header class="job__head">
+        <h3 class="job__role">Artificial intelligence engineer</h3>
+        <p class="job__org"><a href="https://info.mercadona.es/en/mercadonait" target="_blank">Mercadona</a></p>
+        <p class="job__meta">Sept 2024 - Sept 2025</p>
+        <p class="job__meta">Valencia, Spain</p>
+      </header>
+      <p>Designed and deployed AI-driven solutions within Mercadona's IT Innovation Team, primarily leveraging Generative AI. Notable projects include a RAG-based chatbot (LangChain, Gemini, FAISS, DialogFlow CX) and an application that extracts structured data from product label images (Gemini, Kafka, SQL). I followed hexagonal architecture and CLEAN/SOLID principles, using tools like FastAPI, Docker, Kubernetes, and GCP. I have also contributed to a mathematical optimization project, automating the company’s workforce scheduling system using Pyomo and Gurobi.
       </p>
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst</b></h4></p>
-      <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
-      <h6><a href="https://home.cern/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Sep 2019 - May 2024</h6></p>
-      <!-- <span class="cv-tag cv-teal cv-round">Current</span> -->
+      <header class="job__head">
+        <h3 class="job__role">Physics researcher - Data analyst</h3>
+        <p class="job__org"><a href="https://webific.ific.uv.es/web/en" target="_blank">Instituto de Física Corpuscular (IFIC)</a> &middot; <a href="https://home.cern/" target="_blank">European Laboratory for Particle Physics (CERN)</a></p>
+        <p class="job__meta">Sep 2019 - May 2024</p>
+        <p class="job__meta">Valencia, Spain | Geneva, Switzerland</p>
+      </header>
+      <!-- <span class="cv-teal">Current</span> -->
       <!-- Foundational knowledge of CUDA and Verilog, enhancing my capability to work with AI-dedicated infrastructures. -->
       <p>Predoctoral Researcher at the ATLAS group (IFIC and CERN), analyzing large-volume data from the ATLAS detector at the Large Hadron Collider. Developed, optimized, and integrated supervised Machine Learning models (BDT, Neural Networks) utilizing advanced statistical techniques. Contributed to expanding some packages of the main ATLAS software (Athena) and co-developed the post-processing software to exploit our NTuple data. Presented findings at national and international conferences and participated in data acquisition as part of the ATLAS Control Room team.
       <br>
-      Part of the research carried out during this period can be found in the papers <a href="https://link.springer.com/article/10.1007/JHEP10(2025)093">J. High Energ. Phys. 2025, 93 (2025)</a> and <a href="https://cds.cern.ch/record/2957351">ATLAS-CONF-2026-002 (2026)</a>.
+      Part of the research carried out during this period can be found in the papers <a href="https://link.springer.com/article/10.1007/JHEP10(2025)093">JHEP 10 (2025) 093</a> and <a href="https://cds.cern.ch/record/2957351">ATLAS-CONF-2026-002</a>.
       <br>
       This work was partially funded by the competitive ACIF scholarship from the Generalitat Valenciana.
       <br>
@@ -152,80 +87,98 @@ permalink: /cv/
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Faculty lecturer</b></h4></p>
-      <p><h6><a href="https://www.uv.es/uvweb/chemistry/en/faculty-chemistry-1285849471169.html" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>University of Valencia</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2020 - Sep 2021</h6></p>
-      <p>Faculty Lecturer (PDI) in the Chemistry degree program, teaching Electromagnetism and Laboratory Techniques (Physics II) (2019–2021), via in-person and online instruction. Focused on building student foundations in physics and statistics.</p>
+      <header class="job__head">
+        <h3 class="job__role">Faculty lecturer</h3>
+        <p class="job__org"><a href="https://www.uv.es/uvweb/chemistry/en/faculty-chemistry-1285849471169.html" target="_blank">University of Valencia</a></p>
+        <p class="job__meta">Feb 2020 - Sep 2021</p>
+        <p class="job__meta">Valencia, Spain</p>
+      </header>
+      <p>Faculty Lecturer (PDI) in the Chemistry degree program, teaching Electromagnetism and Laboratory Techniques (Physics II) (2019–2021), via in-person and online instruction, reaching over 100 students across two cohorts. Focused on building student foundations in physics and statistics.</p>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Consultant - Data scientist</b></h4></p>
-      <p><h6><a href="https://www.capgemini.com/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Capgemini</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2019 - Sep 2019</h6></p>
-      <p>Consultant on the Insights & Data team. Developed a sentiment analysis tool based on web scraping and Natural Language Processing (NLP).</p><br>
+      <header class="job__head">
+        <h3 class="job__role">Consultant - Data scientist</h3>
+        <p class="job__org"><a href="https://www.capgemini.com/" target="_blank">Capgemini</a></p>
+        <p class="job__meta">Feb 2019 - Sep 2019</p>
+        <p class="job__meta">Valencia, Spain</p>
+      </header>
+      <p>Consultant on the Insights & Data team. Developed a sentiment analysis tool based on web scraping and NLP.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst and developer</b></h4></p>
-      <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
-      <h6><a href="https://home.cern/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Laboratory for Particle Physics (CERN)</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain | Geneva, Switzerland</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Dec 2017 - Jan 2019</h6></p>
-      <p>Predoctoral Researcher on the ATLAS experiment at CERN. Developed data analysis and visualization software during the initial phase of doctoral research. Engineered and optimized the full-stack web application to monitor the alignment of the ATLAS detector. The resulting tool was widely adopted by the collaboration.
-      Part of the work developed during this tenure has been included in the paper <a href="https://link.springer.com/article/10.1007/JHEP11(2022)040">J. High Energ. Phys. 2022, 40 (2022)</a>.
+      <header class="job__head">
+        <h3 class="job__role">Physics researcher - Data analyst and developer</h3>
+        <p class="job__org"><a href="https://webific.ific.uv.es/web/en" target="_blank">Instituto de Física Corpuscular (IFIC)</a> &middot; <a href="https://home.cern/" target="_blank">European Laboratory for Particle Physics (CERN)</a></p>
+        <p class="job__meta">Dec 2017 - Jan 2019</p>
+        <p class="job__meta">Valencia, Spain | Geneva, Switzerland</p>
+      </header>
+      <p>Predoctoral Researcher on the ATLAS experiment at CERN. Developed data analysis and visualization software during the initial phase of doctoral research. Engineered and optimized the full-stack web application to monitor the alignment of the ATLAS detector. The resulting tool was widely adopted by the collaboration: it went into production in 2019 and remains in use today, seven years on.
+      Part of the work developed during this tenure has been included in the paper <a href="https://link.springer.com/article/10.1007/JHEP11(2022)040">JHEP 11 (2022) 040</a>.
       </p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data analyst (Internship)</b></h4></p>
-      <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Apr 2017 - Sep 2017</h6></p>
+      <header class="job__head">
+        <h3 class="job__role">Physics researcher - Data analyst (Internship)</h3>
+        <p class="job__org"><a href="https://webific.ific.uv.es/web/en" target="_blank">Instituto de Física Corpuscular (IFIC)</a></p>
+        <p class="job__meta">Apr 2017 - Sep 2017</p>
+        <p class="job__meta">Valencia, Spain</p>
+      </header>
       <p>Internship funded by the Severo Ochoa scholarship, conducting research on top quark physics for my master's thesis with the ATLAS group. Developed Python scripts for data extraction and statistical analyses, using Git for version control.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Outreach researcher (Internship)</b></h4></p>
-      <p><h6><a href="https://www.esa.int/" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>European Space Agency (ESA)</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Leiden, Netherlands</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Jun 2016 - Sep 2016</h6></p>
-      <p>Awarded the LEAPS scholarship to engage in science communication and outreach with the Universe Awareness (UNAWE) group at ESA and Leiden University. Developed a natural language processing (NLP) tool and conducted <a href="https://www.unawe.org/updates/unawe-update-2016-37/">research</a> on scientific product policies.</p><br>
+      <header class="job__head">
+        <h3 class="job__role">Outreach researcher (Internship)</h3>
+        <p class="job__org"><a href="https://www.esa.int/" target="_blank">European Space Agency (ESA)</a></p>
+        <p class="job__meta">Jun 2016 - Sep 2016</p>
+        <p class="job__meta">Leiden, Netherlands</p>
+      </header>
+      <p>Awarded the LEAPS scholarship to work with the Universe Awareness (UNAWE) group at ESA and Leiden University. Built an NLP tool for sentiment analysis, and <a href="https://www.unawe.org/updates/unawe-update-2016-37/">studied</a> how the licensing terms of scientific products affect their reach in outreach.
+      Part of this work was included in <a href="https://www.capjournal.org/issues/20/">CAPjournal 20 (2016) 5</a>.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data Analyst (Internship)</b></h4></p>
-      <p><h6><a href="https://www.institut3a.physik.rwth-aachen.de/cms/~jgoo/institut3a/?lidx=1" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Aachen, Germany</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Feb 2016 - Jun 2016</h6></p>
-      <p>Conducted research at the Physics Institute III A of RWTH Aachen University, analysing LHC data from the CMS experiment. Work focused on searching for muon signatures as potential dark matter candidates, grounded in quantum field theory. Analyses implemented in Python, C++, and Bash.</p><br>
+      <header class="job__head">
+        <h3 class="job__role">Physics researcher - Data Analyst (Internship)</h3>
+        <p class="job__org"><a href="https://www.institut3a.physik.rwth-aachen.de/cms/~jgoo/institut3a/?lidx=1" target="_blank">RWTH Aachen University</a></p>
+        <p class="job__meta">Feb 2016 - Jun 2016</p>
+        <p class="job__meta">Aachen, Germany</p>
+      </header>
+      <p>Conducted research at the Physics Institute III A of RWTH Aachen University, analysing LHC data from the CMS experiment. Work focused on searching for muon signatures as potential dark matter candidates, grounded in quantum field theory. Analyses implemented in Python, C++, and Bash.
+      These studies were compiled, together with others, in <a href="https://link.springer.com/article/10.1007/JHEP06(2018)128">JHEP 06 (2018) 128</a>.</p><br>
       <!-- <hr> -->
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Physics researcher - Data Analyst (Internship)</b></h4></p>
-      <p><h6><a href="https://webific.ific.uv.es/web/en" target="_blank" style="text-decoration: none; color: inherit;"><i class="fa fa-briefcase fa-fw cv-margin-right icon-black"></i>Instituto de Física Corpuscular (IFIC)</a></h6>
-      <h6><i class="fa fa-map-marker fa-fw cv-margin-right icon-black"></i>Valencia, Spain</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>Nov 2014 - Jul 2015</h6></p>
-      <p>External internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analyzed data from silicon detectors to calibrate scientific instruments. Worked with photomultiplier tubes (PMTs), silicon photomultipliers (SiPMs), lasers, and vacuum systems.</p><br>
+      <header class="job__head">
+        <h3 class="job__role">Physics researcher - Data Analyst (Internship)</h3>
+        <p class="job__org"><a href="https://webific.ific.uv.es/web/en" target="_blank">Instituto de Física Corpuscular (IFIC)</a></p>
+        <p class="job__meta">Nov 2014 - Jul 2015</p>
+        <p class="job__meta">Valencia, Spain</p>
+      </header>
+      <p>External internship for my Physics degree at the Neutrino Experiment with a Xenon TPC (NEXT), where I analyzed data from silicon detectors to calibrate scientific instruments. Worked with photomultiplier tubes, silicon photomultipliers, lasers, and vacuum systems.
+      This work contributed to the papers <a href="https://iopscience.iop.org/article/10.1088/1748-0221/10/02/C02039">JINST 10 (2015) C02039</a> and <a href="https://inspirehep.net/literature/1468317">PoS PhotoDet2015 (2016) 034</a>.</p><br>
     </div>
   </div> <!-- End Experience Tab -->
 
   <!-- Education Tab -->
-  <div id="Education" class="container cv-white cv-card tab">
+  <div id="Education" class="container tab">
     <h2>Education</h2>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>PhD in Physics</b></h4></p>
-      <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2019 - 2024</h6></p>
+      <header class="job__head">
+        <h3 class="job__role">PhD in Physics</h3>
+        <p class="job__org">University of Valencia</p>
+        <p class="job__meta">2019 - 2024</p>
+      </header>
       <p>Earned a <a href="https://www.uv.es/uvweb/atomic-molecular-nuclear-physics-department/en/doctoral-studies-/phd-programmes-related-department/doctoral-studies-programme-physics-1285858319539.html" target="_blank">Doctorate in Physics</a>, specializing in Particle Physics and data analysis using advanced machine learning techniques at the Instituto de Física Corpuscular (IFIC). My thesis explored the interaction between the Higgs boson and the top quark, an interaction relevant to fundamental questions such as matter-antimatter asymmetry.</p><br>
-      <p>PhD thesis: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Here</a></p>
+      <p>PhD thesis: <a href="https://repository.cern/records/gwqbx-yhe04" target="_blank">Search for the Higgs boson produced in association with a top quark using &tau; leptons with ATLAS</a></p>
       <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/gwqbx-yhe04/preview/CERN-THESIS-2024-018.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -234,11 +187,13 @@ permalink: /cv/
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>MSc in Advanced Physics</b></h4></p>
-      <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2016 - 2017</h6></p>
+      <header class="job__head">
+        <h3 class="job__role">MSc in Advanced Physics</h3>
+        <p class="job__org">University of Valencia</p>
+        <p class="job__meta">2016 - 2017</p>
+      </header>
       <p>Completed a <a href="https://www.uv.es/uvweb/universidad/es/estudios-postgrado/masteres-oficiales/oferta-masteres-oficiales/master-universitario-fisica-avanzada-1285848941532/Titulacio.html?id=1285855672391&p2=2" target="_blank">Master of Science in Advanced Physics</a>, specializing in Nuclear and Particle Physics as well as Theoretical Physics. This program was geared towards developing R&D expertise, with a strong emphasis on statistics, data visualization, computation, and quantitative analysis. My master's thesis, which focused on the data from the ATLAS experiment to study the top quark, was supported by a Severo Ochoa scholarship.</p><br>
-      <p>Master's thesis: <a href="https://repository.cern/records/bv467-d1f06" target="_blank">Here</a></p>
+      <p>Master's thesis: <a href="https://repository.cern/records/bv467-d1f06" target="_blank">Optimisation of selection criteria of <em>t</em>-channel single-top-quark events at &radic;s = 13 TeV for studies of anomalous couplings in the <em>Wtb</em> vertex</a></p>
       <!-- <div class="pdf-container">
        <iframe src="https://repository.cern/records/bv467-d1f06/preview/CERN-THESIS-2017-156.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -247,11 +202,13 @@ permalink: /cv/
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Bachelor's Degree in Physics</b></h4></p>
-      <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>RWTH Aachen University</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2015 - 2016</h6></p>
+      <header class="job__head">
+        <h3 class="job__role">Bachelor's Degree in Physics</h3>
+        <p class="job__org">RWTH Aachen University</p>
+        <p class="job__meta">2015 - 2016</p>
+      </header>
       <p>Completed a year of graduate-level physics <a href="https://www.rwth-aachen.de/cms/root/studium/vor-dem-studium/studiengaenge/liste-aktuelle-studiengaenge/studiengangbeschreibung/~bojy/physik-m-sc/?lidx=1" target="_blank">courses</a> and bachelor's thesis research during an Erasmus exchange. Thesis involved the analysis of CMS experiment data at CERN in a search for dark matter signatures.</p><br>
-      <p>Bachelor's thesis: <a href="https://cds.cern.ch/record/2286284" target="_blank">Here</a></p>
+      <p>Bachelor's thesis: <a href="https://cds.cern.ch/record/2286284" target="_blank">Search for dark matter in proton-proton collision events with a muon and missing transverse energy in the CMS detector with &radic;s = 13 TeV</a></p>
       <!-- <div class="pdf-container">
       <iframe src="https://cds.cern.ch/record/2286284/files/fulltext.pdf" width="100%" height="600px" frameborder="0"></iframe>
       </div>
@@ -261,17 +218,20 @@ permalink: /cv/
     </div>
     <br>
     <div class="cv-container">
-      <p><h4 class="cv-opacity"><b>Bachelor's Degree in Physics</b></h4></p>
-      <p><h6><i class="fa fa-university fa-fw cv-margin-right icon-black"></i>University of Valencia</h6>
-      <h6 class="cv-text-teal"><i class="fa fa-calendar fa-fw cv-margin-right icon-black"></i>2011 - 2015</h6></p>
-      <p>Graduated with a <a href="https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-physics-1285846094474/Titulacio.html?id=1285847387274" target="_blank">Degree in Physics</a>, completing 258 ECTS credits. Established a foundational mastery of theoretical physics concepts, advanced mathematics, and computational problem-solving The Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
+      <header class="job__head">
+        <h3 class="job__role">Bachelor's Degree in Physics</h3>
+        <p class="job__org">University of Valencia</p>
+        <p class="job__meta">2011 - 2015</p>
+      </header>
+      <p>Graduated with a <a href="https://www.uv.es/uvweb/college/en/undergraduate-studies/undergraduate-studies-/degree-programmes-offered/degree-physics-1285846094474/Titulacio.html?id=1285847387274" target="_blank">Degree in Physics</a>: 258 ECTS credits against the 240 required, the surplus taken as optional coursework out of interest. Established a foundation in theoretical physics, advanced mathematics and computational problem-solving. The Faculty of Physics at the University of Valencia was ranked as the top physics department in Spain according to the Shanghai ranking during my tenure.</p><br>
     </div>
   </div> <!-- End Education Tab --> 
-  <div id="Skills" class="container cv-white cv-card tab">
+  <div id="Skills" class="container tab">
     <h2>Skills</h2>
     <!-- Programming Languages -->
     <div class="cv-container skill-section">
       <h3>Programming Languages</h3>
+      <p class="skill-note">Python throughout, from LHC data analysis to production AI systems. C++ during the PhD, contributing to the ATLAS simulation software. A significant share of the code I ship is now written with AI assistance, which shifts my time towards design and review.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Python.png" alt="Python" class="skill-icon">
@@ -310,6 +270,7 @@ permalink: /cv/
     <div class="cv-container skill-section">
       <h3>Agentic AI &amp; LLM Systems</h3>
       <h4>Agent Frameworks &amp; Orchestration</h4>
+      <p class="skill-note">Multi-agent systems: planning and decision-support, metacognitive and federated architectures. Frameworks earn their place in rapid prototyping; beyond that I tend to orchestrate without one, which keeps the control flow explicit.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon">
@@ -337,6 +298,7 @@ permalink: /cv/
         </div> -->
       </div>
       <h4>Agent Protocols</h4>
+      <p class="skill-note">Mainly MCP: custom servers that expose domain tooling to agents behind a stable interface. Also Agent Skills for packaging reusable procedures, and A2A for agent-to-agent communication.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/MCP.svg" alt="MCP" class="skill-icon">
@@ -347,12 +309,37 @@ permalink: /cv/
           <span>A2A</span>
         </div>
       </div>
-      <h4>LLM Providers</h4>
+      <h4>Edge &amp; On-Device AI</h4>
+      <p class="skill-note">Open-weight models served locally with Ollama, vLLM and llama.cpp, on hardware ranging from Raspberry Pi boards to NVIDIA DGX Spark units. Several target denied environments, where the full agent loop must run without connectivity. Among them, a UAV flown autonomously by an on-board agent.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Ollama.svg" alt="Ollama" class="skill-icon">
           <span>Ollama</span>
         </div>
+        <div class="skill-square">
+          <img src="../images/Logos/LLaMA.png" alt="Open-weight models" class="skill-icon">
+          <span>Open-weight models</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/MQTT.png" alt="Edge messaging" class="skill-icon">
+          <span>Edge messaging</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/RaspberryPi.svg" alt="Raspberry Pi" class="skill-icon">
+          <span>Raspberry Pi</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/vLLM.png" alt="vLLM" class="skill-icon">
+          <span>vLLM</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/llama_cpp.svg" alt="llama.cpp" class="skill-icon">
+          <span>llama.cpp</span>
+        </div>
+      </div>
+      <h4>Hosted LLM Providers</h4>
+      <p class="skill-note">OpenAI, Anthropic and Gemini in production work. I benchmark candidates on the actual task before committing, rather than defaulting to the largest available.</p>
+      <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/repos/OpenAI.png" alt="OpenAI" class="skill-icon">
           <span>OpenAI</span>
@@ -371,6 +358,7 @@ permalink: /cv/
         </div> -->
       </div>
       <h4>RAG &amp; Knowledge Systems</h4>
+      <p class="skill-note">An internal assistant at Mercadona answering employee questions on company policy: LangChain and Gemini over a FAISS index, served through DialogFlow CX on GCP.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
@@ -378,6 +366,7 @@ permalink: /cv/
         </div>
       </div>
       <h4>Observability &amp; Evaluation</h4>
+      <p class="skill-note">OpenTelemetry in every agentic project, except LangGraph ones, where I use LangSmith.</p>
       <div class="skills-grid">
         <div class="skill-square">
           <img src="../images/Logos/LangChain.svg" alt="LangSmith" class="skill-icon">
@@ -399,6 +388,7 @@ permalink: /cv/
     <!-- Machine Learning -->
     <div class="cv-container skill-section">
       <h3>Machine Learning</h3>
+      <p class="skill-note">Mostly from the ATLAS experiment at CERN, on petabyte-scale data: classifiers for event selection and for signal-versus-background separation, where the background outnumbers the signal by several orders of magnitude. Also working experience with computer vision and reinforcement learning.</p>
       <h4>Data Manipulation</h4>
       <div class="skills-grid">
         <div class="skill-square">
@@ -542,6 +532,21 @@ permalink: /cv/
         </div> -->
       </div>
     </div>
+    <!-- Optimisation -->
+    <div class="cv-container skill-section">
+      <h3>Optimisation</h3>
+      <p class="skill-note">Workforce scheduling at Mercadona, modelled in Pyomo and solved with Gurobi. At Indra, resource allocation for medical evacuation in mass-casualty scenarios, formulated as QUBO/Ising models, solved with quantum annealing on D-Wave and exposed to the planning agents as a callable tool.</p>
+      <div class="skills-grid">
+        <div class="skill-square">
+          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
+          <span>Pyomo</span>
+        </div>
+        <div class="skill-square">
+          <img src="../images/Logos/Gurobi.png" alt="Gurobi" class="skill-icon">
+          <span>Gurobi</span>
+        </div>
+      </div>
+    </div>
     <!-- Tools & Others -->
     <div class="cv-container skill-section">
       <h3>Supporting Tools</h3>
@@ -571,14 +576,6 @@ permalink: /cv/
           <span>UV</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
-          <span>Pyomo</span>
-        </div>
-        <div class="skill-square">
-          <img src="../images/Logos/Gurobi.png" alt="Gurobi" class="skill-icon">
-          <span>Gurobi</span>
-        </div>
-        <div class="skill-square">
           <img src="../images/Logos/Jupyter.svg" alt="Jupyter" class="skill-icon">
           <span>Jupyter</span>
         </div>
@@ -587,27 +584,21 @@ permalink: /cv/
     <!-- Languages -->
     <h2>Languages</h2>
     <div class="cv-container skill-section">
-      <p>Spanish
-      <div class="cv-light-grey cv-round-xlarge">
-        <div class="cv-round-xlarge cv-teal" style="height:24px;width:100%"></div>
-      </div></p><br>
-      <p>English
-      <div class="cv-light-grey cv-round-xlarge">
-        <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
-      </div></p><br>
-      <p>Catalan
-      <div class="cv-light-grey cv-round-xlarge">
-        <div class="cv-round-xlarge cv-teal" style="height:24px;width:95%"></div>
-      </div></p><br>
-      <p>German
-      <div class="cv-light-grey cv-round-xlarge">
-        <div class="cv-round-xlarge cv-teal" style="height:24px;width:25%"></div>
-      </div></p><br>
+    <dl class="langs">
+      <dt class="langs__name">Spanish</dt>
+      <dd class="langs__level">Native</dd>
+      <dt class="langs__name">Catalan</dt>
+      <dd class="langs__level">Native</dd>
+      <dt class="langs__name">English</dt>
+      <dd class="langs__level">C1&ndash;C2<span class="langs__note">Thesis, publications and conference talks in English</span></dd>
+      <dt class="langs__name">German</dt>
+      <dd class="langs__level">A1</dd>
+    </dl>
     </div>
   </div><!-- End Skills Tab -->
 
 
-  <div id="Outreach" class="container cv-white cv-card tab">
+  <div id="Outreach" class="container tab">
   <h2>Outreach</h2>
   <div class="cv-container">
     <!--<p>Concurrently, I engage in science communication during my free time, delivering talks at schools, participating in science fairs, and contributing to a science podcast.</p>-->
@@ -675,7 +666,5 @@ function openTab(evt, tabName) {
 }
 </script>
 
-</body>
 <!-- End CV body -->
 
-</html>
