@@ -21,7 +21,8 @@ no choquen entre sí.
 {%- assign grid = 'var(--tl-labels) repeat(' | append: months | append: ', 1fr)' -%}
 
 <figure class="tl">
-  <div class="tl__scroll" tabindex="0" role="group" aria-labelledby="tl-caption">
+  <div class="tl__scroll" tabindex="0" role="group"
+       aria-label="{% if es %}Trayectoria profesional y académica, {{ y0 }}–{{ y1 }}{% else %}Career and academic timeline, {{ y0 }}–{{ y1 }}{% endif %}">
     <div class="tl__inner">
 
       <div class="tl__axis" style="grid-template-columns: {{ grid }};">
@@ -62,15 +63,4 @@ no choquen entre sí.
 
     </div>
   </div>
-  <figcaption class="tl__caption" id="tl-caption">
-    {%- if es -%}
-    Cuatro carriles paralelos, {{ y0 }}–{{ y1 }}. Los solapamientos son lo interesante:
-    la docencia convivió con el doctorado y el año en Capgemini interrumpió la
-    investigación en el IFIC/CERN.
-    {%- else -%}
-    Four parallel tracks, {{ y0 }}–{{ y1 }}. The overlaps are the point: teaching ran
-    alongside the doctorate, and the year at Capgemini interrupted the research at
-    IFIC/CERN.
-    {%- endif -%}
-  </figcaption>
 </figure>

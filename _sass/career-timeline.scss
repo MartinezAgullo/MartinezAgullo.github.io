@@ -10,7 +10,7 @@
     --tl-ink: #2b3138;
     --tl-mute: #6b737b;
 
-    margin: 2.6em -7%;   /* recupera parte del margen de .content-wrapper__inner */
+    margin: 2.6em 0;   /* no se sale de la columna de texto de la bio */
     font-family: "Nunito", sans-serif;
 }
 
@@ -26,7 +26,7 @@
 
 .tl__inner {
     position: relative;
-    min-width: 700px;
+    min-width: 620px;
     padding-bottom: 16px;
 }
 
@@ -156,18 +156,4 @@
     font-size: 9px;
     letter-spacing: .06em;
     color: #6f777f;
-}
-
-.tl__caption {
-    margin: 1em 0 0;
-    font-size: .8em;
-    line-height: 1.6;
-    color: var(--tl-mute);
-}
-
-@media all and (max-width: 960px) {
-    .tl {
-        margin-right: 0;
-        margin-left: 0;
-    }
 }
