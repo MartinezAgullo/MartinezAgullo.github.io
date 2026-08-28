@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Bio
-description: Biography
+description: "Pablo Martínez Agulló, PhD in Physics and Senior AI Engineer at Indra's innovation lab, working on agentic AI systems."
 permalink: /bio/
+lang: en
+translation: /bio_esp/
 ---
 
 
 Hello there!<br>
 I’m Pablo, a PhD in Physics and Artificial Intelligence specialist, passionate about solving real-world problems through cutting-edge AI technologies. I earned my doctorate from the University of Valencia and the Instituto de Física Corpuscular (IFIC), where I conducted research within the ATLAS experiment at CERN, analyzing large-scale data from the LHC to study the top quark and Higgs boson.
 
-Currently, I work as a Senior AI Engineer in the Innovation Department at Indra. My focus is on R&D in AI Agents, where I leverage my scientific expertise and modern software engineering practices to drive our products to the technological frontier. I am always eager to embrace new challenges at the intersection of artificial intelligence, data science, and complex systems.
+Currently, I work as a Senior AI Engineer in Indra's innovation lab, designing GenAI agent systems for defence and commercial products. Most of my work is on planning and decision-support agents: single agents and multi-agent networks, custom MCP servers that give them domain tooling, and deployments at the edge running local open-weight models on hardware as small as a Raspberry Pi, so the whole loop keeps working with no connectivity. One of those agents flies a real drone from mission orders written in plain language. Most of it sits at TRL 2-5, where the interesting question is never whether the demo runs, but whether the thing survives contact with real constraints.
 
 {% include career-timeline.html %}
 

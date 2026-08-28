@@ -1,7 +1,10 @@
 
-<!-- Language switch variable -->
-{% assign show_language_switch = false %}
-{% assign current_language = 'en' %}
+{%- comment -%}
+Selector de idioma. Solo aparece en las páginas que declaran su pareja en el
+front matter con `translation:`. Para añadirlo a una página nueva basta con
+poner `lang:` y `translation:` en las dos versiones, apuntándose entre sí.
+{%- endcomment -%}
+{%- assign page_lang = page.lang | default: site.lang -%}
 
 <span class="mobile btn-mobile-menu">
   <i class="icon icon-list btn-mobile-menu__icon"></i>
@@ -19,7 +22,7 @@
           <h1 class="panel-cover__title panel-title">{{ site.title }}</h1>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">{{ site.description }}</p>
+        <p class="panel-cover__description">{{ site.data.i18n[page_lang].tagline | default: site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -101,27 +104,34 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/bio" title="bio" class="blog-button">Bio</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/codes" title="codes" class="blog-button">Codes</a></li>
-              <li class="navigation__item"><a href="{{ site.baseurl }}/publications" title="publications" class="blog-button">Publications</a></li>
-              <!-- <li class="navigation__item"><a href="{{ site.baseurl }}/bio/CV_ENG_.pdf" title="link to CV" target="_blank"><i class="fas fa-link fa-lg"></i>&nbsp;CV pdf</a> -->
-              <li class="navigation__item"><a href="{{ site.baseurl }}/cv" title="CV" class="blog-button">CV</a></li>
+              {%- for item in site.data.nav -%}
+              {%- assign entry = item[page_lang] | default: item.en -%}
+              {%- comment -%}
+              Si todavía no existe la página en este idioma se enlaza la inglesa,
+              para no dejar el menú apuntando a una URL que da 404.
+              {%- endcomment -%}
+              {%- assign exists = site.pages | where: 'url', entry.url | size -%}
+              {%- if exists == 0 -%}{%- assign entry = item.en -%}{%- endif -%}
+              <li class="navigation__item"><a href="{{ site.baseurl }}{{ entry.url }}" title="{{ entry.label }}" class="blog-button">{{ entry.label }}</a></li>
+              {%- endfor -%}
 
               <!-- Uncomment to show the blog
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="blog" class="blog-button">Blog</a></li>
               -->
             </ul>
           </nav>
-          {% if show_language_switch %}
-          <div class="language-switch">
-            <div class="dropdown">
-              <button class="dropbtn" id="languageButton">{{ current_language | capitalize }} <i class="fas fa-caret-down"></i> </button>
-              <div class="dropdown-content">
-                <a href="#" onclick="switchLanguage('en')">En</a>
-                <a href="#" onclick="switchLanguage('es')">Es</a>
-              </div>
-            </div>
-          </div>
+          {% if page.translation %}
+          {%- if page_lang == 'es' -%}
+            {%- assign en_url = page.translation -%}{%- assign es_url = page.url -%}
+          {%- else -%}
+            {%- assign en_url = page.url -%}{%- assign es_url = page.translation -%}
+          {%- endif -%}
+          <nav class="lang-switch" aria-label="{{ site.data.i18n[page_lang].lang_nav }}">
+            <a href="{{ site.baseurl }}{{ en_url }}" hreflang="en" lang="en" class="lang-switch__item"
+               {% if page_lang == 'en' %}aria-current="true"{% endif %}>EN</a>
+            <a href="{{ site.baseurl }}{{ es_url }}" hreflang="es" lang="es" class="lang-switch__item"
+               {% if page_lang == 'es' %}aria-current="true"{% endif %}>ES</a>
+          </nav>
           {% endif %}
         </div>
 
@@ -132,17 +142,3 @@
     <div class="panel-cover--overlay"></div> 
   </div>
 </header>
-
-<script>
-  function switchLanguage(language) {
-    document.getElementById('languageButton').textContent = language === 'en' ? 'En' : 'Es';
-    // Implement further logic for switching language
-    if (language === 'en') {
-      alert('Language switched to English');
-      // Add your logic for switching to English
-    } else if (language === 'es') {
-      alert('Language switched to Spanish');
-      // Add your logic for switching to Spanish
-    }
-  }
-</script>

@@ -1,0 +1,23 @@
+# Menú principal del portfolio, con etiqueta y URL para cada idioma.
+#
+# El menú y el selector de idioma se construyen a partir de este fichero, así
+# que para añadir una página nueva basta con añadir aquí su entrada y crear las
+# dos versiones con `lang:` y `translation:` en el front matter.
+#
+# `key` solo sirve para identificar la entrada al depurar; no se muestra.
+
+- key: bio
+  en: { label: 'Bio',          url: '/bio/' }
+  es: { label: 'Bio',          url: '/bio_esp/' }
+
+- key: codes
+  en: { label: 'Codes',        url: '/codes/' }
+  es: { label: 'Proyectos',    url: '/codes_esp/' }
+
+- key: publications
+  en: { label: 'Publications', url: '/publications/' }
+  es: { label: 'Publicaciones', url: '/publications_esp/' }
+
+- key: cv
+  en: { label: 'CV',           url: '/cv/' }
+  es: { label: 'CV',           url: '/cv_esp/' }

@@ -1,36 +1,59 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   {% if page.robots %}
   <meta name="robots" content="{{ page.robots }}">
   {% endif %}
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  {%- assign page_title = page.title | default: site.title -%}
+  {%- assign page_desc = page.description | default: page.excerpt | default: site.description | strip_html | strip -%}
+  {%- assign page_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url -%}
+  {%- assign og_image = page.og_image | default: site.og_image | prepend: site.baseurl | prepend: site.url -%}
+  {%- assign page_lang = page.lang | default: site.lang -%}
+
+  <title>{{ page_title }}</title>
+  <meta name="description" content="{{ page_desc }}">
   <meta name="author" content="{{ site.author.name }}">
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_desc }}">
+  <meta name="twitter:image" content="{{ og_image }}">
+  <meta name="twitter:image:alt" content="{{ site.author.name }} — {{ site.description }}">
   {% if site.author.twitter_username %}
   <meta name="twitter:creator" content="{{ site.author.twitter_username }}">
   {% endif %}
 
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_desc }}">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:locale" content="{% if page_lang == 'es' %}es_ES{% else %}en_GB{% endif %}">
+  <meta property="og:image" content="{{ og_image }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ site.author.name }} — {{ site.description }}">
 
   <meta name="theme-color" content="#ffffff">
-  
+
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}">
   {% if page.font_awesome %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   {% endif %}
-  <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page_url }}{% endif %}">
+
+  {%- comment -%}
+  Cuando la página declara su traducción en el front matter, se anuncia a los
+  buscadores con hreflang para que sirvan la versión que toca según el idioma
+  del visitante. La página se declara a sí misma además de a su pareja.
+  {%- endcomment -%}
+  {% if page.translation %}
+  {%- assign other_lang = 'es' -%}{% if page_lang == 'es' %}{%- assign other_lang = 'en' -%}{% endif %}
+  <link rel="alternate" hreflang="{{ page_lang }}" href="{{ page_url }}">
+  <link rel="alternate" hreflang="{{ other_lang }}" href="{{ page.translation | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" hreflang="x-default" href="{% if page_lang == 'en' %}{{ page_url }}{% else %}{{ page.translation | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  {% endif %}
 </head>

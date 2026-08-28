@@ -216,6 +216,15 @@
 /* Idiomas. El nivel se declara en la escala del MCER, que sí tiene un máximo
    definido, en lugar de un porcentaje sobre un total que nadie conoce. */
 
+/* Los atributos width/height del <img> son pistas de presentación para CSS.
+   El tema fija `width: 100%` sobre estas imágenes pero no la altura, así que el
+   height del atributo se aplicaba y aplastaba el retrato. Con `height: auto` la
+   altura vuelve a salir de la proporción, y los atributos siguen reservando el
+   hueco antes de que la imagen llegue. */
+.image-hover-container img {
+    height: auto;
+}
+
 /* El retrato se servía al ancho de la tarjeta desde un original de 6000 px.
    Aquí se limita al tamaño al que de verdad se mira. */
 .contact__photo {

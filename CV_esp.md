@@ -1,8 +1,10 @@
 ---
 layout: post
 title: CV
-description: CV
+description: "CV completo de Pablo Martínez Agulló: sistemas de agentes de IA, ingeniería GenAI y doctorado en Física en el experimento ATLAS del CERN."
 permalink: /cv_esp/
+lang: es
+translation: /cv/
 font_awesome: true
 body_class: cv-page
 ---
@@ -26,8 +28,8 @@ body_class: cv-page
     <h2>Perfil</h2>
     <div class="cv-container profile">
       <div class="image-hover-container contact__photo">
-          <img src="../images/pma_formal.png" class="image-normal" alt="Pablo Mart&iacute;nez Agull&oacute;">
-          <img src="../images/pma_informal.png" class="image-hover" alt="Pablo Mart&iacute;nez Agull&oacute;">
+          <img src="../images/pma_formal_LowRes.webp" width="900" height="600" class="image-normal" alt="Pablo Mart&iacute;nez Agull&oacute;">
+          <img src="../images/pma_informal_LowRes.webp" width="900" height="600" class="image-hover" alt="Pablo Mart&iacute;nez Agull&oacute;">
       </div>
       <p class="profile__text">Construyo sistemas de IA agéntica y los llevo del prototipo a producción. En el laboratorio de innovación de Indra diseño agentes de planificación y apoyo a la decisión para productos de defensa y comerciales, desde agentes individuales hasta redes multiagente, muchos de ellos con modelos de pesos abiertos corriendo en hardware edge para que el ciclo completo siga funcionando sin conectividad. Antes puse en marcha productos de IA generativa en Mercadona sobre Google Cloud.</p>
       <p class="profile__text">Vengo de un doctorado en Física en el experimento ATLAS del CERN, trabajando en análisis del quark top y del bosón de Higgs. Ahí aprendí a manejar datos a gran escala y a tener cuidado con lo que un resultado demuestra realmente, una costumbre que sirve tanto con los modelos de lenguaje como servía con los datos de colisiones.</p>
@@ -209,34 +211,34 @@ body_class: cv-page
       <p class="skill-note">Python en toda mi trayectoria, del análisis de datos del LHC a sistemas de IA en producción. C++ durante el doctorado, contribuyendo al software de simulación de ATLAS. Una parte importante del código que entrego se escribe hoy con asistencia de IA, lo que desplaza mi tiempo hacia el diseño y la revisión.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Python.png" alt="Python" class="skill-icon">
+          <img src="../images/Logos/Python.png" alt="Python" class="skill-icon" loading="lazy" decoding="async">
           <span>Python</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Cpp.png" alt="C++" class="skill-icon">
+          <img src="../images/Logos/Cpp.png" alt="C++" class="skill-icon" loading="lazy" decoding="async">
           <span>C++</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Bash.png" alt="Shell" class="skill-icon">
+          <img src="../images/Logos/Bash.png" alt="Shell" class="skill-icon" loading="lazy" decoding="async">
           <span>Shell</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/R.png" alt="R" class="skill-icon">
+          <img src="../images/Logos/R.png" alt="R" class="skill-icon" loading="lazy" decoding="async">
           <span>R</span>
         </div>
       </div>
       <h4>Sistemas operativos</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/OS_MacOS.svg" alt="macOS" class="skill-icon">
+          <img src="../images/Logos/OS_MacOS.svg" alt="macOS" class="skill-icon" loading="lazy" decoding="async">
           <span>macOS</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/OS_Linux.svg" alt="Linux" class="skill-icon">
+          <img src="../images/Logos/OS_Linux.svg" alt="Linux" class="skill-icon" loading="lazy" decoding="async">
           <span>Linux</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/OS_Windows.svg" alt="Windows" class="skill-icon">
+          <img src="../images/Logos/OS_Windows.svg" alt="Windows" class="skill-icon" loading="lazy" decoding="async">
           <span>Windows</span>
         </div>
       </div>
@@ -248,27 +250,27 @@ body_class: cv-page
       <p class="skill-note">Sistemas multiagente: planificación y apoyo a la decisión, arquitecturas metacognitivas y federadas. Los frameworks se ganan su sitio en el prototipado rápido; más allá de eso prefiero orquestar sin ninguno, lo que deja el flujo de control a la vista.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon">
+          <img src="../images/Logos/LangGraph.svg" alt="LangGraph" class="skill-icon" loading="lazy" decoding="async">
           <span>LangGraph</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/LangChain.svg" alt="LangChain" class="skill-icon">
+          <img src="../images/Logos/LangChain.svg" alt="LangChain" class="skill-icon" loading="lazy" decoding="async">
           <span>LangChain</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/CrewAI.png" alt="CrewAI" class="skill-icon">
+          <img src="../images/Logos/CrewAI.png" alt="CrewAI" class="skill-icon" loading="lazy" decoding="async">
           <span>CrewAI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/AutoGen.jpg" alt="AutoGen" class="skill-icon">
+          <img src="../images/Logos/AutoGen.jpg" alt="AutoGen" class="skill-icon" loading="lazy" decoding="async">
           <span>AutoGen</span>
         </div>
         <!-- <div class="skill-square">
-          <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon">
+          <img src="../images/Logos/Bert.webp" alt="BERT" class="skill-icon" loading="lazy" decoding="async">
           <span>BERT</span>
         </div> -->
         <!-- <div class="skill-square">
-          <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon">
+          <img src="../images/Logos/LLaMA.png" alt="LLaMA" class="skill-icon" loading="lazy" decoding="async">
           <span>LLaMA</span>
         </div> -->
       </div>
@@ -276,11 +278,11 @@ body_class: cv-page
       <p class="skill-note">Sobre todo MCP: servidores propios que exponen herramientas de dominio a los agentes tras una interfaz estable. También Agent Skills para empaquetar procedimientos reutilizables y A2A para la comunicación entre agentes.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/MCP.svg" alt="MCP" class="skill-icon">
+          <img src="../images/Logos/MCP.svg" alt="MCP" class="skill-icon" loading="lazy" decoding="async">
           <span>MCP</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/A2A.svg" alt="A2A" class="skill-icon">
+          <img src="../images/Logos/A2A.svg" alt="A2A" class="skill-icon" loading="lazy" decoding="async">
           <span>A2A</span>
         </div>
       </div>
@@ -288,27 +290,27 @@ body_class: cv-page
       <p class="skill-note">Modelos de pesos abiertos servidos en local con Ollama, vLLM y llama.cpp, sobre hardware que va de placas Raspberry Pi a unidades NVIDIA DGX Spark. Varios están pensados para entornos denegados, donde el bucle completo del agente debe funcionar sin conectividad. Entre ellos, un UAV pilotado de forma autónoma por un agente embarcado.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Ollama.svg" alt="LLMs locales" class="skill-icon">
+          <img src="../images/Logos/Ollama.svg" alt="LLMs locales" class="skill-icon" loading="lazy" decoding="async">
           <span>Ollama</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/LLaMA.png" alt="Modelos de pesos abiertos" class="skill-icon">
+          <img src="../images/Logos/LLaMA.png" alt="Modelos de pesos abiertos" class="skill-icon" loading="lazy" decoding="async">
           <span>Modelos abiertos</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/MQTT.png" alt="Mensajería en el edge" class="skill-icon">
+          <img src="../images/Logos/MQTT.png" alt="Mensajería en el edge" class="skill-icon" loading="lazy" decoding="async">
           <span>Mensajería edge</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/RaspberryPi.svg" alt="Raspberry Pi" class="skill-icon">
+          <img src="../images/Logos/RaspberryPi.svg" alt="Raspberry Pi" class="skill-icon" loading="lazy" decoding="async">
           <span>Raspberry Pi</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/vLLM.png" alt="vLLM" class="skill-icon">
+          <img src="../images/Logos/vLLM.png" alt="vLLM" class="skill-icon" loading="lazy" decoding="async">
           <span>vLLM</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/llama_cpp.svg" alt="llama.cpp" class="skill-icon">
+          <img src="../images/Logos/llama_cpp.svg" alt="llama.cpp" class="skill-icon" loading="lazy" decoding="async">
           <span>llama.cpp</span>
         </div>
       </div>
@@ -316,19 +318,19 @@ body_class: cv-page
       <p class="skill-note">OpenAI, Anthropic y Gemini en proyectos de producción. Comparo candidatos sobre la tarea real antes de decidir, en lugar de recurrir por defecto al más grande disponible.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/repos/OpenAI.png" alt="OpenAI" class="skill-icon">
+          <img src="../images/repos/OpenAI.png" alt="OpenAI" class="skill-icon" loading="lazy" decoding="async">
           <span>OpenAI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/repos/Claude.svg" alt="Anthropic" class="skill-icon">
+          <img src="../images/repos/Claude.svg" alt="Anthropic" class="skill-icon" loading="lazy" decoding="async">
           <span>Anthropic</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon">
+          <img src="../images/Logos/Gemini.png" alt="Gemini" class="skill-icon" loading="lazy" decoding="async">
           <span>Gemini</span>
         </div>
         <!-- <div class="skill-square">
-          <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon">
+          <img src="../images/Logos/DialogFlow.svg" alt="DialogFlow CX" class="skill-icon" loading="lazy" decoding="async">
           <span>DialogFlow CX</span>
         </div> -->
       </div>
@@ -336,7 +338,7 @@ body_class: cv-page
       <p class="skill-note">Un asistente interno en Mercadona que respondía consultas de empleados sobre política de empresa: LangChain y Gemini sobre un índice FAISS, servido con DialogFlow CX en GCP.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon">
+          <img src="../images/Logos/Meta.png" alt="FAISS" class="skill-icon" loading="lazy" decoding="async">
           <span>FAISS</span>
         </div>
       </div>
@@ -344,18 +346,18 @@ body_class: cv-page
       <p class="skill-note">OpenTelemetry en todos los proyectos agénticos, salvo en los de LangGraph, donde uso LangSmith.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/LangChain.svg" alt="LangSmith" class="skill-icon">
+          <img src="../images/Logos/LangChain.svg" alt="LangSmith" class="skill-icon" loading="lazy" decoding="async">
           <span>LangSmith</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/OTel.png" alt="OpenTelemetry" class="skill-icon">
+          <img src="../images/Logos/OTel.png" alt="OpenTelemetry" class="skill-icon" loading="lazy" decoding="async">
           <span>OpenTelemetry</span>
         </div>
       </div>
       <h4>Validación de datos</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Pydantic.png" alt="Pydantic" class="skill-icon">
+          <img src="../images/Logos/Pydantic.png" alt="Pydantic" class="skill-icon" loading="lazy" decoding="async">
           <span>Pydantic</span>
         </div>
       </div>
@@ -367,65 +369,65 @@ body_class: cv-page
       <h4>Manipulación de datos</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Pandas.png" alt="Pandas" class="skill-icon">
+          <img src="../images/Logos/Pandas.png" alt="Pandas" class="skill-icon" loading="lazy" decoding="async">
           <span>Pandas</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/NumPy.svg" alt="NumPy" class="skill-icon">
+          <img src="../images/Logos/NumPy.svg" alt="NumPy" class="skill-icon" loading="lazy" decoding="async">
           <span>NumPy</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon">
+          <img src="../images/Logos/ROOT.png" alt="ROOT" class="skill-icon" loading="lazy" decoding="async">
           <span>ROOT</span>
         </div>
       </div>
       <h4>Frameworks</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/TensorFlow.svg" alt="TensorFlow" class="skill-icon">
+          <img src="../images/Logos/TensorFlow.svg" alt="TensorFlow" class="skill-icon" loading="lazy" decoding="async">
           <span>TensorFlow</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/PyTorch.png" alt="PyTorch" class="skill-icon">
+          <img src="../images/Logos/PyTorch.png" alt="PyTorch" class="skill-icon" loading="lazy" decoding="async">
           <span>PyTorch</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon">
+          <img src="../images/Logos/XGBoost.png" alt="XGBoost" class="skill-icon" loading="lazy" decoding="async">
           <span>XGBoost</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Scikit-Learn.png" alt="Scikit-Learn" class="skill-icon">
+          <img src="../images/Logos/Scikit-Learn.png" alt="Scikit-Learn" class="skill-icon" loading="lazy" decoding="async">
           <span>Scikit-Learn</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon">
+          <img src="../images/Logos/Keras.png" alt="Keras" class="skill-icon" loading="lazy" decoding="async">
           <span>Keras</span>
         </div>
       </div>
       <h4>Visualización y análisis</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon">
+          <img src="../images/Logos/Matplotlib.png" alt="Matplotlib" class="skill-icon" loading="lazy" decoding="async">
           <span>Matplotlib</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Seaborn.svg" alt="Seaborn" class="skill-icon">
+          <img src="../images/Logos/Seaborn.svg" alt="Seaborn" class="skill-icon" loading="lazy" decoding="async">
           <span>Seaborn</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Plotly.png" alt="Plotly" class="skill-icon">
+          <img src="../images/Logos/Plotly.png" alt="Plotly" class="skill-icon" loading="lazy" decoding="async">
           <span>Plotly</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/SciPy.png" alt="SciPy" class="skill-icon">
+          <img src="../images/Logos/SciPy.png" alt="SciPy" class="skill-icon" loading="lazy" decoding="async">
           <span>SciPy</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/BeautifulSoup.png" alt="BeautifulSoup" class="skill-icon">
+          <img src="../images/Logos/BeautifulSoup.png" alt="BeautifulSoup" class="skill-icon" loading="lazy" decoding="async">
           <span>BeautifulSoup</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/SQL.png" alt="SQL" class="skill-icon">
+          <img src="../images/Logos/SQL.png" alt="SQL" class="skill-icon" loading="lazy" decoding="async">
           <span>SQL</span>
         </div>
       </div>
@@ -436,73 +438,73 @@ body_class: cv-page
       <h4>Cloud y MLOps</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/GCP.svg" alt="GCP" class="skill-icon">
+          <img src="../images/Logos/GCP.svg" alt="GCP" class="skill-icon" loading="lazy" decoding="async">
           <span>GCP</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/VertexAI.svg" alt="Vertex AI" class="skill-icon">
+          <img src="../images/Logos/VertexAI.svg" alt="Vertex AI" class="skill-icon" loading="lazy" decoding="async">
           <span>Vertex AI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon">
+          <img src="../images/Logos/Docker.png" alt="Docker" class="skill-icon" loading="lazy" decoding="async">
           <span>Docker</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Kubernetes.svg" alt="Kubernetes" class="skill-icon">
+          <img src="../images/Logos/Kubernetes.svg" alt="Kubernetes" class="skill-icon" loading="lazy" decoding="async">
           <span>Kubernetes</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Spinnaker.svg" alt="Spinnaker" class="skill-icon">
+          <img src="../images/Logos/Spinnaker.svg" alt="Spinnaker" class="skill-icon" loading="lazy" decoding="async">
           <span>Spinnaker</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/CloudBees.png" alt="CloudBees" class="skill-icon">
+          <img src="../images/Logos/CloudBees.png" alt="CloudBees" class="skill-icon" loading="lazy" decoding="async">
           <span>CloudBees</span>
         </div>
       </div>
       <h4>Ingeniería de datos</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon">
+          <img src="../images/Logos/Kafka.png" alt="Kafka" class="skill-icon" loading="lazy" decoding="async">
           <span>Kafka</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/MQTT.png" alt="MQTT" class="skill-icon">
+          <img src="../images/Logos/MQTT.png" alt="MQTT" class="skill-icon" loading="lazy" decoding="async">
           <span>MQTT</span>
         </div>
       </div>
       <h4>Web y APIs</h4>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon">
+          <img src="../images/Logos/Flask.png" alt="Flask" class="skill-icon" loading="lazy" decoding="async">
           <span>Flask</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Django.svg" alt="Django" class="skill-icon">
+          <img src="../images/Logos/Django.svg" alt="Django" class="skill-icon" loading="lazy" decoding="async">
           <span>Django</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/FastAPI.png" alt="FastAPI" class="skill-icon">
+          <img src="../images/Logos/FastAPI.png" alt="FastAPI" class="skill-icon" loading="lazy" decoding="async">
           <span>FastAPI</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon">
+          <img src="../images/Logos/Gradio.png" alt="Gradio" class="skill-icon" loading="lazy" decoding="async">
           <span>Gradio</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Web_HTML.png" alt="HTML" class="skill-icon">
+          <img src="../images/Logos/Web_HTML.png" alt="HTML" class="skill-icon" loading="lazy" decoding="async">
           <span>HTML</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Web_CSS.png" alt="CSS" class="skill-icon">
+          <img src="../images/Logos/Web_CSS.png" alt="CSS" class="skill-icon" loading="lazy" decoding="async">
           <span>CSS</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon">
+          <img src="../images/Logos/Web_JavaScript.png" alt="JavaScript" class="skill-icon" loading="lazy" decoding="async">
           <span>JavaScript</span>
         </div>
         <!-- <div class="skill-square">
-          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon">
+          <img src="../images/Logos/CherryPy.png" alt="CherryPy" class="skill-icon" loading="lazy" decoding="async">
           <span>CherryPy</span>
         </div> -->
       </div>
@@ -513,11 +515,11 @@ body_class: cv-page
       <p class="skill-note">Planificación de turnos en Mercadona, modelada en Pyomo y resuelta con Gurobi. En Indra, asignación de recursos para evacuación médica en escenarios de múltiples víctimas, formulada como modelos QUBO/Ising, resuelta con quantum annealing en D-Wave y expuesta a los agentes de planificación como herramienta invocable.</p>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon">
+          <img src="../images/Logos/Pyomo.png" alt="Pyomo" class="skill-icon" loading="lazy" decoding="async">
           <span>Pyomo</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Gurobi.png" alt="Gurobi" class="skill-icon">
+          <img src="../images/Logos/Gurobi.png" alt="Gurobi" class="skill-icon" loading="lazy" decoding="async">
           <span>Gurobi</span>
         </div>
       </div>
@@ -527,31 +529,31 @@ body_class: cv-page
       <h3>Otras herramientas</h3>
       <div class="skills-grid">
         <div class="skill-square">
-          <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon">
+          <img src="../images/Logos/GitHub.png" alt="GitHub" class="skill-icon" loading="lazy" decoding="async">
           <span>GitHub</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon">
+          <img src="../images/Logos/GitLab.png" alt="GitLab" class="skill-icon" loading="lazy" decoding="async">
           <span>GitLab</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon">
+          <img src="../images/Logos/LaTeX.png" alt="LaTeX" class="skill-icon" loading="lazy" decoding="async">
           <span>LaTeX</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Matlab.png" alt="Matlab" class="skill-icon">
+          <img src="../images/Logos/Matlab.png" alt="Matlab" class="skill-icon" loading="lazy" decoding="async">
           <span>Matlab</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Poetry.svg" alt="Poetry" class="skill-icon">
+          <img src="../images/Logos/Poetry.svg" alt="Poetry" class="skill-icon" loading="lazy" decoding="async">
           <span>Poetry</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/UV.png" alt="UV" class="skill-icon">
+          <img src="../images/Logos/UV.png" alt="UV" class="skill-icon" loading="lazy" decoding="async">
           <span>UV</span>
         </div>
         <div class="skill-square">
-          <img src="../images/Logos/Jupyter.svg" alt="Jupyter" class="skill-icon">
+          <img src="../images/Logos/Jupyter.svg" alt="Jupyter" class="skill-icon" loading="lazy" decoding="async">
           <span>Jupyter</span>
         </div>
       </div>
@@ -587,7 +589,7 @@ body_class: cv-page
     </ul>
     <br>
     <div style="text-align: center;">
-      <img src="../images/Poster_70_CERN_b.jpeg" alt="Cartel 70 años del CERN" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 5px;">
+      <img src="../images/Poster_70_CERN_b.jpeg" alt="Cartel 70 años del CERN" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); margin-bottom: 5px;" loading="lazy" decoding="async">
       <p>Evento divulgativo: 70 años del CERN</p>
     </div>
     <br>

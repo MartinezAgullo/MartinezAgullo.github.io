@@ -1,0 +1,11 @@
+# Cadenas de la interfaz que cambian con el idioma. El contenido de las páginas
+# vive en sus propios ficheros; aquí solo está lo que pinta la plantilla.
+
+en:
+  tagline: 'PhD in Physics | Research and Development | Artificial Intelligence'
+  rights: 'All rights reserved.'
+  lang_nav: 'Language'
+es:
+  tagline: 'Doctor en Física | I+D | Inteligencia Artificial'
+  rights: 'Todos los derechos reservados.'
+  lang_nav: 'Idioma'

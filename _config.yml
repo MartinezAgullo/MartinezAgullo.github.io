@@ -1,11 +1,14 @@
 # Site settings
 title: Pablo Martínez-Agulló
-description: 'PhD in Physics | Research and Developement| Artificial Intelligence'
+description: 'PhD in Physics | Research and Development | Artificial Intelligence'
 short_description: "Business Card Page"
 url: 'https://martinezagullo.github.io'
 baseurl: ''
+lang: en
 profilepic: '/images/pma.jpg'
-bkimage: '/images/bk1.jpg'
+# Imagen de la tarjeta que se ve al compartir el enlace (LinkedIn, WhatsApp, Slack).
+og_image: '/images/og-card.jpg'
+bkimage: '/images/bk1_LowRes.jpg'
 #google_analytics: UA-XXXXXX-X
 #font_awesome: 'XXXXXXXXXX.js'
 

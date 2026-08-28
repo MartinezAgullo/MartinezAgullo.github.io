@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Codes
-description: Codes and scripts developed by me
-permalink: /codes/
-lang: en
-translation: /codes_esp/
+title: Proyectos
+description: "Proyectos de Pablo Martínez Agulló: agentes de IA, aprendizaje automático, análisis de datos y física."
+permalink: /codes_esp/
+lang: es
+translation: /codes/
 font_awesome: true
 ---
 
 <!--<div class="main-post-list">-->
 
-<h1> Codes </h1>
+<h1> Proyectos </h1>
 
-Here, you’ll find a collection of coding projects that I’ve developed throughout my career, spanning various domains including agentic AI, machine learning, data analysis, and physics, as well as some other projects that I have done for fun.
+Aquí hay una selección de los proyectos que he desarrollado a lo largo de mi carrera, entre ellos agentes de IA, aprendizaje automático, análisis de datos y física, además de algún otro que hice por gusto.
 <br>
 <br>
 <br>
@@ -30,7 +30,7 @@ Here, you’ll find a collection of coding projects that I’ve developed throug
             <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
           </div>
           <div class="timeline-body">
-            {{ project.desc | markdownify }}
+            {{ project.desc_es | default: project.desc | markdownify }}
             <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
                 <!--
               <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;

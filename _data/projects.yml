@@ -3,160 +3,187 @@
   gh_user: MartinezAgullo
   repo: agentic-tello
   desc: An agent that flies a DJI Tello drone from goals written in natural language, such as "find the backpack and take a picture". It sees through the onboard camera and acts through a set of flight tools. Everything runs locally, on an NVIDIA DGX Spark or on an Apple Silicon laptop.
+  desc_es: 'Un agente que pilota un dron DJI Tello a partir de objetivos escritos en lenguaje natural, del tipo «busca la mochila y hazle una foto». Ve por la cámara de a bordo y actúa mediante un conjunto de herramientas de vuelo. Todo corre en local, sobre una NVIDIA DGX Spark o un portátil con Apple Silicon.'
   img: ../images/repos/agentic-drone.png
 
 - name: magi
   gh_user: MartinezAgullo
   repo: magi-system-autogen
   desc: Voice-first multi-agent deliberation running on a Raspberry Pi 5. Three LLMs with deliberately opposing temperaments debate a spoken question until they reach a verdict. Built with Microsoft AutoGen and traced end to end with OpenTelemetry, so what a framework costs on an edge node is measured instead of argued.
+  desc_es: 'Deliberación multiagente por voz sobre una Raspberry Pi 5. Tres LLM con temperamentos deliberadamente opuestos debaten una pregunta hablada hasta llegar a un veredicto. Construido con Microsoft AutoGen y trazado de extremo a extremo con OpenTelemetry, para medir lo que cuesta un framework en un nodo edge en vez de discutirlo.'
   img: ../images/repos/magi.png
 
 - name: cmop-map
   gh_user: MartinezAgullo
   repo: cmop_map
   desc: A web application for managing and visualising the Common Medical Operating Picture (CMOP) on an interactive map using PostGIS. Used as an external monitor to display the activity of different multi-agent systems in real time. The backend is built with FastAPI and the frontend with React and Leaflet.
+  desc_es: 'Aplicación web para gestionar y visualizar el Common Medical Operating Picture (CMOP) sobre un mapa interactivo con PostGIS. Se usa como monitor externo para seguir en tiempo real la actividad de distintos sistemas multiagente. El backend está hecho con FastAPI y el frontend con React y Leaflet.'
   img: ../images/repos/cmop-map.png
 
 - name: agents-tactical-analysis
   gh_user: MartinezAgullo
   repo: agents-crewai-tactical-multimodal
   desc: A multi-agent system built with CrewAI that simulates a tactical military analysis pipeline. It processes diverse inputs, including text reports, images and audio files, and subscribes to an MQTT publisher to receive incoming data in real time, enabling dynamic analysis and response. Telemetry is monitored with OpenObserve.
+  desc_es: 'Sistema multiagente construido con CrewAI que simula una cadena de análisis táctico militar. Procesa entradas de distinta naturaleza, desde informes de texto hasta imágenes y audio, y se suscribe a un publicador MQTT para recibir los datos según llegan, de modo que el análisis y la respuesta ocurren sobre la marcha. La telemetría se monitoriza con OpenObserve.'
   img: ../images/repos/land_tactical_ai.png
 
 - name: agents-lg-emergency-assistant
   gh_user: MartinezAgullo
   repo: agents-lg-emergency-assistant
   desc: LangGraph-based agentic system for critical decisions in emergency scenarios. The agents collaborate to analyse threats and automatically generate an evacuation plan, following an Evaluator-Optimizer pattern to keep the quality of the emergency response high. Telemetry is monitored with LangSmith.
+  desc_es: 'Sistema de agentes basado en LangGraph para decisiones críticas en situaciones de emergencia. Los agentes colaboran para analizar las amenazas y generar automáticamente un plan de evacuación, siguiendo un patrón Evaluator-Optimizer que mantiene alta la calidad de la respuesta. La telemetría se monitoriza con LangSmith.'
   img: ../images/repos/emergency-map.png
 
 - name: naval-agentic-ai
   gh_user: MartinezAgullo
   repo: naval-agentic-ai
   desc: Three CrewAI-based prototypes of AI agents for electronic warfare in the naval domain. The first one analyses electromagnetic signals from naval sensors, assesses threat levels and recommends tactical responses that minimise the risk of detection. The second one detects the impact of cyber-attacks and executes countermeasures with a human in the loop.
+  desc_es: 'Tres prototipos de agentes de IA basados en CrewAI para guerra electrónica en el ámbito naval. El primero analiza las señales electromagnéticas de los sensores del buque, evalúa el nivel de amenaza y recomienda respuestas tácticas que minimicen el riesgo de ser detectado. El segundo detecta el impacto de un ciberataque y ejecuta contramedidas con un humano en el bucle.'
   img: ../images/repos/naval_ai.png
 
 - name: tifda
   gh_user: MartinezAgullo
   repo: genai-tifda
   desc: The Tactical Information Fusion and Dissemination Agent (TIFDA) is a GenAI agent-based tool that works as a processing and distribution centre for tactical information in a combat environment. Built with LangGraph.
+  desc_es: 'El Tactical Information Fusion and Dissemination Agent (TIFDA) es una herramienta basada en agentes de IA generativa que hace de centro de procesamiento y distribución de información táctica en un entorno de combate. Construido con LangGraph.'
   img: ../images/repos/tifda_cover.jpg
 
 - name: agent-creator-autogen
   gh_user: MartinezAgullo
   repo: agent-creator-autogen
   desc: Multi-agent system that dynamically creates and coordinates new autonomous AI agents using Microsoft AutoGen.
+  desc_es: 'Sistema multiagente que crea y coordina sobre la marcha nuevos agentes de IA autónomos, con Microsoft AutoGen.'
   img: ../images/repos/skynet_mug.jpg
 
 - name: root-with-python
   gh_user: MartinezAgullo
   repo: root-with-python
   desc: Collection of scripts that combine Python and ROOT for data analysis. The TMVA folder contains a machine learning tool based on the TMVA library.
+  desc_es: 'Colección de scripts que combinan Python y ROOT para análisis de datos. La carpeta TMVA contiene una herramienta de aprendizaje automático apoyada en la librería TMVA.'
   img: ../images/repos/Root_with_Python_2.png
 
 - name: xgboost-thq
   gh_user: MartinezAgullo
   repo: xgboost-thq
   desc: Collection of Python scripts to train, optimise and inject a Boosted Decision Tree using the XGBoost library.
+  desc_es: 'Colección de scripts de Python para entrenar, optimizar e inyectar un Boosted Decision Tree con la librería XGBoost.'
   img: ../images/repos/GradientBoosting.png
 
 - name: inner-detector-alignment-web-monitor
   gh_user: MartinezAgullo
   repo: inner-detector-alignment-web-monitor
   desc: Package behind the web application for the online monitoring of the ATLAS Inner Detector alignment.
+  desc_es: 'Paquete que hay detrás de la aplicación web de monitorización en línea del alineamiento del Inner Detector de ATLAS.'
   img: ../images/repos/WebDisplay.png
 
 - name: thesis-phd
   gh_user: MartinezAgullo
   repo: thesis-phd
   desc: LaTeX files for the <a href="https://cds.cern.ch/record/2892621">PhD thesis</a> "Search for the Higgs boson produced in association with a top quark using &#964; leptons with ATLAS".
+  desc_es: 'Ficheros LaTeX de la <a href="https://cds.cern.ch/record/2892621">tesis doctoral</a> «Search for the Higgs boson produced in association with a top quark using &#964; leptons with ATLAS».'
   img: ../images/repos/thesis.png
 
 - name: thesis-master
   gh_user: MartinezAgullo
   repo: thesis-master
   desc: LaTeX files for the <a href="https://cds.cern.ch/record/2285874">master thesis</a> "Optimisation of selection criteria of <em>t</em>-channel single-top-quark events at &radic;s= 13 TeV for studies of anomalous couplings in the <i>Wtb</i> vertex".
+  desc_es: 'Ficheros LaTeX del <a href="https://cds.cern.ch/record/2285874">trabajo de fin de máster</a> «Optimisation of selection criteria of <em>t</em>-channel single-top-quark events at &radic;s= 13 TeV for studies of anomalous couplings in the <i>Wtb</i> vertex».'
   img: ../images/repos/msc_thesis.png
 
 - name: deep-learning-intro
   gh_user: MartinezAgullo
   repo: deep-learning-udacity
   desc: Completed exercises from the Udacity course Intro to Deep Learning with PyTorch.
+  desc_es: 'Ejercicios resueltos del curso de Udacity Intro to Deep Learning with PyTorch.'
   img: ../images/repos/network_diagram.png
 
 - name: rl-exercises-gymnasium
   gh_user: MartinezAgullo
   repo: rl-exercises-gymnasium
   desc: A collection of Reinforcement Learning exercises based on a Udemy course, updated and adapted to use the modern Gymnasium API.
+  desc_es: 'Colección de ejercicios de aprendizaje por refuerzo basados en un curso de Udemy, actualizados y adaptados a la API moderna de Gymnasium.'
   img: https://raw.githubusercontent.com/MartinezAgullo/rl-exercises-gymnasium/refs/heads/main/docs/rl21/dueling_dqn.png
 
 - name: pygame-monkey-jump
   gh_user: MartinezAgullo
   repo: pygame-monkey-jump
   desc: Game based on the pygame framework and inspired by the dinosaur game built into the Google Chrome web browser. A reinforcement learning algorithm later learns to play it in the project Learn_MonkeyJump.
+  desc_es: 'Juego hecho con pygame e inspirado en el del dinosaurio que trae Google Chrome. En el proyecto Learn_MonkeyJump, un algoritmo de aprendizaje por refuerzo aprende después a jugarlo.'
   img: ../images/repos/Monkey_1.png
 
 - name: rl-blackjack
   gh_user: MartinezAgullo
   repo: rl-blackjack
   desc: Implementation of a single-agent reinforcement learning algorithm based on Gymnasium's pygame environment. The Q-agent learns to play the popular game of BlackJack.
+  desc_es: 'Implementación de un algoritmo de aprendizaje por refuerzo de agente único sobre el entorno de pygame de Gymnasium. El agente Q aprende a jugar al BlackJack.'
   img: ../images/repos/BlackJack_RL.png
 
 - name: task-planner
   gh_user: MartinezAgullo
   repo: task-planner
   desc: A clean architecture Python project using FastAPI, PostgreSQL and Poetry. This task planner is built with a hexagonal architecture and SOLID principles, designed to manage tasks with priorities and dependencies.
+  desc_es: 'Proyecto en Python de arquitectura limpia con FastAPI, PostgreSQL y Poetry. El planificador sigue una arquitectura hexagonal y los principios SOLID, y gestiona tareas con prioridades y dependencias entre ellas.'
   img: ../images/repos/task_planner.jpeg
 
 - name: genAI-img-captioner
   gh_user: MartinezAgullo
   repo: genai-1-img-captioner
   desc: Tools to perform automatic image captioning, based on PyTorch's torchvision and HuggingFace's BLIP. The web interfaces are built with Gradio.
+  desc_es: 'Herramientas para describir imágenes automáticamente, apoyadas en torchvision de PyTorch y en BLIP de Hugging Face. Las interfaces web están hechas con Gradio.'
   img: ../images/repos/GenAI_ImgCaptioner1.png
 
 - name: genAI-chat-bot
   gh_user: MartinezAgullo
   repo: genai-2-web-chatbot
   desc: Chatbot with open source LLMs using Python and Hugging Face's blenderbot. Flask hosts the backend service.
+  desc_es: 'Chatbot con LLM de código abierto en Python, sobre blenderbot de Hugging Face. Flask sirve el backend.'
   img: ../images/repos/GenAI_2_WebChatbot_Interface.png
 
 - name: genAI-voice-assistant
   gh_user: MartinezAgullo
   repo: genai-3-voice-assistant
   desc: Voice assistant with OpenAI's GPT-3 and IBM Watson embeddable AI. Flask hosts the backend service.
+  desc_es: 'Asistente de voz con GPT-3 de OpenAI y la IA embebible de IBM Watson. Flask sirve el backend.'
   img: ../images/repos/GenAI_3_VoiceAssistant.png
 
 - name: genAI-meeting-companion
   gh_user: MartinezAgullo
   repo: genai-4-meeting-assistant
   desc: Application that transcribes discussions and provides a concise summary of a meeting. OpenAI's Whisper is used for speech to text and IBM Watson's AI to summarise and find the key points. Interfaced with Gradio.
+  desc_es: 'Aplicación que transcribe conversaciones y devuelve un resumen breve de la reunión. Whisper de OpenAI se ocupa del paso de voz a texto, y la IA de IBM Watson de resumir y localizar los puntos clave. La interfaz está hecha con Gradio.'
   img: ../images/repos/AudioTranscriptionApp_dalle.webp #AudioTranscriptionApp
 
 - name: genAI-summarise-data
   gh_user: MartinezAgullo
   repo: genai-5-summarise-data
   desc: Chatbot that reads a PDF document and answers questions about it using the Llama 2 LLM. The LangChain framework is used to integrate the RAG.
+  desc_es: 'Chatbot que lee un documento PDF y responde preguntas sobre él con el LLM Llama 2. La integración del RAG se hace con LangChain.'
   img: ../images/repos/GenAI_5_PersonalDataAsistant.png
 
 - name: nba-stats
   gh_user: MartinezAgullo
   repo: nba-stats
   desc: Web scraping tool to retrieve information from the ESPN webpage and perform analysis.
+  desc_es: 'Herramienta de web scraping que extrae información de la web de ESPN y la analiza.'
   img: ../images/repos/NBA_Stats_img.png
 
 - name: github.io
   gh_user: MartinezAgullo
   repo: MartinezAgullo.github.io
   desc: This <a href="https://martinezagullo.github.io/">website</a> that you are seeing right now. It is based on the <a href="https://github.com/joshgerdes/jekyll-uno/">Jekyll-Uno</a> theme.
+  desc_es: 'Esta misma <a href="https://martinezagullo.github.io/">web</a> que estás viendo. Está basada en el tema <a href="https://github.com/joshgerdes/jekyll-uno/">Jekyll-Uno</a>.'
   img: ../images/repos/githubio.png
 
 - name: nlp-web-app
   gh_user: MartinezAgullo
   repo: nlp-web-app
   desc: Watson NLP sentiment analysis web app built with Flask.
+  desc_es: 'Aplicación web de análisis de sentimiento con Watson NLP, construida con Flask.'
   img: ../images/repos/NLP_APP_Flask.png
 
 - name: online-course-app
   gh_user: MartinezAgullo
   repo: online-course-app
   desc: Online course app developed with Django.
+  desc_es: 'Aplicación de cursos en línea desarrollada con Django.'
   img: ../images/repos/DjangoApp.png
